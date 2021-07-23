@@ -1,0 +1,1 @@
+docker build -t minsa110/cali-housing .
