@@ -1,6 +1,5 @@
 alabaster==0.7.12
 anaconda-client
-anaconda-project==0.8.3
 argh==0.26.2
 argon2-cffi
 asn1crypto
