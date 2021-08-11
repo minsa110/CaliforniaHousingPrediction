@@ -32,7 +32,7 @@ cloudpickle
 clyent==1.2.*
 colorama
 comtypes==1.1.7
-conda==4.9.2
+conda>=4.3.16, <=4.10.0
 conda-build==3.20.5
 conda-package-handling
 conda-verify==3.4.2
