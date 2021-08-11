@@ -33,9 +33,7 @@ clyent==1.2.*
 colorama
 comtypes==1.1.7
 conda>=4.3.16, <=4.10.0
-conda-build==3.20.5
-conda-package-handling
-conda-verify==3.4.2
+conda-build>=2.1.5, <=3.20.5
 contextlib2==0.6.0.post1
 cryptography
 cycler==0.10.0
@@ -96,17 +94,15 @@ lxml
 MarkupSafe==1.1.1
 matplotlib
 mccabe==0.6.1
-menuinst==1.4.16
 mistune==0.8.4
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
+mkl-fft>=1.2.0
+mkl-random>=1.1.1
+mkl-service>=2.3.0
 mock==4.0.2
 more-itertools
 mpmath==1.1.0
 msgpack==1.0.0
 multipledispatch==0.6.0
-navigator-updater==0.2.1
 nbclient 
 nbconvert
 nbformat 
