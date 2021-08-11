@@ -29,7 +29,7 @@ cffi
 chardet==3.0.4
 click==7.1.2
 cloudpickle
-clyent~=1.2.*
+clyent==1.2.*
 colorama
 comtypes==1.1.7
 conda==4.9.2
