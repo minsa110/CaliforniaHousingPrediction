@@ -14,7 +14,7 @@ RUN \
 # Install libraries
 RUN \
     echo "*** install libraries ***" && \
-    pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
+    pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements-wsl2.txt"
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
