@@ -4,7 +4,7 @@ argh==0.26.2
 argon2-cffi
 asn1crypto
 astroid
-astropy==4.0.2
+astropy>=4.0.2
 async-generator==1.10
 atomicwrites==1.4.0
 attrs
