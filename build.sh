@@ -1,1 +1,1 @@
-docker build -t minsa110/cali-housing-wsl2 .
+docker build -t minsa110/cali-housing .
