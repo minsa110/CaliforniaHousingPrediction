@@ -2,7 +2,7 @@ FROM jupyter/minimal-notebook
 
 # Set arguments
 ARG CONTAINER_USER=jovyan
-ARG GIT_URI=https://github.com/minsa110/CaliforniaHousingPrediction
+ARG GIT_URI=https://github.com/minsa110/CaliforniaHousingPrediction.git
 ARG REPO_DIR=repo
 
 # Clone repo
