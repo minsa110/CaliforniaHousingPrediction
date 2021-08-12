@@ -143,7 +143,6 @@ pyflakes==2.2.0
 Pygments 
 pylint
 PyNaCl 
-pyodbc===4.0.0-unsupported
 pyOpenSSL 
 pyparsing==2.4.7
 pyreadline==2.1
