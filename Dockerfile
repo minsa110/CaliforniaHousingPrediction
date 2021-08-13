@@ -18,10 +18,11 @@ RUN \
     conda create --name ${CONDA_ENV} python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
-# Activate conda environment
+# Activate conda environment and install ipykernel
 RUN \
     source /opt/conda/etc/profile.d/conda.sh \
-    conda activate ${CONDA_ENV}
+    conda activate ${CONDA_ENV} \
+    pip3 install ipykernel
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
