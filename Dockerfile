@@ -4,6 +4,7 @@ FROM jupyter/minimal-notebook
 ARG CONTAINER_USER=jovyan
 ARG GIT_URI=https://github.com/minsa110/CaliforniaHousingPrediction.git
 ARG REPO_DIR=repo
+ARG CONDA_ENV=myenv
 
 # Clone repo
 USER ${CONTAINER_USER}
@@ -14,11 +15,11 @@ RUN \
 # Install libraries
 RUN \
     echo "*** install libraries ***" && \
-    conda create --name myenv python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
+    conda create --name ${CONDA_ENV} python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Activate conda environment
-RUN conda activate myenv
+RUN conda activate ${CONDA_ENV}
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
