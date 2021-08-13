@@ -1,1 +1,1 @@
-docker build -t minsa110/cal-housing .
+docker build -t minsa110/calif-housing .
