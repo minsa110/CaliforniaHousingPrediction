@@ -1,7 +1,7 @@
-FROM ubuntu:18.04
+FROM jupyter/minimal-notebook
 
 # Set arguments
-ARG CONTAINER_USER=minsa110
+ARG CONTAINER_USER=jovyan
 ARG GIT_URI=https://github.com/minsa110/CaliforniaHousingPrediction.git
 ARG REPO_DIR=repo
 ARG CONDA_ENV=myenv
@@ -20,9 +20,11 @@ RUN \
 
 # Activate conda environment and install ipykernel
 # RUN source /opt/conda/etc/profile.d/conda.sh
-# RUN conda activate ${CONDA_ENV}
-# RUN conda install ipykernel
-# RUN python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
+RUN echo "source activate ${CONDA_ENV}" > ~/.bashrc
+ENV PATH /opt/conda/envs/${CONDA_ENV}/bin:$PATH
+RUN conda activate ${CONDA_ENV}
+RUN conda install ipykernel
+RUN python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
@@ -30,3 +32,4 @@ RUN \
     echo "*** start notebook ***" && \
     chmod +x ./run_script
 CMD ["./run_script"]
+#CMD source /opt/conda/etc/profile.d/conda.sh && conda activate ${CONDA_ENV} && jupyter notebook --port=8888 --no-browser --ip 0.0.0.0 --allow-root ./repo %
