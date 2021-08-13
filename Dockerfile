@@ -19,7 +19,9 @@ RUN \
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Activate conda environment
-RUN conda activate ${CONDA_ENV}
+RUN \
+    source /opt/conda/etc/profile.d/conda.sh \
+    conda activate ${CONDA_ENV}
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
