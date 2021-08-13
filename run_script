@@ -1,3 +1,5 @@
 source /opt/conda/etc/profile.d/conda.sh
+conda init bash
+exec bash
 conda activate myenv
 jupyter notebook --port=8888 --no-browser --ip 0.0.0.0 --allow-root ./repo %
