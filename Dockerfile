@@ -29,5 +29,5 @@ RUN \
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
 RUN \
     echo "*** start notebook ***" && \
-    chmod +x ./run_script
+    chmod +x ./run_script2
 CMD ["./run_script"]
