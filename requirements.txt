@@ -164,7 +164,7 @@ regex
 requests 
 rope 
 Rtree
-ruamel-yaml==0.15.87
+ruamel-yaml
 scikit-image
 scikit-learn 
 scipy 
