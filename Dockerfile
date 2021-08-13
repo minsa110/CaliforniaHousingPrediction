@@ -21,7 +21,7 @@ RUN \
 
     #conda create --name ${CONDA_ENV} python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
 
-RUN pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
+# RUN pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 RUN conda env update --file "/home/${CONTAINER_USER}/${REPO_DIR}/environment.yml"
 
