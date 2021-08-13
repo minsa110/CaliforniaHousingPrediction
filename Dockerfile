@@ -19,15 +19,14 @@ RUN \
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Activate conda environment and install ipykernel
-RUN \
-    source /opt/conda/etc/profile.d/conda.sh \
-    conda activate ${CONDA_ENV} \
-    conda install ipykernel \
-    python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
+CMD source /opt/conda/etc/profile.d/conda.sh
+CMD conda activate ${CONDA_ENV}
+CMD conda install ipykernel
+CMD python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
 
 # Start up the notebook
-COPY --chown=${CONTAINER_USER}:users run_script2 /home/${CONTAINER_USER}
+COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
 RUN \
     echo "*** start notebook ***" && \
-    chmod +x ./run_script2
-CMD ["./run_script2"]
+    chmod +x ./run_script
+CMD ["./run_script"]
