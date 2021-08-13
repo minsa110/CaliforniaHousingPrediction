@@ -14,7 +14,7 @@ RUN \
 # Install libraries
 RUN \
     echo "*** install libraries ***" && \
-    conda create --name myenv python=3 --file "/home/jovyan/repo/spec-file.txt"
+    conda create --name myenv python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Activate conda environment
