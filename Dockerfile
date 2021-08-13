@@ -13,6 +13,7 @@ RUN \
     git clone --single-branch ${GIT_URI} /home/${CONTAINER_USER}/${REPO_DIR}
 
 # Install libraries
+RUN conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
 # RUN \
 #     echo "*** install libraries ***" && \
 #     conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"

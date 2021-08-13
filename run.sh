@@ -1,1 +1,1 @@
-docker run --rm -p 8888:8888 --mount type=bind,source="$(pwd)"/,target=/home/jovyan/repo minsa110/cali-housing
+docker run --rm -p 8888:8888 --mount type=bind,source="$(pwd)"/,target=/home/jovyan/repo minsa110/cal-housing
