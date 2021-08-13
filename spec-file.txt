@@ -2,7 +2,6 @@
 # $ conda create --name <env> --file <this file>
 # platform: osx-64
 @EXPLICIT
-https://repo.anaconda.com/pkgs/main/osx-64/conda-env-2.6.0-1.conda
 https://repo.anaconda.com/pkgs/main/osx-64/blas-1.0-mkl.conda
 https://repo.anaconda.com/pkgs/main/osx-64/bzip2-1.0.8-h1de35cc_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2020.10.14-0.conda
@@ -269,7 +268,6 @@ https://repo.anaconda.com/pkgs/main/osx-64/ipykernel-5.3.4-py38h5ca1d4c_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/nbclient-0.5.1-py_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/requests-2.24.0-py_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/anaconda-client-1.7.2-py38_0.conda
-https://repo.anaconda.com/pkgs/main/osx-64/conda-4.9.2-py38hecd8cb5_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/jupyter_console-6.2.0-py_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/nbconvert-6.0.7-py38_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/qtconsole-4.7.7-py_0.conda
