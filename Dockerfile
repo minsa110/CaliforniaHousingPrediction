@@ -1,7 +1,7 @@
-FROM jupyter/minimal-notebook
+FROM ubuntu:18.04
 
 # Set arguments
-ARG CONTAINER_USER=jovyan
+ARG CONTAINER_USER=minsa110
 ARG GIT_URI=https://github.com/minsa110/CaliforniaHousingPrediction.git
 ARG REPO_DIR=repo
 ARG CONDA_ENV=myenv
@@ -30,4 +30,3 @@ RUN \
     echo "*** start notebook ***" && \
     chmod +x ./run_script
 CMD ["./run_script"]
-#CMD source /opt/conda/etc/profile.d/conda.sh && conda activate ${CONDA_ENV} && jupyter notebook --port=8888 --no-browser --ip 0.0.0.0 --allow-root ./repo %
