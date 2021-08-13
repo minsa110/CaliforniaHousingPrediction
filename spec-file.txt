@@ -306,4 +306,3 @@ https://repo.anaconda.com/pkgs/main/osx-64/tifffile-2020.10.1-py38h0cf3a3e_2.con
 https://repo.anaconda.com/pkgs/main/osx-64/pytables-3.6.1-py38h4727e94_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/scikit-image-0.17.2-py38h81aa140_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/statsmodels-0.12.0-py38haf1e3a3_0.conda
-https://repo.anaconda.com/pkgs/main/osx-64/anaconda-2020.11-py38_0.tar.bz2
