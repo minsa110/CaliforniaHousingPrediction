@@ -194,7 +194,7 @@ threadpoolctl
 tifffile==2020.10.1
 toml
 toolz 
-tornado==6.0.4
+tornado
 tqdm
 traitlets 
 typing-extensions 
@@ -210,7 +210,6 @@ wincertstore==0.2
 wrapt==1.11.2
 xlrd==1.2.0
 XlsxWriter
-xlwings
 xlwt
 xmltodict==0.12.0
 yapf
