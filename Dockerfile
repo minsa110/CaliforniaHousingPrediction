@@ -26,7 +26,7 @@ RUN \
     python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
 
 # Start up the notebook
-COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
+COPY --chown=${CONTAINER_USER}:users run_script2 /home/${CONTAINER_USER}
 RUN \
     echo "*** start notebook ***" && \
     chmod +x ./run_script2
