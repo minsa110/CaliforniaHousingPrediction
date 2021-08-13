@@ -22,7 +22,8 @@ RUN \
 RUN \
     source /opt/conda/etc/profile.d/conda.sh \
     conda activate ${CONDA_ENV} \
-    pip3 install ipykernel
+    conda install ipykernel \
+    python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
