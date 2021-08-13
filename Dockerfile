@@ -19,7 +19,7 @@ RUN \
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Activate conda environment and install ipykernel
-# RUN source /opt/conda/etc/profile.d/conda.sh
+RUN source /opt/conda/etc/profile.d/conda.sh
 RUN echo "source activate ${CONDA_ENV}" > ~/.bashrc
 ENV PATH /opt/conda/envs/${CONDA_ENV}/bin:$PATH
 RUN conda activate ${CONDA_ENV}
