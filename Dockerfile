@@ -13,9 +13,10 @@ RUN \
     git clone --single-branch ${GIT_URI} /home/${CONTAINER_USER}/${REPO_DIR}
 
 # Install libraries
-RUN \
-    echo "*** install libraries ***" && 
-    #conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
+# RUN \
+#     echo "*** install libraries ***" && \
+#     conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
+
     #conda create --name ${CONDA_ENV} python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
