@@ -14,8 +14,8 @@ RUN \
 
 # Install libraries
 RUN \
-    echo "*** install libraries ***" && \
-    conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
+    echo "*** install libraries ***" && 
+    #conda install --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #conda create --name ${CONDA_ENV} python=3 --file "/home/${CONTAINER_USER}/${REPO_DIR}/spec-file.txt"
     #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
