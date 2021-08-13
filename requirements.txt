@@ -194,7 +194,7 @@ threadpoolctl
 tifffile==2020.10.1
 toml
 toolz 
-tornado
+tornado>=6.1.0
 tqdm
 traitlets 
 typing-extensions 
