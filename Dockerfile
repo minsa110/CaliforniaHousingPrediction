@@ -30,4 +30,4 @@ RUN \
     echo "*** start notebook ***" && \
     chmod +x ./run_script
 #CMD ["./run_script"]
-CMD source /opt/conda/etc/profile.d/conda.sh && conda activate myenv && jupyter notebook --port=8888 --no-browser --ip 0.0.0.0 --allow-root ./repo %
+CMD source /opt/conda/etc/profile.d/conda.sh && conda activate ${CONDA_ENV} && jupyter notebook --port=8888 --no-browser --ip 0.0.0.0 --allow-root ./repo %
