@@ -2,7 +2,7 @@ name: base
 channels:
   - defaults
 dependencies:
-  - _ipyw_jlab_nb_ext_conf=0.1.0=py38_0
+  - _ipyw_jlab_nb_ext_conf=0.1.0=pyc38_0
   - alabaster=0.7.12=py_0
   - anaconda=2020.11=py38_0
   - anaconda-client=1.7.2=py38_0
