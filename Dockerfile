@@ -14,7 +14,9 @@ RUN \
 # Install libraries
 RUN \
     echo "*** install libraries ***" && \
-    pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
+    conda create --name myenv python=3 --file "/home/jovyan/repo/spec-file.txt" \
+    conda activate myenv
+    #pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
