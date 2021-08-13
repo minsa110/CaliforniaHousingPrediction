@@ -22,11 +22,11 @@ RUN \
 # RUN echo "source activate ${CONDA_ENV}" > ~/.bashrc
 # ENV PATH /opt/conda/envs/${CONDA_ENV}/bin:$PATH
 RUN source /opt/conda/etc/profile.d/conda.sh
-RUN conda init bash
-RUN exec bash
+# RUN conda init bash
+# RUN exec bash
 RUN conda activate ${CONDA_ENV}
-RUN conda install ipykernel
-RUN python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
+# RUN conda install ipykernel
+# RUN python kernel install --${CONTAINER_USER} --name=${CONDA_ENV}}
 
 # Start up the notebook
 COPY --chown=${CONTAINER_USER}:users run_script /home/${CONTAINER_USER}
