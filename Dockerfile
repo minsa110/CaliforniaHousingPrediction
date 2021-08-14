@@ -23,6 +23,10 @@ RUN \
 
 # RUN pip3 install -r "/home/${CONTAINER_USER}/${REPO_DIR}/requirements.txt"
 
+COPY --chown=${CONTAINER_USER}:users environment.yml /home/${CONTAINER_USER}/${REPO_DIR}
+RUN \
+    echo "*** start notebook ***" && \
+    chmod +x /home/${CONTAINER_USER}/${REPO_DIR}/environment.yml
 RUN conda env update --file /home/${CONTAINER_USER}/${REPO_DIR}/environment.yml
 
 # Activate conda environment and install ipykernel
