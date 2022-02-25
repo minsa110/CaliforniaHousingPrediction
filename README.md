@@ -2,6 +2,8 @@
 
 <a href="vscode://vscode.git/clone?url=https://github.com/minsa110/CaliforniaHousingPrediction.git">hi</a>
 
+<a href="https://google.com">hi2</a>
+
 # California housing prediction
 ### Goal of Analysis: Use machine learning algorithms to get best accuracy of predictions for California housing prices given the attributes in the dataset.
 
