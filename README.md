@@ -1,6 +1,6 @@
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](vscode://vscode.git/clone?url=https://github.com/minsa110/CaliforniaHousingPrediction.git)
 
-<a href="vscode://file/C:\Users\somin\Documents\Projects\Open-In-VSC\CaliforniaHousingPrediction">open file</a>
+<a href="vscode:///file/C:\Users\somin\Documents\Projects\Open-In-VSC\CaliforniaHousingPrediction">open file</a>
 
 
 
