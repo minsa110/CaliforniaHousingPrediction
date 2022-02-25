@@ -2,6 +2,14 @@
 
 <a href="vscode://timmoverlaan.uri-open-recent/open-or-clone?url=https://github.com/minsa110/CaliforniaHousingPrediction.git">timeoverlaan</a>
 
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  window.open("https://www.w3schools.com");
+}
+</script>
+
 # California housing prediction
 ### Goal of Analysis: Use machine learning algorithms to get best accuracy of predictions for California housing prices given the attributes in the dataset.
 
