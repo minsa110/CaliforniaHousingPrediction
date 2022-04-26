@@ -3,9 +3,9 @@
 _(^currently only works from cloned repo...)_ -->
 
 # California housing prediction
-### Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices given the attributes in the dataset.
+Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices given the attributes in the dataset. (Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices) for California housing prices in 1990)
 
-(Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices) for California housing pricesc in 1990)
+Live site: https://calihouseprice90.westus2.azurecontainer.io/
 
 ## Deploy the dockerized app to Azure (using Azure CLI)
 1. Log in to Azure:
