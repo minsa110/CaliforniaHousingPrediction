@@ -18,7 +18,7 @@ properties:
   imageRegistryCredentials:
   - server: calidemo.azurecr.io
     username: calidemo
-    password: p6cTCKrBibuu7zUc+72BPgwZZoNMLsX0
+    password: REDACTED
   restartPolicy: Never
   ipAddress:
     ports:
