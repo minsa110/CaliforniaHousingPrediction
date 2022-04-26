@@ -41,3 +41,24 @@ _(^currently only works from cloned repo...)_ -->
     ```
         <calihouseprice90>.westus2.azurecontainer.io
     ```
+
+## Create and attach to an AML compute (from VS Code)
+1. Create a compute instance through the [AML extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai) using the [AML YAML configuration spec](https://docs.microsoft.com/en-us/azure/machine-learning/reference-yaml-core-syntax) (can also be done through the Azure portal), for example:
+    ```yaml
+        $schema: https://azuremlschemas.azureedge.net/latest/computeInstance.schema.json
+        name: california-housing
+        type: computeinstance
+        size: Standard_DS3_v2
+    ```
+2. Connect to that compute instance from VS Code (right click on compute instance and click "Connect")
+3. Trust folder authors and... you're connected! 🙌🏻
+4. (Optional) Verify connection via remote window indicator (bottom left), and/or type `pwd` in the terminal
+5. (Optional) Debug within the AML compute, directly from VSC
+6. (Optional) Load a local directory and execute a file against a specified compute target through a [`command job`](https://docs.microsoft.com/en-us/cli/azure/ml/job?view=azure-cli-latest) using the [AML YAML configuration spec](https://docs.microsoft.com/en-us/azure/machine-learning/reference-yaml-job-command), for example:
+    ```yaml
+        $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+        code: ./
+        command: python test.py
+        environment: azureml:AzureML-PyTorch-1.3-CPU:40
+        compute: azureml: somin-aml-compute
+    ```
