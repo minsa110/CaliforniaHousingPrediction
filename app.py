@@ -10,6 +10,11 @@ from geopy.geocoders import Nominatim
 import folium
 from streamlit_folium import folium_static
 
+st.set_page_config(
+     page_title="Caliornia Housing Price Prediction",
+     page_icon="🏠"
+)
+
 model = pickle.load(open('model.pkl','rb'))
 
 def predict_price(longitude,latitude,total_bedrooms,median_income,ocean_proximity, pop_per_hhold, total_rooms, rooms_per_hhold, bedrooms_per_room, housing_median_age, population, NEAR_OCEAN, NEAR_BAY, less1H_OCEAN, INLAND, ISLAND):
@@ -25,10 +30,10 @@ def main():
     # st.title("California Housing Prediction")
     html_title = """
     <div style="background:#C06C84 ;padding:10px">
-    <h2 style="color:white;text-align:center">California Housing Prediction</h2>
+    <h2 style="color:white;text-align:center">Predict Home Price in California</h2>
     </div>
 
-    <p>Enter information for a home in California to predict its price (pretend it's 1990).</p>
+    <p>Enter information for a home in California to predict its price (<b>pretend it's 1990</b> 😉).</p>
     """
     st.markdown(html_title, unsafe_allow_html = True)
 
