@@ -7,6 +7,13 @@ Goal of Analysis: Use ML algorithms to get best accuracy of predictions for Cali
 
 Live site: http://calihouseprice90.westus2.azurecontainer.io/
 
+## The “dot” (github.dev) and Pyodide
+Press '.' on your keyboard to try it out!
+- [vscode-pyodide - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=joyceerhl.vscode-pyodide) (Pyolite kernel)
+- Install packages from PyPI with micropip
+- Load publicly available csv / json file
+- Spin up [Codespaces](https://github.com/features/codespaces) for full VS Code features with GitHub compute backing it
+
 ## Deploy the dockerized app to Azure (using Azure CLI)
 1. Log in to Azure:
     ```
