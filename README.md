@@ -3,16 +3,16 @@
 _(^currently only works from cloned repo...)_ -->
 
 # California housing prediction
-Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices given the attributes in the dataset. (Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices) for California housing prices in 1990)
+Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices (in 1990) given the attributes in the dataset.(Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices))
 
 Live site: http://calihouseprice90.westus2.azurecontainer.io/
 
-## The “dot” (github.dev) and Pyodide
-Press '.' on your keyboard to try it out!
-- [vscode-pyodide - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=joyceerhl.vscode-pyodide) (Pyolite kernel)
-- Install packages from PyPI with micropip
-- Load publicly available csv / json file
-- Spin up [Codespaces](https://github.com/features/codespaces) for full VS Code features with GitHub compute backing it
+## Cool/useful VS Code extensions mentioned
+- [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager) - manage Python environments and packages
+- [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account) - SSO
+- [Azure Resources](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureresourcegroups) - subscription / resource management
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - work with Docker
+- [Marp]() - create a deck using markdown
 
 ## Deploy the dockerized app to Azure (using Azure CLI)
 1. Log in to Azure:
@@ -21,33 +21,40 @@ Press '.' on your keyboard to try it out!
     ```
 2. Create a new Azure Container Registry:
     ```
-        az acr create --resource-group <somin-rg> --name <calidemo> --sku Basic
+        az acr create --resource-group <resource group name> --name <container registry name> --sku Basic
     ```
 3. Log in to the created registry:
     ```
-        az acr login -n <calidemo>
+        az acr login -n <container registry name>
     ```
 4. Create `deployment.yml` using [YAML reference for ACI](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-reference-yaml), and get the password for the container registry using:
     ```
-        az acr update -n <calidemo> --admin-enabled true
-        az acr credential show --name <calidemo>
+        az acr update -n <container registry name> --admin-enabled true
+        az acr credential show --name <container registry name>
     ```
 5. Create `nginx.conf` to reroute the web traffic to Streamlit's port 8501
 6. Create a `Dockerfile` to install and setup all the resources needed to run the Streamlit app, including nginx
 7. Build and push the image to the registry:
     ```
-        docker build -t <azure_demo:v1> .
-        docker tag azure_demo:v1 <calidemo>.azurecr.io/<azure_demo:v1>
-        docker push <calidemo>.azurecr.io/<azure_demo:v1>
+        docker build -t <image name> .
+        docker tag image name <container registry name>.azurecr.io/<image name>
+        docker push <container registry name>.azurecr.io/<image name>
     ```
 8. Deploy the app as an ACI:
     ```
-        az container create --resource-group <somin-rg> --name <calidemo> -f deployment.yml
+        az container create --resource-group <resource group name> --name <container registry name> -f deployment.yml
     ```
 9. Confirm that your instance has been deployed using the Azure portal (navigate to [Container Instances](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups)) and/or access the live ML app 🥳:
     ```
-        <calihouseprice90>.westus2.azurecontainer.io
+        <DNS name>.westus2.azurecontainer.io
     ```
+
+## The “dot” (github.dev) and Pyodide
+Press '.' on your keyboard to try it out!
+- [vscode-pyodide - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=joyceerhl.vscode-pyodide) (Pyolite kernel)
+- Install packages from PyPI with micropip
+- Load publicly available csv / json file
+- Spin up [Codespaces](https://github.com/features/codespaces) for full VS Code features with GitHub compute backing it
 
 ## Create and attach to an AML compute (from VS Code)
 1. Create a compute instance through the [AML extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai) using the [AML YAML configuration spec](https://docs.microsoft.com/en-us/azure/machine-learning/reference-yaml-core-syntax) (can also be done through the Azure portal), for example:
