@@ -13,6 +13,10 @@ style: |
     },
     section.center {
       text-align: center;
+    },
+    table.center {
+      margin-left:auto; 
+      margin-right:auto;
     }
 
 ---
@@ -33,7 +37,7 @@ Cover all without leaving VS Code 😉
 <!-- _class: lead -->
 # Why use notebooks in VS Code?
 - Extension marketplace
-- Debugging (extends to nb experiences)
+- Debugging
 - Embedded git control
 - IntelliSense
 - Integrated terminal
@@ -74,29 +78,34 @@ Cover all without leaving VS Code 😉
 ![bg w:550 right:45%](images/cali-heatmap.png)
 
 ---
-```python
-    # visualize data based on geographical info
-    import matplotlib.image as mpimg
-    import matplotlib.pyplot as mppyplot
+# Let's talk about __Interactive Window__
 
-    california_img=mpimg.imread('./images/california.png')
-    ax = housing.plot(kind="scatter", x="longitude", y="latitude", figsize=(10,7),
-                    s=housing['population']/100, label="Population",
-                    c="median_house_value", cmap=plt.get_cmap("jet"),
-                    colorbar=False, alpha=0.4)
-    plt.imshow(california_img, extent=[-124.55, -113.80, 32.45, 42.05], alpha=0.5,
-            cmap=plt.get_cmap("jet"))
-    plt.ylabel("Latitude", fontsize=14)
-    plt.xlabel("Longitude", fontsize=14)
+> Essentially, it's an advanced Python REPL playground
 
-    prices = housing["median_house_value"]
-    tick_values = np.linspace(prices.min(), prices.max(), 11)
-    cbar = plt.colorbar(ticks=tick_values/prices.max())
-    cbar.ax.set_yticklabels(["$%dk"%(round(v/1000)) for v in tick_values], fontsize=14)
-    cbar.set_label('Median House Value', fontsize=16)
+> Treat parts of py code as cells using `# %%`
 
-    plt.legend(fontsize=16)
-    plt.show()
-```
+![w:850](deck-content/iw.png)
+
 ---
-![w:500 center](images/california.png)
+# How do I create an ML web app?
+
+![w:800 center](deck-content/streamlit.png)
+
+---
+# How do I deploy my ML web app?
+1. Create a Dockerfile
+2. Build the container image and push to a registry (e.g. Azure Container Registry)
+3. Deploy the container image on the registry to ACI  (Azure Container Instances)
+<br>
+
+![w:600 center](deck-content/aci.jpg)
+
+<!-- ---
+```python
+```
+
+---
+![w:500 center](images/california.png) -->
+
+---
+![bg](deck-content/ty.png)
