@@ -20,7 +20,6 @@ WORKDIR /opt/demo_azure
 COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml environment.yml
 RUN micromamba install -y -n base -f environment.yml && \
    micromamba clean --all --yes
-# RUN pip install streamlit
 
 COPY model.pkl model.pkl
 COPY app.py app.py
