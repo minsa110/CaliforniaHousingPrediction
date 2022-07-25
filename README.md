@@ -1,8 +1,10 @@
 # California housing prediction
 Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices (in 1990) given the attributes in the dataset. (Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices))
 
-Live site: http://calihouseprice90.westus2.azurecontainer.io/
+**Live site: http://calihouseprice90.westus2.azurecontainer.io/**<br>
 (Note: different URL from the one shared during talk since that resource has now been deleted)
+
+Sign up today for your free Azure account and receive 12 months of free popular services, $200 free credit and 25+ always free services 👉 [Start Free](https://azure.microsoft.com/free/open-source).
 
 ## Cool/useful VS Code extensions mentioned
 Developed by the VS Code team:
@@ -22,9 +24,18 @@ Work with Azure:
 - [Azure Resources](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureresourcegroups) - subscription / resource management
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - work with Docker
 
-My favorite VS Code themes for notebooks
+My favorite VS Code themes for notebooks:
 - Dark: [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 - Light: [Snazzy Light](https://marketplace.visualstudio.com/items?itemName=loilo.snazzy-light)
+
+Other helpful links:
+- [Choose an Azure compute service](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree) for your needs
+- Create an Azure Container Instances deployment definition file using the [ACI schema](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-reference-yaml)<br>To get your ACR's username and password for the yaml file:
+   ```python
+   az acr update -n wwc2207 --admin-enabled true
+   az acr credential show --name wwc2207 --resource-group wwc2207
+   ```
+- [Enable HTTPS](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-container-group-ssl) with nginx and self-signed certificate
 
 ## Deploy the dockerized app to Azure
 An alternative way of deploying to ACI on VS Code without the extension using Azure CLI
