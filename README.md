@@ -38,7 +38,7 @@ Other helpful links:
 - [Enable HTTPS](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-container-group-ssl) with nginx and self-signed certificate
 
 ## Deploy the dockerized app to Azure
-An alternative way of deploying to ACI on VS Code without the extension using Azure CLI
+An alternative way of deploying to ACI on VS Code without the extension (using Azure CLI instead)
 
 1. Log in to Azure:
     ```
