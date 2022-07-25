@@ -1,20 +1,34 @@
-<!-- [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](vscode://vscode.git/clone?url=https://github.com/minsa110/CaliforniaHousingPrediction.git)
-
-_(^currently only works from cloned repo...)_ -->
-
 # California housing prediction
-Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices (in 1990) given the attributes in the dataset.(Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices))
+Goal of Analysis: Use ML algorithms to get best accuracy of predictions for California housing prices (in 1990) given the attributes in the dataset. (Link to the [dataset](https://www.kaggle.com/camnugent/california-housing-prices))
 
 Live site: http://calihouseprice90.westus2.azurecontainer.io/
+(Note: different URL from the one shared during talk since that resource has now been deleted)
 
 ## Cool/useful VS Code extensions mentioned
+Developed by the VS Code team:
+- [Jupyter](https://marketplace.visualstudio.com/itemdetails?itemName=ms-toolsai.jupyter) - turn any Python env into a Jupyter kernel + cool features mentioned during the talk
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - first-class Python experience support
+
+Developed by the community:
 - [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager) - manage Python environments and packages
-- [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account) - SSO
+- [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) - create a deck using markdown (used for the talk)
+- [vscode-reveal](https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal) - create a deck using markdown (NOT used for talk, but worth mentioning)
+- Data viewing tools
+   - [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) - custom editor / previews for CSV files and Excel spreadsheets
+   - [Excel to Markdown table](https://marketplace.visualstudio.com/items?itemName=csholmq.excel-to-markdown-table) - paste a table from CSV / Excel files directly to a markdown file via Shift + Alt + V
+
+Work with Azure:
+- [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account) - SSO / account management
 - [Azure Resources](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureresourcegroups) - subscription / resource management
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) - work with Docker
-- [Marp]() - create a deck using markdown
 
-## Deploy the dockerized app to Azure (using Azure CLI)
+My favorite VS Code themes for notebooks
+- Dark: [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
+- Light: [Snazzy Light](https://marketplace.visualstudio.com/items?itemName=loilo.snazzy-light)
+
+## Deploy the dockerized app to Azure
+An alternative way of deploying to ACI on VS Code without the extension using Azure CLI
+
 1. Log in to Azure:
     ```
         az login
