@@ -71,7 +71,7 @@ An alternative way of deploying to ACI on VS Code without the extension (using A
     ```
 9. Confirm that your instance has been deployed using the Azure portal (navigate to [Container Instances](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups)) and/or access the live ML app 🥳:
     ```
-        <DNS name>.westus2.azurecontainer.io
+        <DNS name>.<ACI resource location>.azurecontainer.io
     ```
 
 ## The “dot” (github.dev) and Pyodide
@@ -85,7 +85,7 @@ Press '.' on your keyboard to try it out!
 1. Create a compute instance through the [AML extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai) using the [AML YAML configuration spec](https://docs.microsoft.com/en-us/azure/machine-learning/reference-yaml-core-syntax) (can also be done through the Azure portal), for example:
     ```yaml
         $schema: https://azuremlschemas.azureedge.net/latest/computeInstance.schema.json
-        name: california-housing
+        name: <compute instance name>
         type: computeinstance
         size: Standard_DS3_v2
     ```
@@ -97,7 +97,7 @@ Press '.' on your keyboard to try it out!
     ```yaml
         $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
         code: ./
-        command: python test.py
+        command: <python test.py>
         environment: azureml:AzureML-PyTorch-1.3-CPU:40
-        compute: azureml: somin-aml-compute
+        compute: azureml: <AML workspace name>
     ```
