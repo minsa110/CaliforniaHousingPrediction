@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/workspaces/CaliforniaHousingPrediction/venv
+exec_prefix=/workspaces/CaliforniaHousingPrediction/venv
+libdir=/workspaces/CaliforniaHousingPrediction/venv/lib
+includedir=/workspaces/CaliforniaHousingPrediction/venv/include
+
+Name: libevent_core
+Description: libevent_core
+Version: 2.1.12
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_core
+Libs.private: 
+Cflags: -I${includedir}
+

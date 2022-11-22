@@ -1,0 +1,246 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/astor-0.8.1-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/PKG-INFO",
+    "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/SOURCES.txt",
+    "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/dependency_links.txt",
+    "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/top_level.txt",
+    "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/zip-safe",
+    "lib/python3.10/site-packages/astor/VERSION",
+    "lib/python3.10/site-packages/astor/__init__.py",
+    "lib/python3.10/site-packages/astor/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/code_gen.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/codegen.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/file_util.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/node_util.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/op_util.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/rtrip.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/source_repr.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/string_repr.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/__pycache__/tree_walk.cpython-310.pyc",
+    "lib/python3.10/site-packages/astor/code_gen.py",
+    "lib/python3.10/site-packages/astor/codegen.py",
+    "lib/python3.10/site-packages/astor/file_util.py",
+    "lib/python3.10/site-packages/astor/node_util.py",
+    "lib/python3.10/site-packages/astor/op_util.py",
+    "lib/python3.10/site-packages/astor/rtrip.py",
+    "lib/python3.10/site-packages/astor/source_repr.py",
+    "lib/python3.10/site-packages/astor/string_repr.py",
+    "lib/python3.10/site-packages/astor/tree_walk.py"
+  ],
+  "fn": "astor-0.8.1-py310h06a4308_0.conda",
+  "legacy_bz2_md5": "82d294ce888ce3a33172910b29066d64",
+  "legacy_bz2_size": 45894,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/conda/pkgs/astor-0.8.1-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "c72a7ea396b63d75ea6371377be0b949",
+  "name": "astor",
+  "package_tarball_full_path": "/opt/conda/pkgs/astor-0.8.1-py310h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "256a067f61d6bd79f64f0b9092c94f78f1eb670dcbe17d21c0bccdee88032325",
+        "sha256_in_prefix": "256a067f61d6bd79f64f0b9092c94f78f1eb670dcbe17d21c0bccdee88032325",
+        "size_in_bytes": 4279
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "06a2fb509cd00388e7afc21679915f9c9d363c97725e34ac4ace7a63acab363c",
+        "sha256_in_prefix": "06a2fb509cd00388e7afc21679915f9c9d363c97725e34ac4ace7a63acab363c",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "339c5fadb88bf7e10894e6f58764fcb3a8056d5ddbf406f0808d00473691c9a6",
+        "sha256_in_prefix": "339c5fadb88bf7e10894e6f58764fcb3a8056d5ddbf406f0808d00473691c9a6",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor-0.8.1-py3.10.egg-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/VERSION",
+        "path_type": "hardlink",
+        "sha256": "aaf6721dc37c40b4233accfc081f25776ff3bd1d2a4b9d5cea760d1c2cf86665",
+        "sha256_in_prefix": "aaf6721dc37c40b4233accfc081f25776ff3bd1d2a4b9d5cea760d1c2cf86665",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0bdae61f8bfd2bba64224dde0ee55186a3b9c142eddc1e36728a4d26c130f2bc",
+        "sha256_in_prefix": "0bdae61f8bfd2bba64224dde0ee55186a3b9c142eddc1e36728a4d26c130f2bc",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2dd4c55b6ed52bdad0b24352935af4d2ddfeb56b7cb9d2f6914c1aac8192339a",
+        "sha256_in_prefix": "2dd4c55b6ed52bdad0b24352935af4d2ddfeb56b7cb9d2f6914c1aac8192339a",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/code_gen.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bb027390d654851069946198b335e88571c851df61b693d0cc9dae803015681",
+        "sha256_in_prefix": "2bb027390d654851069946198b335e88571c851df61b693d0cc9dae803015681",
+        "size_in_bytes": 29553
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/codegen.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd92066b7e2c371813df68f83f77ab544d83b66036e317324284a4ace78aaf66",
+        "sha256_in_prefix": "fd92066b7e2c371813df68f83f77ab544d83b66036e317324284a4ace78aaf66",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/file_util.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "02c0913c8ae42c3c8d3afba04f3dfd980549b5e17d96482c5358b2fa6a11e5c2",
+        "sha256_in_prefix": "02c0913c8ae42c3c8d3afba04f3dfd980549b5e17d96482c5358b2fa6a11e5c2",
+        "size_in_bytes": 3494
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/node_util.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "340b4ee07b41bad4359ce97886671ac021498050e785ad6ae34ea30b896926f1",
+        "sha256_in_prefix": "340b4ee07b41bad4359ce97886671ac021498050e785ad6ae34ea30b896926f1",
+        "size_in_bytes": 6779
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/op_util.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7b6d22b90a472d3674a96ae43597c752dfc30d886ea6adfb6b0915bfd79f753",
+        "sha256_in_prefix": "f7b6d22b90a472d3674a96ae43597c752dfc30d886ea6adfb6b0915bfd79f753",
+        "size_in_bytes": 4111
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/rtrip.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "26e9783f129f706f193f7e371b55edf5d26e2dbd71f8c30cb74abdd5a21d7359",
+        "sha256_in_prefix": "26e9783f129f706f193f7e371b55edf5d26e2dbd71f8c30cb74abdd5a21d7359",
+        "size_in_bytes": 4841
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/source_repr.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f04860f6408468d4359b1c5cdead8481b252e7d514a3e95ad4d8675996f5c083",
+        "sha256_in_prefix": "f04860f6408468d4359b1c5cdead8481b252e7d514a3e95ad4d8675996f5c083",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/string_repr.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ade15adc3ea36b2fe13fd9cc5b2de7c410278a534f3bda408505dfb16740ae8f",
+        "sha256_in_prefix": "ade15adc3ea36b2fe13fd9cc5b2de7c410278a534f3bda408505dfb16740ae8f",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/__pycache__/tree_walk.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e8b22089b3ad1655fc4044299b6fe77c0bcff986f34c918a17d996a78266894",
+        "sha256_in_prefix": "1e8b22089b3ad1655fc4044299b6fe77c0bcff986f34c918a17d996a78266894",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/code_gen.py",
+        "path_type": "hardlink",
+        "sha256": "d0a02299fc95f2920f5d0c7ab3f3723d25d1840c4c2d65db08f110b824e9c5a7",
+        "sha256_in_prefix": "d0a02299fc95f2920f5d0c7ab3f3723d25d1840c4c2d65db08f110b824e9c5a7",
+        "size_in_bytes": 32032
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/codegen.py",
+        "path_type": "hardlink",
+        "sha256": "953a9d25630ae04009d70c43c365d1f8c2f21c99af6d5d7f43940b8fd9da13f8",
+        "sha256_in_prefix": "953a9d25630ae04009d70c43c365d1f8c2f21c99af6d5d7f43940b8fd9da13f8",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/file_util.py",
+        "path_type": "hardlink",
+        "sha256": "0444ec29883c5222a864db304648abccf4995a092ee35751cd90bb4f95f7fc5e",
+        "sha256_in_prefix": "0444ec29883c5222a864db304648abccf4995a092ee35751cd90bb4f95f7fc5e",
+        "size_in_bytes": 3268
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/node_util.py",
+        "path_type": "hardlink",
+        "sha256": "58458c50c49f1ed2f0831e789cc91cd803cb579ef788e3e1a8f6a0e2021b8554",
+        "sha256_in_prefix": "58458c50c49f1ed2f0831e789cc91cd803cb579ef788e3e1a8f6a0e2021b8554",
+        "size_in_bytes": 6542
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/op_util.py",
+        "path_type": "hardlink",
+        "sha256": "18672062a6b70c53806a84aded34eee3a55485ed49d7774ed78f924134574582",
+        "sha256_in_prefix": "18672062a6b70c53806a84aded34eee3a55485ed49d7774ed78f924134574582",
+        "size_in_bytes": 3191
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/rtrip.py",
+        "path_type": "hardlink",
+        "sha256": "025bd0bec52e519f33c6f445a5617f16cbf8f8d92c3c1db7aef5644eb92f79ff",
+        "sha256_in_prefix": "025bd0bec52e519f33c6f445a5617f16cbf8f8d92c3c1db7aef5644eb92f79ff",
+        "size_in_bytes": 6741
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/source_repr.py",
+        "path_type": "hardlink",
+        "sha256": "d658f88da924adc183468a3e0484590eccd0f20ba475e2d1fdf9af1aa06b3fe5",
+        "sha256_in_prefix": "d658f88da924adc183468a3e0484590eccd0f20ba475e2d1fdf9af1aa06b3fe5",
+        "size_in_bytes": 7373
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/string_repr.py",
+        "path_type": "hardlink",
+        "sha256": "61e0bf0d578825d3c496a8e0cf384f161790b33fd08cc116fd22ce0c5bc4b080",
+        "sha256_in_prefix": "61e0bf0d578825d3c496a8e0cf384f161790b33fd08cc116fd22ce0c5bc4b080",
+        "size_in_bytes": 2917
+      },
+      {
+        "_path": "lib/python3.10/site-packages/astor/tree_walk.py",
+        "path_type": "hardlink",
+        "sha256": "7c96b0e781a04e0e0d4d124b5519765d29df14e1bd19d8ce52523a64284b39bf",
+        "sha256_in_prefix": "7c96b0e781a04e0e0d4d124b5519765d29df14e1bd19d8ce52523a64284b39bf",
+        "size_in_bytes": 6020
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61f43123acdbea0a31507dfe8c263d1e7360cd491ed33c7d316672d664c5ce4b",
+  "size": 47113,
+  "subdir": "linux-64",
+  "timestamp": 1640788313822,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/astor-0.8.1-py310h06a4308_0.conda",
+  "version": "0.8.1"
+}

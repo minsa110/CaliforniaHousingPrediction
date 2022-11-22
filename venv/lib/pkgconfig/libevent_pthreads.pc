@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/workspaces/CaliforniaHousingPrediction/venv
+exec_prefix=/workspaces/CaliforniaHousingPrediction/venv
+libdir=/workspaces/CaliforniaHousingPrediction/venv/lib
+includedir=/workspaces/CaliforniaHousingPrediction/venv/include
+
+Name: libevent_pthreads
+Description: libevent_pthreads adds pthreads-based threading support to libevent
+Version: 2.1.12
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_pthreads
+Libs.private:  
+Cflags: -I${includedir} 
+

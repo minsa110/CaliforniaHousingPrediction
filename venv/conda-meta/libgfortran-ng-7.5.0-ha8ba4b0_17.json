@@ -1,0 +1,36 @@
+{
+  "build": "ha8ba4b0_17",
+  "build_number": 17,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran4 7.5.0.*",
+    "__glibc >=2.17"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/libgfortran-ng-7.5.0-ha8ba4b0_17",
+  "features": "",
+  "files": [],
+  "fn": "libgfortran-ng-7.5.0-ha8ba4b0_17.conda",
+  "legacy_bz2_md5": "526a52415a29fc6df26612f2d42b162f",
+  "legacy_bz2_size": 22250,
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/opt/conda/pkgs/libgfortran-ng-7.5.0-ha8ba4b0_17",
+    "type": 1
+  },
+  "md5": "ecb35c8952579d5c8dc56c6e076ba948",
+  "name": "libgfortran-ng",
+  "package_tarball_full_path": "/opt/conda/pkgs/libgfortran-ng-7.5.0-ha8ba4b0_17.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f962258281d978f7b0e8207304531a60860c2e54cf2f2e59ae380d22fe10f1d2",
+  "size": 22460,
+  "subdir": "linux-64",
+  "timestamp": 1622660084422,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libgfortran-ng-7.5.0-ha8ba4b0_17.conda",
+  "version": "7.5.0"
+}

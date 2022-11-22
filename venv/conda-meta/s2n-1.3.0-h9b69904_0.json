@@ -1,0 +1,85 @@
+{
+  "build": "h9b69904_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "openssl >=1.1.1l,<1.1.2a"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/s2n-1.3.0-h9b69904_0",
+  "features": "",
+  "files": [
+    "include/s2n.h",
+    "lib/libs2n.so",
+    "lib/s2n/cmake/modules/FindLibCrypto.cmake",
+    "lib/s2n/cmake/s2n-config.cmake",
+    "lib/s2n/cmake/shared/s2n-targets-release.cmake",
+    "lib/s2n/cmake/shared/s2n-targets.cmake"
+  ],
+  "fn": "s2n-1.3.0-h9b69904_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/conda/pkgs/s2n-1.3.0-h9b69904_0",
+    "type": 1
+  },
+  "md5": "e32d3e5345e7f98b06e550e3ebc3b070",
+  "name": "s2n",
+  "package_tarball_full_path": "/opt/conda/pkgs/s2n-1.3.0-h9b69904_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/s2n.h",
+        "path_type": "hardlink",
+        "sha256": "4d849d25f5ce0463f123d5fd23758c068a33c834b6aa1d219bcd7a5e000898e8",
+        "sha256_in_prefix": "4d849d25f5ce0463f123d5fd23758c068a33c834b6aa1d219bcd7a5e000898e8",
+        "size_in_bytes": 61949
+      },
+      {
+        "_path": "lib/libs2n.so",
+        "path_type": "hardlink",
+        "sha256": "2526df50efc4a0116d23cd29234cd65518fc1fad8ca766ef5c0e6c928c2ac350",
+        "sha256_in_prefix": "2526df50efc4a0116d23cd29234cd65518fc1fad8ca766ef5c0e6c928c2ac350",
+        "size_in_bytes": 1639704
+      },
+      {
+        "_path": "lib/s2n/cmake/modules/FindLibCrypto.cmake",
+        "path_type": "hardlink",
+        "sha256": "d5a0b2d75bd14f50f169fbbecdd9f52592721ff9bdcd73e8f45521a20a8a25f0",
+        "sha256_in_prefix": "d5a0b2d75bd14f50f169fbbecdd9f52592721ff9bdcd73e8f45521a20a8a25f0",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "lib/s2n/cmake/s2n-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "874a50d2cfa45fa3c2a9b4f3ef156aa3e3fa28cb174bfa96cdb4a9203b0f5a54",
+        "sha256_in_prefix": "874a50d2cfa45fa3c2a9b4f3ef156aa3e3fa28cb174bfa96cdb4a9203b0f5a54",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/s2n/cmake/shared/s2n-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "7c2010a0bbdfad6d5c4b90165db6be588922ab9dae83f828db1e3608b58fe042",
+        "sha256_in_prefix": "7c2010a0bbdfad6d5c4b90165db6be588922ab9dae83f828db1e3608b58fe042",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "lib/s2n/cmake/shared/s2n-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "87472904b85e703e14703387f0e16de96e6686808392be4feedfa5414c2585a1",
+        "sha256_in_prefix": "87472904b85e703e14703387f0e16de96e6686808392be4feedfa5414c2585a1",
+        "size_in_bytes": 3768
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f9b38ba89b9e105953fded5081cee703f8f8d88c87351413c64bfc5ff6f1c9ae",
+  "size": 494331,
+  "subdir": "linux-64",
+  "timestamp": 1637102529176,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/s2n-1.3.0-h9b69904_0.tar.bz2",
+  "version": "1.3.0"
+}

@@ -1,0 +1,14 @@
+prefix=/workspaces/CaliforniaHousingPrediction/venv
+exec_prefix=/workspaces/CaliforniaHousingPrediction/venv
+libdir=/workspaces/CaliforniaHousingPrediction/venv/lib
+includedir=/workspaces/CaliforniaHousingPrediction/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

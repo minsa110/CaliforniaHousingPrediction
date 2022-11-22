@@ -1,0 +1,68 @@
+{
+  "build": "h27cfd23_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/libutf8proc-2.6.1-h27cfd23_0",
+  "features": "",
+  "files": [
+    "include/utf8proc.h",
+    "lib/libutf8proc.so",
+    "lib/libutf8proc.so.2",
+    "lib/libutf8proc.so.2.4.1"
+  ],
+  "fn": "libutf8proc-2.6.1-h27cfd23_0.conda",
+  "legacy_bz2_md5": "b4c3485d5655de8dcf7b7413ffe93fe3",
+  "legacy_bz2_size": 97418,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/libutf8proc-2.6.1-h27cfd23_0",
+    "type": 1
+  },
+  "md5": "2b69614fbde813bc01668a23bb129d28",
+  "name": "libutf8proc",
+  "package_tarball_full_path": "/opt/conda/pkgs/libutf8proc-2.6.1-h27cfd23_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/utf8proc.h",
+        "path_type": "hardlink",
+        "sha256": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "sha256_in_prefix": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "size_in_bytes": 31001
+      },
+      {
+        "_path": "lib/libutf8proc.so",
+        "path_type": "softlink",
+        "sha256": "b7b9a79945ad1379b5a7ba390f57c7fc0c59278bee87dcf0fec63df05932bad8",
+        "size_in_bytes": 345464
+      },
+      {
+        "_path": "lib/libutf8proc.so.2",
+        "path_type": "softlink",
+        "sha256": "b7b9a79945ad1379b5a7ba390f57c7fc0c59278bee87dcf0fec63df05932bad8",
+        "size_in_bytes": 345464
+      },
+      {
+        "_path": "lib/libutf8proc.so.2.4.1",
+        "path_type": "hardlink",
+        "sha256": "b7b9a79945ad1379b5a7ba390f57c7fc0c59278bee87dcf0fec63df05932bad8",
+        "sha256_in_prefix": "b7b9a79945ad1379b5a7ba390f57c7fc0c59278bee87dcf0fec63df05932bad8",
+        "size_in_bytes": 345464
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c0e226e39b7c4ec64e9dcb23c02ce7bd715e88bd66b8d711a544dfdc1aeee6c4",
+  "size": 82036,
+  "subdir": "linux-64",
+  "timestamp": 1612284952317,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libutf8proc-2.6.1-h27cfd23_0.conda",
+  "version": "2.6.1"
+}

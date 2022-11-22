@@ -1,0 +1,100 @@
+{
+  "build": "h7c7754b_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.6.17,<0.6.18.0a0",
+    "libgcc-ng >=9.4.0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/aws-c-compression-0.2.14-h7c7754b_7",
+  "features": "",
+  "files": [
+    "include/aws/compression/compression.h",
+    "include/aws/compression/exports.h",
+    "include/aws/compression/huffman.h",
+    "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+    "lib/libaws-c-compression.so",
+    "lib/libaws-c-compression.so.1.0.0"
+  ],
+  "fn": "aws-c-compression-0.2.14-h7c7754b_7.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/conda/pkgs/aws-c-compression-0.2.14-h7c7754b_7",
+    "type": 1
+  },
+  "md5": "09190c3fa80af2fe47535358b9b05071",
+  "name": "aws-c-compression",
+  "package_tarball_full_path": "/opt/conda/pkgs/aws-c-compression-0.2.14-h7c7754b_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/compression/compression.h",
+        "path_type": "hardlink",
+        "sha256": "257981665a69a0c2b28ea0490f615da59610a1da33f37dbb193d2a71d4389695",
+        "sha256_in_prefix": "257981665a69a0c2b28ea0490f615da59610a1da33f37dbb193d2a71d4389695",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "include/aws/compression/exports.h",
+        "path_type": "hardlink",
+        "sha256": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "sha256_in_prefix": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "include/aws/compression/huffman.h",
+        "path_type": "hardlink",
+        "sha256": "acd5a9db5c6f471f08894615527c3d937757083b67a06384e35f5b3b9b0b41bc",
+        "sha256_in_prefix": "acd5a9db5c6f471f08894615527c3d937757083b67a06384e35f5b3b9b0b41bc",
+        "size_in_bytes": 4696
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "1c915a29da688ade9409ef512911d4b0922534b600f55616d5855cbe3c7d724f",
+        "sha256_in_prefix": "1c915a29da688ade9409ef512911d4b0922534b600f55616d5855cbe3c7d724f",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "520b1faeb4c54e3d01993962e18545be2c20c2c81c9fc79febf1addfbef3b94b",
+        "sha256_in_prefix": "520b1faeb4c54e3d01993962e18545be2c20c2c81c9fc79febf1addfbef3b94b",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "d2c48b53f6e876d6955b0ef6da9452346f65513f782c3aa429a98beb3362498a",
+        "sha256_in_prefix": "d2c48b53f6e876d6955b0ef6da9452346f65513f782c3aa429a98beb3362498a",
+        "size_in_bytes": 3614
+      },
+      {
+        "_path": "lib/libaws-c-compression.so",
+        "path_type": "softlink",
+        "sha256": "6165c3341b6666be1ccb386d646e6db2a8ee73184f24e2572048b01f5610d220",
+        "size_in_bytes": 16920
+      },
+      {
+        "_path": "lib/libaws-c-compression.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "6165c3341b6666be1ccb386d646e6db2a8ee73184f24e2572048b01f5610d220",
+        "sha256_in_prefix": "6165c3341b6666be1ccb386d646e6db2a8ee73184f24e2572048b01f5610d220",
+        "size_in_bytes": 16920
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0f766f764a4659175ca31b465c1576990ebe34d0a183f21c72dc3d2da6bcc974",
+  "size": 17084,
+  "subdir": "linux-64",
+  "timestamp": 1636435428456,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aws-c-compression-0.2.14-h7c7754b_7.tar.bz2",
+  "version": "0.2.14"
+}

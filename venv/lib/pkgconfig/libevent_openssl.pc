@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/workspaces/CaliforniaHousingPrediction/venv
+exec_prefix=/workspaces/CaliforniaHousingPrediction/venv
+libdir=/workspaces/CaliforniaHousingPrediction/venv/lib
+includedir=/workspaces/CaliforniaHousingPrediction/venv/include
+
+Name: libevent_openssl
+Description: libevent_openssl adds openssl-based TLS support to libevent
+Version: 2.1.12
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_openssl
+Libs.private:   -L/workspaces/CaliforniaHousingPrediction/venv/lib/libssl.so -L/workspaces/CaliforniaHousingPrediction/venv/lib/libcrypto.so
+Cflags: -I${includedir} 
+

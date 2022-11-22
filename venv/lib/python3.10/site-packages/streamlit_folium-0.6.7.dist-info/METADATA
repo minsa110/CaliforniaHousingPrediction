@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: streamlit-folium
+Version: 0.6.7
+Summary: Render Folium objects in Streamlit
+Home-page: https://github.com/randyzwitch/streamlit-folium
+Author: Randy Zwitch
+Author-email: randy@streamlit.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=1.2)
+Requires-Dist: folium (>=0.11)
+Requires-Dist: jinja2
+Requires-Dist: branca
+
+UNKNOWN
+

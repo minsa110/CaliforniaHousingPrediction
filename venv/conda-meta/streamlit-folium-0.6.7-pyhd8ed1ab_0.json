@@ -1,0 +1,199 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "branca",
+    "folium >=0.11",
+    "jinja2",
+    "python >=3.7",
+    "streamlit >=1.2"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/streamlit-folium-0.6.7-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/LICENSE",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/METADATA",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/RECORD",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/WHEEL",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/streamlit_folium-0.6.7.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/streamlit_folium/__init__.py",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/asset-manifest.json",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/bootstrap.min.css",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/index.html",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js.LICENSE.txt",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js.map",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/main.1f20767d.chunk.js",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/main.1f20767d.chunk.js.map",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/runtime-main.b8f4c2ad.js",
+    "lib/python3.10/site-packages/streamlit_folium/frontend/build/static/js/runtime-main.b8f4c2ad.js.map",
+    "lib/python3.10/site-packages/streamlit_folium/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "streamlit-folium-0.6.7-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/streamlit-folium-0.6.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "fcfa8440a2386397ac94588414eefde5",
+  "name": "streamlit-folium",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/streamlit-folium-0.6.7-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7e4fbd9f3401f74742459628c8aa36fe847ffec8b826297549fca45c42f66f06",
+        "sha256_in_prefix": "7e4fbd9f3401f74742459628c8aa36fe847ffec8b826297549fca45c42f66f06",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4f8794476bfecbda42277935e6d30a78a812b4160242d420be92ee2926b8416e",
+        "sha256_in_prefix": "4f8794476bfecbda42277935e6d30a78a812b4160242d420be92ee2926b8416e",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "774846bbcc1bd32558442d8ce5a5d5d1fe51af8769792749a48fd6e0e0a2b2dd",
+        "sha256_in_prefix": "774846bbcc1bd32558442d8ce5a5d5d1fe51af8769792749a48fd6e0e0a2b2dd",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e7edfda2e6b0075fca4d5758da80609c6199a989f5e179fd4b81813ffbe84c29",
+        "sha256_in_prefix": "e7edfda2e6b0075fca4d5758da80609c6199a989f5e179fd4b81813ffbe84c29",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/streamlit_folium-0.6.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f74bfc655f2399826eac6311c09951e7a707cbc78d47609a9136f43dcf397504",
+        "sha256_in_prefix": "f74bfc655f2399826eac6311c09951e7a707cbc78d47609a9136f43dcf397504",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/streamlit_folium/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "171ec41cb98040fd0b8f1d3abe4c3f1856735285328ffa612fc50e3ef4482f28",
+        "sha256_in_prefix": "171ec41cb98040fd0b8f1d3abe4c3f1856735285328ffa612fc50e3ef4482f28",
+        "size_in_bytes": 6092
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/asset-manifest.json",
+        "path_type": "hardlink",
+        "sha256": "010f5b38bc558702bfaba2ad785c440a5d7f323171e2d604e5d2193f99dffa7c",
+        "sha256_in_prefix": "010f5b38bc558702bfaba2ad785c440a5d7f323171e2d604e5d2193f99dffa7c",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "853c20e9ac49f1d00f9865499984ebb104b7261296034b2427eb5de7851b10e9",
+        "sha256_in_prefix": "853c20e9ac49f1d00f9865499984ebb104b7261296034b2427eb5de7851b10e9",
+        "size_in_bytes": 197459
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/index.html",
+        "path_type": "hardlink",
+        "sha256": "9e05250ad9700776f76dcd6ea40a41e9c1b41a63ed8c91c567c83350eb24c5fe",
+        "sha256_in_prefix": "9e05250ad9700776f76dcd6ea40a41e9c1b41a63ed8c91c567c83350eb24c5fe",
+        "size_in_bytes": 8896
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "ad6e48eb68ae3e00a3c834a3ef238ec561b16f5a6cceb51fe0b46912a253adc4",
+        "sha256_in_prefix": "ad6e48eb68ae3e00a3c834a3ef238ec561b16f5a6cceb51fe0b46912a253adc4",
+        "size_in_bytes": 354319
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "01012a54e9f8a81a9507872f9486284ef22dbffac69aebc6658c099c73459163",
+        "sha256_in_prefix": "01012a54e9f8a81a9507872f9486284ef22dbffac69aebc6658c099c73459163",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/2.d8b7e91c.chunk.js.map",
+        "path_type": "hardlink",
+        "sha256": "98c09c7971f50ee40dc03fbbe4c1bd2d9c87f5293b414c0f2c1ffac75d8586ea",
+        "sha256_in_prefix": "98c09c7971f50ee40dc03fbbe4c1bd2d9c87f5293b414c0f2c1ffac75d8586ea",
+        "size_in_bytes": 1410645
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/main.1f20767d.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "6a655a137e987f105e2f274b07b4c539dc6eb16f315043732cf24afbab12498a",
+        "sha256_in_prefix": "6a655a137e987f105e2f274b07b4c539dc6eb16f315043732cf24afbab12498a",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/main.1f20767d.chunk.js.map",
+        "path_type": "hardlink",
+        "sha256": "ea4e0aa2933bef8c48dd08c9b7006e7fb9112bed26b4817eece06c052c0fcf74",
+        "sha256_in_prefix": "ea4e0aa2933bef8c48dd08c9b7006e7fb9112bed26b4817eece06c052c0fcf74",
+        "size_in_bytes": 7041
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/runtime-main.b8f4c2ad.js",
+        "path_type": "hardlink",
+        "sha256": "4784d9e329316ff62d1ac134b8b0f35dcb9f728af6e3e6b231b72ef304f1ba91",
+        "sha256_in_prefix": "4784d9e329316ff62d1ac134b8b0f35dcb9f728af6e3e6b231b72ef304f1ba91",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "site-packages/streamlit_folium/frontend/build/static/js/runtime-main.b8f4c2ad.js.map",
+        "path_type": "hardlink",
+        "sha256": "42836647d6c5f55dea5768f494363e7ea2b58d95c1e0e991f239d302990d11a7",
+        "sha256_in_prefix": "42836647d6c5f55dea5768f494363e7ea2b58d95c1e0e991f239d302990d11a7",
+        "size_in_bytes": 8284
+      },
+      {
+        "_path": "lib/python3.10/site-packages/streamlit_folium/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "streamlit-folium",
+  "sha256": "08b9ad0cc4401b60e30552c288d687cae0f86eda823a6e0fc1f6c90d1a21ac6a",
+  "size": 363629,
+  "subdir": "noarch",
+  "timestamp": 1651002718694,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/streamlit-folium-0.6.7-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.6.7"
+}

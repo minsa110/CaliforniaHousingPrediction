@@ -1,0 +1,366 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "decorator >=3.4.0",
+    "python",
+    "six >=1.4.0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/validators-0.18.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/validators-0.18.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/validators/__init__.py",
+    "lib/python3.10/site-packages/validators/between.py",
+    "lib/python3.10/site-packages/validators/btc_address.py",
+    "lib/python3.10/site-packages/validators/card.py",
+    "lib/python3.10/site-packages/validators/domain.py",
+    "lib/python3.10/site-packages/validators/email.py",
+    "lib/python3.10/site-packages/validators/extremes.py",
+    "lib/python3.10/site-packages/validators/hashes.py",
+    "lib/python3.10/site-packages/validators/i18n/__init__.py",
+    "lib/python3.10/site-packages/validators/i18n/es.py",
+    "lib/python3.10/site-packages/validators/i18n/fi.py",
+    "lib/python3.10/site-packages/validators/iban.py",
+    "lib/python3.10/site-packages/validators/ip_address.py",
+    "lib/python3.10/site-packages/validators/length.py",
+    "lib/python3.10/site-packages/validators/mac_address.py",
+    "lib/python3.10/site-packages/validators/slug.py",
+    "lib/python3.10/site-packages/validators/truthy.py",
+    "lib/python3.10/site-packages/validators/url.py",
+    "lib/python3.10/site-packages/validators/utils.py",
+    "lib/python3.10/site-packages/validators/uuid.py",
+    "lib/python3.10/site-packages/validators/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/between.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/btc_address.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/card.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/domain.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/email.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/extremes.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/hashes.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/i18n/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/i18n/__pycache__/es.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/i18n/__pycache__/fi.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/iban.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/ip_address.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/length.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/mac_address.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/slug.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/truthy.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/url.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/validators/__pycache__/uuid.cpython-310.pyc"
+  ],
+  "fn": "validators-0.18.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "a97e5c8ea35ed7ac1c8e3c45e43cce12",
+  "legacy_bz2_size": 18512,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/validators-0.18.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "c65f40934841c6637d758b2fc4ff0028",
+  "name": "validators",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/validators-0.18.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a7fd9d761c7ca1c6508b9baf030f6e21f5752d1caea3e49a270634aa9ef01e6f",
+        "sha256_in_prefix": "a7fd9d761c7ca1c6508b9baf030f6e21f5752d1caea3e49a270634aa9ef01e6f",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "035a0ea7865c4b60ca142437d1329638933cf9c386f29902cdc94b7cce3b83b3",
+        "sha256_in_prefix": "035a0ea7865c4b60ca142437d1329638933cf9c386f29902cdc94b7cce3b83b3",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0061aee6379d642a3f8b6e31b1b6a6a8837e14545860081a3281b7d86cc0d82c",
+        "sha256_in_prefix": "0061aee6379d642a3f8b6e31b1b6a6a8837e14545860081a3281b7d86cc0d82c",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d7bf5518003edfb49a7a86cb28864bdcd5089a4ac79f5f01762d749291953073",
+        "sha256_in_prefix": "d7bf5518003edfb49a7a86cb28864bdcd5089a4ac79f5f01762d749291953073",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/validators-0.18.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6b70c14228acfca08d0d29cfdc28d58d64d06684207da5ee1c4473eae641e27b",
+        "sha256_in_prefix": "6b70c14228acfca08d0d29cfdc28d58d64d06684207da5ee1c4473eae641e27b",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/validators/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4b34213f4b0e830eabcb057535a5d65d1cf86ec3860f3c2eabc99421db4d13a0",
+        "sha256_in_prefix": "4b34213f4b0e830eabcb057535a5d65d1cf86ec3860f3c2eabc99421db4d13a0",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "site-packages/validators/between.py",
+        "path_type": "hardlink",
+        "sha256": "d08a71280d4ce0d1d61f5ce4faa39cb5d934079be190c7102fa66f47a0ae884a",
+        "sha256_in_prefix": "d08a71280d4ce0d1d61f5ce4faa39cb5d934079be190c7102fa66f47a0ae884a",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "site-packages/validators/btc_address.py",
+        "path_type": "hardlink",
+        "sha256": "a3ab6395e4349bd711a1dcbbeebffd2bfd5f2c2d30512536c2c8266b3bd69b19",
+        "sha256_in_prefix": "a3ab6395e4349bd711a1dcbbeebffd2bfd5f2c2d30512536c2c8266b3bd69b19",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "site-packages/validators/card.py",
+        "path_type": "hardlink",
+        "sha256": "70fcd53b6406a2ef3a0d6c99aa8d9aad4bb8e0ab12ad1aaada58305cb4433d2e",
+        "sha256_in_prefix": "70fcd53b6406a2ef3a0d6c99aa8d9aad4bb8e0ab12ad1aaada58305cb4433d2e",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "site-packages/validators/domain.py",
+        "path_type": "hardlink",
+        "sha256": "40f841b46ce781866ca52c077b6c87d929b6d3d6690bc4471e8337c655d3c6e2",
+        "sha256_in_prefix": "40f841b46ce781866ca52c077b6c87d929b6d3d6690bc4471e8337c655d3c6e2",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "site-packages/validators/email.py",
+        "path_type": "hardlink",
+        "sha256": "4d7de6f8d7dc69847f8eec0642457d179b71521b928c9d2f84ca836b45864888",
+        "sha256_in_prefix": "4d7de6f8d7dc69847f8eec0642457d179b71521b928c9d2f84ca836b45864888",
+        "size_in_bytes": 1979
+      },
+      {
+        "_path": "site-packages/validators/extremes.py",
+        "path_type": "hardlink",
+        "sha256": "c5e4bcf45c177c4e89b4a209fc71cac0022ffb1b0e1c4d432bd34ec70c101b5c",
+        "sha256_in_prefix": "c5e4bcf45c177c4e89b4a209fc71cac0022ffb1b0e1c4d432bd34ec70c101b5c",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "site-packages/validators/hashes.py",
+        "path_type": "hardlink",
+        "sha256": "456e12db2754a5dffe12c67b443ff1049a00d01f3e049757822e1043b61505a6",
+        "sha256_in_prefix": "456e12db2754a5dffe12c67b443ff1049a00d01f3e049757822e1043b61505a6",
+        "size_in_bytes": 2499
+      },
+      {
+        "_path": "site-packages/validators/i18n/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0a16902b7b5ac69ffc0548df3fd985c7f76064dd0317160218f38b60ec51368b",
+        "sha256_in_prefix": "0a16902b7b5ac69ffc0548df3fd985c7f76064dd0317160218f38b60ec51368b",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "site-packages/validators/i18n/es.py",
+        "path_type": "hardlink",
+        "sha256": "96f9646bbd17a02256578a8828b4c8c55a869a7c67439b36215d3b1f117d5d17",
+        "sha256_in_prefix": "96f9646bbd17a02256578a8828b4c8c55a869a7c67439b36215d3b1f117d5d17",
+        "size_in_bytes": 5016
+      },
+      {
+        "_path": "site-packages/validators/i18n/fi.py",
+        "path_type": "hardlink",
+        "sha256": "5245220734e767502537566d852558bf23ed101c3c834460d13bcb66a7db621e",
+        "sha256_in_prefix": "5245220734e767502537566d852558bf23ed101c3c834460d13bcb66a7db621e",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "site-packages/validators/iban.py",
+        "path_type": "hardlink",
+        "sha256": "814a07a6efe91b2a387e991bdd40069b23b5f416e04c63a970d9e8abc1686587",
+        "sha256_in_prefix": "814a07a6efe91b2a387e991bdd40069b23b5f416e04c63a970d9e8abc1686587",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "site-packages/validators/ip_address.py",
+        "path_type": "hardlink",
+        "sha256": "e666e223507b471d8b7e6b0e47d22397cf0452864757f541e27a94033321ee9b",
+        "sha256_in_prefix": "e666e223507b471d8b7e6b0e47d22397cf0452864757f541e27a94033321ee9b",
+        "size_in_bytes": 3375
+      },
+      {
+        "_path": "site-packages/validators/length.py",
+        "path_type": "hardlink",
+        "sha256": "6ee85af77e004532d77907659a0403a41716b19e8fafae80e79e3c8324711bea",
+        "sha256_in_prefix": "6ee85af77e004532d77907659a0403a41716b19e8fafae80e79e3c8324711bea",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "site-packages/validators/mac_address.py",
+        "path_type": "hardlink",
+        "sha256": "0d0feae95b1aa58865838a5d80a7dbcc344daccff85151862c7d85db024474dc",
+        "sha256_in_prefix": "0d0feae95b1aa58865838a5d80a7dbcc344daccff85151862c7d85db024474dc",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "site-packages/validators/slug.py",
+        "path_type": "hardlink",
+        "sha256": "5c8d5b11c51644f8a7f3088619c06be4fc5ff5d183168c1591d283f30dba92ef",
+        "sha256_in_prefix": "5c8d5b11c51644f8a7f3088619c06be4fc5ff5d183168c1591d283f30dba92ef",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "site-packages/validators/truthy.py",
+        "path_type": "hardlink",
+        "sha256": "4603b7ea1ba885dfd60df7a9060bab9b9a2e5361ae15e9690e9b4228115a0eba",
+        "sha256_in_prefix": "4603b7ea1ba885dfd60df7a9060bab9b9a2e5361ae15e9690e9b4228115a0eba",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "site-packages/validators/url.py",
+        "path_type": "hardlink",
+        "sha256": "e9022e6b531237f610b8f6080f8b3cba3e418dd8649642daba7f090c85e3044e",
+        "sha256_in_prefix": "e9022e6b531237f610b8f6080f8b3cba3e418dd8649642daba7f090c85e3044e",
+        "size_in_bytes": 4913
+      },
+      {
+        "_path": "site-packages/validators/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5928d9e184c47ec8f2764e0346e9560bda8a66098cbfef488edaf9149f9393a2",
+        "sha256_in_prefix": "5928d9e184c47ec8f2764e0346e9560bda8a66098cbfef488edaf9149f9393a2",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "site-packages/validators/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "cb60b39774d20460fe6558c575e07280775fed5cd32ca07c91f0c2fb5a4835bf",
+        "sha256_in_prefix": "cb60b39774d20460fe6558c575e07280775fed5cd32ca07c91f0c2fb5a4835bf",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/between.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/btc_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/card.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/domain.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/email.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/extremes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/hashes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/i18n/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/i18n/__pycache__/es.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/i18n/__pycache__/fi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/iban.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/ip_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/length.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/mac_address.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/slug.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/truthy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/url.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/validators/__pycache__/uuid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "74198ee9720e09dbf42f1097df4a92655c589c5a6e55b00e9216e2366ca4d40d",
+  "size": 18592,
+  "subdir": "noarch",
+  "timestamp": 1612286496672,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/validators-0.18.2-pyhd3eb1b0_0.conda",
+  "version": "0.18.2"
+}

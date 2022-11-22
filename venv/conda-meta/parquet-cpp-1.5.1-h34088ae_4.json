@@ -1,0 +1,37 @@
+{
+  "build": "h34088ae_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "arrow-cpp >=0.13.0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/parquet-cpp-1.5.1-h34088ae_4",
+  "features": "",
+  "files": [],
+  "fn": "parquet-cpp-1.5.1-h34088ae_4.conda",
+  "legacy_bz2_md5": "6c4dcaff3c83244e7a08d3c61666617d",
+  "legacy_bz2_size": 4926,
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/opt/conda/pkgs/parquet-cpp-1.5.1-h34088ae_4",
+    "type": 1
+  },
+  "md5": "ba775dcc1bfc175d366322d7968310e6",
+  "name": "parquet-cpp",
+  "noarch": "generic",
+  "package_tarball_full_path": "/opt/conda/pkgs/parquet-cpp-1.5.1-h34088ae_4.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3efc3aceec7b87f64637a4c489d5a96c61eb75bc96927adb453e8ddaa54d7b4f",
+  "size": 5201,
+  "subdir": "noarch",
+  "timestamp": 1629727264131,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/parquet-cpp-1.5.1-h34088ae_4.conda",
+  "version": "1.5.1"
+}

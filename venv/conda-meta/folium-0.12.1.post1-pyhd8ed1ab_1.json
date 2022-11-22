@@ -1,0 +1,779 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "branca >=0.3.0",
+    "jinja2 >=2.9",
+    "numpy",
+    "python >=3.6",
+    "requests"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/folium-0.12.1.post1-pyhd8ed1ab_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/METADATA",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/RECORD",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/folium-0.12.1.post1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/folium/__init__.py",
+    "lib/python3.10/site-packages/folium/_version.py",
+    "lib/python3.10/site-packages/folium/elements.py",
+    "lib/python3.10/site-packages/folium/features.py",
+    "lib/python3.10/site-packages/folium/folium.py",
+    "lib/python3.10/site-packages/folium/map.py",
+    "lib/python3.10/site-packages/folium/plugins/__init__.py",
+    "lib/python3.10/site-packages/folium/plugins/antpath.py",
+    "lib/python3.10/site-packages/folium/plugins/beautify_icon.py",
+    "lib/python3.10/site-packages/folium/plugins/boat_marker.py",
+    "lib/python3.10/site-packages/folium/plugins/draw.py",
+    "lib/python3.10/site-packages/folium/plugins/dual_map.py",
+    "lib/python3.10/site-packages/folium/plugins/fast_marker_cluster.py",
+    "lib/python3.10/site-packages/folium/plugins/feature_group_sub_group.py",
+    "lib/python3.10/site-packages/folium/plugins/float_image.py",
+    "lib/python3.10/site-packages/folium/plugins/fullscreen.py",
+    "lib/python3.10/site-packages/folium/plugins/geocoder.py",
+    "lib/python3.10/site-packages/folium/plugins/heat_map.py",
+    "lib/python3.10/site-packages/folium/plugins/heat_map_withtime.py",
+    "lib/python3.10/site-packages/folium/plugins/locate_control.py",
+    "lib/python3.10/site-packages/folium/plugins/marker_cluster.py",
+    "lib/python3.10/site-packages/folium/plugins/measure_control.py",
+    "lib/python3.10/site-packages/folium/plugins/minimap.py",
+    "lib/python3.10/site-packages/folium/plugins/mouse_position.py",
+    "lib/python3.10/site-packages/folium/plugins/pattern.py",
+    "lib/python3.10/site-packages/folium/plugins/polyline_offset.py",
+    "lib/python3.10/site-packages/folium/plugins/polyline_text_path.py",
+    "lib/python3.10/site-packages/folium/plugins/scroll_zoom_toggler.py",
+    "lib/python3.10/site-packages/folium/plugins/search.py",
+    "lib/python3.10/site-packages/folium/plugins/semicircle.py",
+    "lib/python3.10/site-packages/folium/plugins/terminator.py",
+    "lib/python3.10/site-packages/folium/plugins/time_slider_choropleth.py",
+    "lib/python3.10/site-packages/folium/plugins/timestamped_geo_json.py",
+    "lib/python3.10/site-packages/folium/plugins/timestamped_wmstilelayer.py",
+    "lib/python3.10/site-packages/folium/raster_layers.py",
+    "lib/python3.10/site-packages/folium/templates/fit_bounds.js",
+    "lib/python3.10/site-packages/folium/templates/leaflet_heat.min.js",
+    "lib/python3.10/site-packages/folium/templates/pa7_hm.min.js",
+    "lib/python3.10/site-packages/folium/templates/pa7_leaflet_hm.min.js",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbdark_matter/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbdark_matter/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositron/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositron/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositronnolabels/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositronnolabels/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositrononlylabels/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/cartodbpositrononlylabels/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/openstreetmap/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/openstreetmap/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamenterrain/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamenterrain/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentoner/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentoner/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentonerbackground/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentonerbackground/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentonerlabels/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamentonerlabels/tiles.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamenwatercolor/attr.txt",
+    "lib/python3.10/site-packages/folium/templates/tiles/stamenwatercolor/tiles.txt",
+    "lib/python3.10/site-packages/folium/utilities.py",
+    "lib/python3.10/site-packages/folium/vector_layers.py",
+    "lib/python3.10/site-packages/folium/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/elements.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/features.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/folium.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/map.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/antpath.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/beautify_icon.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/boat_marker.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/draw.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/dual_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/fast_marker_cluster.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/feature_group_sub_group.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/float_image.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/fullscreen.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/geocoder.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/heat_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/heat_map_withtime.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/locate_control.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/marker_cluster.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/measure_control.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/minimap.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/mouse_position.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/pattern.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/polyline_offset.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/polyline_text_path.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/scroll_zoom_toggler.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/search.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/semicircle.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/terminator.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/time_slider_choropleth.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/timestamped_geo_json.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/plugins/__pycache__/timestamped_wmstilelayer.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/raster_layers.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/utilities.cpython-310.pyc",
+    "lib/python3.10/site-packages/folium/__pycache__/vector_layers.cpython-310.pyc"
+  ],
+  "fn": "folium-0.12.1.post1-pyhd8ed1ab_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/folium-0.12.1.post1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "44912901b45260e4338447b9d46f7058",
+  "name": "folium",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/folium-0.12.1.post1-pyhd8ed1ab_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c99d3f3fb143dd644b1495cc860723448e1ff10988998d4f6142992335d55bce",
+        "sha256_in_prefix": "c99d3f3fb143dd644b1495cc860723448e1ff10988998d4f6142992335d55bce",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "83deb15d2184780ce8c39c4fb403f8ff693afee8a5d282f73749bb9a0a22ea8c",
+        "sha256_in_prefix": "83deb15d2184780ce8c39c4fb403f8ff693afee8a5d282f73749bb9a0a22ea8c",
+        "size_in_bytes": 3100
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e87499d68d870e6528ffac4d9905a902d2ebe1b991741532d1f6aefe4b455960",
+        "sha256_in_prefix": "e87499d68d870e6528ffac4d9905a902d2ebe1b991741532d1f6aefe4b455960",
+        "size_in_bytes": 8490
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b5a9ee9173f52f38b0f01f77c4f659c35e59dc19d93f387030c75e7535ab8bc1",
+        "sha256_in_prefix": "b5a9ee9173f52f38b0f01f77c4f659c35e59dc19d93f387030c75e7535ab8bc1",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/folium-0.12.1.post1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a4f48b1f374c5a829e23390f4c3ca57840eb211693a3750a56d3c7a0236675d",
+        "sha256_in_prefix": "2a4f48b1f374c5a829e23390f4c3ca57840eb211693a3750a56d3c7a0236675d",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/folium/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "99680a5d5b0ae20ae33798c8d7bde7713291a63fe0ccc8c7043b612fe6e8bc0e",
+        "sha256_in_prefix": "99680a5d5b0ae20ae33798c8d7bde7713291a63fe0ccc8c7043b612fe6e8bc0e",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "site-packages/folium/_version.py",
+        "path_type": "hardlink",
+        "sha256": "6817583000d809076ceddb3bfaea911b61bd9ed230366e91aa10cf884b225087",
+        "sha256_in_prefix": "6817583000d809076ceddb3bfaea911b61bd9ed230366e91aa10cf884b225087",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "site-packages/folium/elements.py",
+        "path_type": "hardlink",
+        "sha256": "f21dc58b7f7ea98c00442a489be66afa3c651143f468b82484e362069abf2ed2",
+        "sha256_in_prefix": "f21dc58b7f7ea98c00442a489be66afa3c651143f468b82484e362069abf2ed2",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/folium/features.py",
+        "path_type": "hardlink",
+        "sha256": "48974dd7a71494230af878fad4014048ab14b69dbea69ecea8a2d7896f84ee93",
+        "sha256_in_prefix": "48974dd7a71494230af878fad4014048ab14b69dbea69ecea8a2d7896f84ee93",
+        "size_in_bytes": 62493
+      },
+      {
+        "_path": "site-packages/folium/folium.py",
+        "path_type": "hardlink",
+        "sha256": "cf2085e41f941ce1b47a5efa5439afc3236c1550a985bfd9332a52e2ca487291",
+        "sha256_in_prefix": "cf2085e41f941ce1b47a5efa5439afc3236c1550a985bfd9332a52e2ca487291",
+        "size_in_bytes": 15552
+      },
+      {
+        "_path": "site-packages/folium/map.py",
+        "path_type": "hardlink",
+        "sha256": "41b10217f896a4cee0a76c0f8a759aa0dea9239ba32716a393d255c79a6db7f7",
+        "sha256_in_prefix": "41b10217f896a4cee0a76c0f8a759aa0dea9239ba32716a393d255c79a6db7f7",
+        "size_in_bytes": 19012
+      },
+      {
+        "_path": "site-packages/folium/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9b742ba8369800cbc644b1662699f1109a3b9e9751d5c3190372f5fa2f3ab05d",
+        "sha256_in_prefix": "9b742ba8369800cbc644b1662699f1109a3b9e9751d5c3190372f5fa2f3ab05d",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "site-packages/folium/plugins/antpath.py",
+        "path_type": "hardlink",
+        "sha256": "14e2139e6ef1a4c3b318e0e5f60898cdc1fc55b5f2f23b0b9750482885b35e9c",
+        "sha256_in_prefix": "14e2139e6ef1a4c3b318e0e5f60898cdc1fc55b5f2f23b0b9750482885b35e9c",
+        "size_in_bytes": 2192
+      },
+      {
+        "_path": "site-packages/folium/plugins/beautify_icon.py",
+        "path_type": "hardlink",
+        "sha256": "a345d0b8f8fb911ecc1cde5a41a847cd62f3ffde358940392d2aa84bb8c7c4d3",
+        "sha256_in_prefix": "a345d0b8f8fb911ecc1cde5a41a847cd62f3ffde358940392d2aa84bb8c7c4d3",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "site-packages/folium/plugins/boat_marker.py",
+        "path_type": "hardlink",
+        "sha256": "441f10dd0d47f376b912d538dc977745b1c84c8156f68e85ca717ad5a57e3efa",
+        "sha256_in_prefix": "441f10dd0d47f376b912d538dc977745b1c84c8156f68e85ca717ad5a57e3efa",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "site-packages/folium/plugins/draw.py",
+        "path_type": "hardlink",
+        "sha256": "ef8cc11d6069b7c8800853a223b93127c5ec12ebb3e36c1f8fb42b2dc0fe75b8",
+        "sha256_in_prefix": "ef8cc11d6069b7c8800853a223b93127c5ec12ebb3e36c1f8fb42b2dc0fe75b8",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "site-packages/folium/plugins/dual_map.py",
+        "path_type": "hardlink",
+        "sha256": "1dab09be97cd3b8c1f5f2e482e6d75d51bad61bd96e01e9c99c2b1de84dbe09e",
+        "sha256_in_prefix": "1dab09be97cd3b8c1f5f2e482e6d75d51bad61bd96e01e9c99c2b1de84dbe09e",
+        "size_in_bytes": 4554
+      },
+      {
+        "_path": "site-packages/folium/plugins/fast_marker_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "81cc192a8f6e28a5b0102818ced9ec7823a76b94a69752e8c8f2650786d059d9",
+        "sha256_in_prefix": "81cc192a8f6e28a5b0102818ced9ec7823a76b94a69752e8c8f2650786d059d9",
+        "size_in_bytes": 3954
+      },
+      {
+        "_path": "site-packages/folium/plugins/feature_group_sub_group.py",
+        "path_type": "hardlink",
+        "sha256": "6193d00561568d9429f75b0b13b2f462aa3f350495e3e5ba9f58e775de6543c6",
+        "sha256_in_prefix": "6193d00561568d9429f75b0b13b2f462aa3f350495e3e5ba9f58e775de6543c6",
+        "size_in_bytes": 2848
+      },
+      {
+        "_path": "site-packages/folium/plugins/float_image.py",
+        "path_type": "hardlink",
+        "sha256": "e346a48374e34110481f04cf23e7c0f8c56e363696c1202dc8363f8fed033223",
+        "sha256_in_prefix": "e346a48374e34110481f04cf23e7c0f8c56e363696c1202dc8363f8fed033223",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "site-packages/folium/plugins/fullscreen.py",
+        "path_type": "hardlink",
+        "sha256": "ee801c146307e5de2b144c3716640a587556a11fe3e79443cbcaa8e6284b1e7f",
+        "sha256_in_prefix": "ee801c146307e5de2b144c3716640a587556a11fe3e79443cbcaa8e6284b1e7f",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "site-packages/folium/plugins/geocoder.py",
+        "path_type": "hardlink",
+        "sha256": "71b09ec2ebfb993aa85254fa62b4bcac469729b87d004777552d9444f2d6ed48",
+        "sha256_in_prefix": "71b09ec2ebfb993aa85254fa62b4bcac469729b87d004777552d9444f2d6ed48",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "site-packages/folium/plugins/heat_map.py",
+        "path_type": "hardlink",
+        "sha256": "a4fd64c9a2db24eefe73c28e4f5df2be657fbd4ad998d7d24305e5abd135cfb2",
+        "sha256_in_prefix": "a4fd64c9a2db24eefe73c28e4f5df2be657fbd4ad998d7d24305e5abd135cfb2",
+        "size_in_bytes": 3631
+      },
+      {
+        "_path": "site-packages/folium/plugins/heat_map_withtime.py",
+        "path_type": "hardlink",
+        "sha256": "1286c633b48608a059d11a7a7536ae0dc9b84af1300624f8d10410eee22c6256",
+        "sha256_in_prefix": "1286c633b48608a059d11a7a7536ae0dc9b84af1300624f8d10410eee22c6256",
+        "size_in_bytes": 11767
+      },
+      {
+        "_path": "site-packages/folium/plugins/locate_control.py",
+        "path_type": "hardlink",
+        "sha256": "20bf3eec80f603a235d6d80fbdd399d2ea4a43c62bb3aea53874e0e0ab437430",
+        "sha256_in_prefix": "20bf3eec80f603a235d6d80fbdd399d2ea4a43c62bb3aea53874e0e0ab437430",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "site-packages/folium/plugins/marker_cluster.py",
+        "path_type": "hardlink",
+        "sha256": "7f03e43c4115174dc7196f88cbeaf02acc354157592a93a649bcbd42950fad22",
+        "sha256_in_prefix": "7f03e43c4115174dc7196f88cbeaf02acc354157592a93a649bcbd42950fad22",
+        "size_in_bytes": 3718
+      },
+      {
+        "_path": "site-packages/folium/plugins/measure_control.py",
+        "path_type": "hardlink",
+        "sha256": "f229a1b61bf375f6c26a0f3830279ffa997875df4fe920d94a375ed77fd62a68",
+        "sha256_in_prefix": "f229a1b61bf375f6c26a0f3830279ffa997875df4fe920d94a375ed77fd62a68",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "site-packages/folium/plugins/minimap.py",
+        "path_type": "hardlink",
+        "sha256": "28cd1d53eb759630291f34e85d99806a8a152d9c03e41c8b559697cb8f391a61",
+        "sha256_in_prefix": "28cd1d53eb759630291f34e85d99806a8a152d9c03e41c8b559697cb8f391a61",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "site-packages/folium/plugins/mouse_position.py",
+        "path_type": "hardlink",
+        "sha256": "573cec2f9564cef06105084779785ee35dc9ce7a48f32e1ac97b82e24bbcf6f3",
+        "sha256_in_prefix": "573cec2f9564cef06105084779785ee35dc9ce7a48f32e1ac97b82e24bbcf6f3",
+        "size_in_bytes": 3091
+      },
+      {
+        "_path": "site-packages/folium/plugins/pattern.py",
+        "path_type": "hardlink",
+        "sha256": "c426c6544e17c59c42934521d8d1098b23905de728f7782be018b2592bafac2e",
+        "sha256_in_prefix": "c426c6544e17c59c42934521d8d1098b23905de728f7782be018b2592bafac2e",
+        "size_in_bytes": 4899
+      },
+      {
+        "_path": "site-packages/folium/plugins/polyline_offset.py",
+        "path_type": "hardlink",
+        "sha256": "2dd8a252f898bbb69156d6d681d293b8cbea7448a0b58c84f468820cc8ec369b",
+        "sha256_in_prefix": "2dd8a252f898bbb69156d6d681d293b8cbea7448a0b58c84f468820cc8ec369b",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "site-packages/folium/plugins/polyline_text_path.py",
+        "path_type": "hardlink",
+        "sha256": "535f3ca62b9262556c2ca2ec30a8c71b2efce607ffc4af27f41b58edcacc1bc9",
+        "sha256_in_prefix": "535f3ca62b9262556c2ca2ec30a8c71b2efce607ffc4af27f41b58edcacc1bc9",
+        "size_in_bytes": 2230
+      },
+      {
+        "_path": "site-packages/folium/plugins/scroll_zoom_toggler.py",
+        "path_type": "hardlink",
+        "sha256": "18d04a69c8eec9fb04bfedb15c4951b2a4d4cb9feb87ad7e3e4a4d8050c6efc3",
+        "sha256_in_prefix": "18d04a69c8eec9fb04bfedb15c4951b2a4d4cb9feb87ad7e3e4a4d8050c6efc3",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "site-packages/folium/plugins/search.py",
+        "path_type": "hardlink",
+        "sha256": "30357dd16926b727503a1eb9f6ac37d2b108262085640050e79f34c72d3534cd",
+        "sha256_in_prefix": "30357dd16926b727503a1eb9f6ac37d2b108262085640050e79f34c72d3534cd",
+        "size_in_bytes": 5595
+      },
+      {
+        "_path": "site-packages/folium/plugins/semicircle.py",
+        "path_type": "hardlink",
+        "sha256": "e42f01efbaef94b84aa884fa1c5e2d4a62b593f74c9012d42dac60a84c421b34",
+        "sha256_in_prefix": "e42f01efbaef94b84aa884fa1c5e2d4a62b593f74c9012d42dac60a84c421b34",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "site-packages/folium/plugins/terminator.py",
+        "path_type": "hardlink",
+        "sha256": "f41c9dd87f4929e0d9440e103595f8dc191a623c21076a6878ea7356f53d1428",
+        "sha256_in_prefix": "f41c9dd87f4929e0d9440e103595f8dc191a623c21076a6878ea7356f53d1428",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "site-packages/folium/plugins/time_slider_choropleth.py",
+        "path_type": "hardlink",
+        "sha256": "1954ff7c353b6343b8cbd0e9f3ed7eb05d954b8985a8246383ef3106bf1887b3",
+        "sha256_in_prefix": "1954ff7c353b6343b8cbd0e9f3ed7eb05d954b8985a8246383ef3106bf1887b3",
+        "size_in_bytes": 6233
+      },
+      {
+        "_path": "site-packages/folium/plugins/timestamped_geo_json.py",
+        "path_type": "hardlink",
+        "sha256": "9f2afe0fd7a67c51118b303c8819e7c420b53ec2503c9c0e88da1ea3fbca4256",
+        "sha256_in_prefix": "9f2afe0fd7a67c51118b303c8819e7c420b53ec2503c9c0e88da1ea3fbca4256",
+        "size_in_bytes": 8519
+      },
+      {
+        "_path": "site-packages/folium/plugins/timestamped_wmstilelayer.py",
+        "path_type": "hardlink",
+        "sha256": "ae64af17cc551fb677bbfb513dcbb7c7b0a9ea2dc9b36bbb738cc9150a06371e",
+        "sha256_in_prefix": "ae64af17cc551fb677bbfb513dcbb7c7b0a9ea2dc9b36bbb738cc9150a06371e",
+        "size_in_bytes": 5319
+      },
+      {
+        "_path": "site-packages/folium/raster_layers.py",
+        "path_type": "hardlink",
+        "sha256": "1d430331366d819875981b4ffff96f4b1d9859e191d5e63174fff63712610c42",
+        "sha256_in_prefix": "1d430331366d819875981b4ffff96f4b1d9859e191d5e63174fff63712610c42",
+        "size_in_bytes": 13750
+      },
+      {
+        "_path": "site-packages/folium/templates/fit_bounds.js",
+        "path_type": "hardlink",
+        "sha256": "bec9d87d5f9c356f6923dd25918888e1cfcb45e17ac37c2221fdf54f912c43b3",
+        "sha256_in_prefix": "bec9d87d5f9c356f6923dd25918888e1cfcb45e17ac37c2221fdf54f912c43b3",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/folium/templates/leaflet_heat.min.js",
+        "path_type": "hardlink",
+        "sha256": "5c838995dcbfece8bbafbc4248001a55360942646770f23a0bc10a03dd4a459e",
+        "sha256_in_prefix": "5c838995dcbfece8bbafbc4248001a55360942646770f23a0bc10a03dd4a459e",
+        "size_in_bytes": 5314
+      },
+      {
+        "_path": "site-packages/folium/templates/pa7_hm.min.js",
+        "path_type": "hardlink",
+        "sha256": "9c6b22e23af62da9628fc88a81cf8ca1e06b0e7b4a0c4047a8adbf0871e27b14",
+        "sha256_in_prefix": "9c6b22e23af62da9628fc88a81cf8ca1e06b0e7b4a0c4047a8adbf0871e27b14",
+        "size_in_bytes": 9454
+      },
+      {
+        "_path": "site-packages/folium/templates/pa7_leaflet_hm.min.js",
+        "path_type": "hardlink",
+        "sha256": "88104c107918ca275dabafb0fec0c75982212abb93f929a7468f2a835b1c1bdb",
+        "sha256_in_prefix": "88104c107918ca275dabafb0fec0c75982212abb93f929a7468f2a835b1c1bdb",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbdark_matter/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "354ac78bcebfdd68de2c1753556cd74bf695cbe73a4980fdc4b174a7fc9203bf",
+        "sha256_in_prefix": "354ac78bcebfdd68de2c1753556cd74bf695cbe73a4980fdc4b174a7fc9203bf",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbdark_matter/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "25a8a77b822c86313c617c68f30816d04cf4c8fd6b02853eb94a2a71a77eccb1",
+        "sha256_in_prefix": "25a8a77b822c86313c617c68f30816d04cf4c8fd6b02853eb94a2a71a77eccb1",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositron/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "354ac78bcebfdd68de2c1753556cd74bf695cbe73a4980fdc4b174a7fc9203bf",
+        "sha256_in_prefix": "354ac78bcebfdd68de2c1753556cd74bf695cbe73a4980fdc4b174a7fc9203bf",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositron/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "c77600b7ee62e4325b1fcd3108c204f42850d59e222bef7468cefaca9e7ae326",
+        "sha256_in_prefix": "c77600b7ee62e4325b1fcd3108c204f42850d59e222bef7468cefaca9e7ae326",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositronnolabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "92da6d61f2bcb50a64b251a44a0ed70d601c71d5a635ae07102435f925835b9a",
+        "sha256_in_prefix": "92da6d61f2bcb50a64b251a44a0ed70d601c71d5a635ae07102435f925835b9a",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositronnolabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "719c15328f986ab9c1d89281553e166a9411d206a7913ec44f61e15196b05d43",
+        "sha256_in_prefix": "719c15328f986ab9c1d89281553e166a9411d206a7913ec44f61e15196b05d43",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositrononlylabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "92da6d61f2bcb50a64b251a44a0ed70d601c71d5a635ae07102435f925835b9a",
+        "sha256_in_prefix": "92da6d61f2bcb50a64b251a44a0ed70d601c71d5a635ae07102435f925835b9a",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/cartodbpositrononlylabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "25eeaba92af7a2429d4b104ea0b3d75d6d71e228595cba0e7153b5fbea688771",
+        "sha256_in_prefix": "25eeaba92af7a2429d4b104ea0b3d75d6d71e228595cba0e7153b5fbea688771",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/openstreetmap/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "fc343e51f60783021a9850d193d62cc48a1382faade0b1a82f2d64498640b928",
+        "sha256_in_prefix": "fc343e51f60783021a9850d193d62cc48a1382faade0b1a82f2d64498640b928",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/openstreetmap/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "2c83d7a33accc399cd282cebe4f32605d76ff56e3028cf46646cb457f6783f66",
+        "sha256_in_prefix": "2c83d7a33accc399cd282cebe4f32605d76ff56e3028cf46646cb457f6783f66",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamenterrain/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "82f87b192f60a1197493c0d1ce99345bf45fe3103d47265bc39ee9f5b8164228",
+        "sha256_in_prefix": "82f87b192f60a1197493c0d1ce99345bf45fe3103d47265bc39ee9f5b8164228",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamenterrain/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "ebe7c59aff3dd1af34941400d7dd7a1ee2e0d6bf987fdbeccf007c9643b860cf",
+        "sha256_in_prefix": "ebe7c59aff3dd1af34941400d7dd7a1ee2e0d6bf987fdbeccf007c9643b860cf",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentoner/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "b80f67e1046945c576329f1d7a32fe570f74c9457726d710df74f865ff6281a9",
+        "sha256_in_prefix": "b80f67e1046945c576329f1d7a32fe570f74c9457726d710df74f865ff6281a9",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentoner/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "1bc977718b5b21177aa7061a2b7d0cdca31a1c182c6a8dcdb0a094fa1fa8f64a",
+        "sha256_in_prefix": "1bc977718b5b21177aa7061a2b7d0cdca31a1c182c6a8dcdb0a094fa1fa8f64a",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentonerbackground/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "cd3790766a5ccd0011c4bbb49b22b4257e2b351766b2ef7539e3f74336087804",
+        "sha256_in_prefix": "cd3790766a5ccd0011c4bbb49b22b4257e2b351766b2ef7539e3f74336087804",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentonerbackground/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "02d1ea8822650fa5efceb29031ea9168c8d4764ce1bd9b20fa3c6b1290d3e748",
+        "sha256_in_prefix": "02d1ea8822650fa5efceb29031ea9168c8d4764ce1bd9b20fa3c6b1290d3e748",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentonerlabels/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "cd3790766a5ccd0011c4bbb49b22b4257e2b351766b2ef7539e3f74336087804",
+        "sha256_in_prefix": "cd3790766a5ccd0011c4bbb49b22b4257e2b351766b2ef7539e3f74336087804",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamentonerlabels/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "9882b2d366bd3aafae6b71dcea8197bca5a6edab1f5bed0b3ef96372b889fcce",
+        "sha256_in_prefix": "9882b2d366bd3aafae6b71dcea8197bca5a6edab1f5bed0b3ef96372b889fcce",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamenwatercolor/attr.txt",
+        "path_type": "hardlink",
+        "sha256": "82f87b192f60a1197493c0d1ce99345bf45fe3103d47265bc39ee9f5b8164228",
+        "sha256_in_prefix": "82f87b192f60a1197493c0d1ce99345bf45fe3103d47265bc39ee9f5b8164228",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "site-packages/folium/templates/tiles/stamenwatercolor/tiles.txt",
+        "path_type": "hardlink",
+        "sha256": "4f3d5773ce755de8634069e01cd9654e2427d43de5aa7c44c11e1798539a891a",
+        "sha256_in_prefix": "4f3d5773ce755de8634069e01cd9654e2427d43de5aa7c44c11e1798539a891a",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/folium/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "c44feeccaea194738b190386bab2456bcf129f399feb78fa120daac3977c09c6",
+        "sha256_in_prefix": "c44feeccaea194738b190386bab2456bcf129f399feb78fa120daac3977c09c6",
+        "size_in_bytes": 14918
+      },
+      {
+        "_path": "site-packages/folium/vector_layers.py",
+        "path_type": "hardlink",
+        "sha256": "f600c4983f27edf7c4a6a3f5ce8ef6b4b70c4c01cf5d03841f209d5c2f01a258",
+        "sha256_in_prefix": "f600c4983f27edf7c4a6a3f5ce8ef6b4b70c4c01cf5d03841f209d5c2f01a258",
+        "size_in_bytes": 11027
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/elements.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/features.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/folium.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/map.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/antpath.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/beautify_icon.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/boat_marker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/draw.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/dual_map.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/fast_marker_cluster.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/feature_group_sub_group.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/float_image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/fullscreen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/geocoder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/heat_map.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/heat_map_withtime.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/locate_control.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/marker_cluster.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/measure_control.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/minimap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/mouse_position.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/pattern.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/polyline_offset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/polyline_text_path.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/scroll_zoom_toggler.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/search.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/semicircle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/terminator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/time_slider_choropleth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/timestamped_geo_json.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/plugins/__pycache__/timestamped_wmstilelayer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/raster_layers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/utilities.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/folium/__pycache__/vector_layers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "folium",
+  "sha256": "dfa4f4e4aabf55bc86b1fb246486133413e413b9200789f64a292c5291f1e4a7",
+  "size": 65865,
+  "subdir": "noarch",
+  "timestamp": 1638560790361,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/folium-0.12.1.post1-pyhd8ed1ab_1.tar.bz2",
+  "version": "0.12.1.post1"
+}

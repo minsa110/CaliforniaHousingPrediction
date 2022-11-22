@@ -1,0 +1,240 @@
+{
+  "build": "he836878_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-cal >=0.5.12,<0.5.13.0a0",
+    "aws-c-common >=0.6.17,<0.6.18.0a0",
+    "libgcc-ng >=9.4.0",
+    "s2n >=1.3.0,<1.3.1.0a0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/aws-c-io-0.10.14-he836878_0",
+  "features": "",
+  "files": [
+    "include/aws/io/channel.h",
+    "include/aws/io/channel_bootstrap.h",
+    "include/aws/io/event_loop.h",
+    "include/aws/io/exports.h",
+    "include/aws/io/file_utils.h",
+    "include/aws/io/host_resolver.h",
+    "include/aws/io/io.h",
+    "include/aws/io/logging.h",
+    "include/aws/io/message_pool.h",
+    "include/aws/io/pipe.h",
+    "include/aws/io/pkcs11.h",
+    "include/aws/io/retry_strategy.h",
+    "include/aws/io/shared_library.h",
+    "include/aws/io/socket.h",
+    "include/aws/io/socket_channel_handler.h",
+    "include/aws/io/statistics.h",
+    "include/aws/io/stream.h",
+    "include/aws/io/tls_channel_handler.h",
+    "include/aws/io/uri.h",
+    "include/aws/testing/io_testing_channel.h",
+    "lib/aws-c-io/cmake/aws-c-io-config.cmake",
+    "lib/aws-c-io/cmake/shared/aws-c-io-targets-release.cmake",
+    "lib/aws-c-io/cmake/shared/aws-c-io-targets.cmake",
+    "lib/libaws-c-io.so",
+    "lib/libaws-c-io.so.1.0.0"
+  ],
+  "fn": "aws-c-io-0.10.14-he836878_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/conda/pkgs/aws-c-io-0.10.14-he836878_0",
+    "type": 1
+  },
+  "md5": "e9528f2aa83ff1e25ba1b48152b60af0",
+  "name": "aws-c-io",
+  "package_tarball_full_path": "/opt/conda/pkgs/aws-c-io-0.10.14-he836878_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/io/channel.h",
+        "path_type": "hardlink",
+        "sha256": "b8defd1b7e9137ec73b48f1cf63dfda7465dcf12a331e7497e7f056d3949a273",
+        "sha256_in_prefix": "b8defd1b7e9137ec73b48f1cf63dfda7465dcf12a331e7497e7f056d3949a273",
+        "size_in_bytes": 18273
+      },
+      {
+        "_path": "include/aws/io/channel_bootstrap.h",
+        "path_type": "hardlink",
+        "sha256": "61593dc1bfb4770e1e8baec5ad74ebb7e68589de44808df97d4ddb37c618b907",
+        "sha256_in_prefix": "61593dc1bfb4770e1e8baec5ad74ebb7e68589de44808df97d4ddb37c618b907",
+        "size_in_bytes": 12903
+      },
+      {
+        "_path": "include/aws/io/event_loop.h",
+        "path_type": "hardlink",
+        "sha256": "3f5479998893e2f266c4ac5f60d497e0064fd382c477be464172e31e9d008e0e",
+        "sha256_in_prefix": "3f5479998893e2f266c4ac5f60d497e0064fd382c477be464172e31e9d008e0e",
+        "size_in_bytes": 18739
+      },
+      {
+        "_path": "include/aws/io/exports.h",
+        "path_type": "hardlink",
+        "sha256": "32a900074049cfad612050c1d85dbe1dba32034f6a9d6088dbee057e6ce46502",
+        "sha256_in_prefix": "32a900074049cfad612050c1d85dbe1dba32034f6a9d6088dbee057e6ce46502",
+        "size_in_bytes": 894
+      },
+      {
+        "_path": "include/aws/io/file_utils.h",
+        "path_type": "hardlink",
+        "sha256": "0e6f709437f216c35584e55c9eef63b29e09404e81bb65bf7ca405cbf99011de",
+        "sha256_in_prefix": "0e6f709437f216c35584e55c9eef63b29e09404e81bb65bf7ca405cbf99011de",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "include/aws/io/host_resolver.h",
+        "path_type": "hardlink",
+        "sha256": "40ab4137dbc171b898b5d697d0d2f097560f37972eafb125ba1392b56843898c",
+        "sha256_in_prefix": "40ab4137dbc171b898b5d697d0d2f097560f37972eafb125ba1392b56843898c",
+        "size_in_bytes": 11975
+      },
+      {
+        "_path": "include/aws/io/io.h",
+        "path_type": "hardlink",
+        "sha256": "9c644c690672302784c59336445559d8c3a1f047092714eb060c3e5bf838d6ce",
+        "sha256_in_prefix": "9c644c690672302784c59336445559d8c3a1f047092714eb060c3e5bf838d6ce",
+        "size_in_bytes": 9222
+      },
+      {
+        "_path": "include/aws/io/logging.h",
+        "path_type": "hardlink",
+        "sha256": "b22218e36d89d6a9aee2267fc598702d4b9107b87749ccae25b0990bcdb8bd0a",
+        "sha256_in_prefix": "b22218e36d89d6a9aee2267fc598702d4b9107b87749ccae25b0990bcdb8bd0a",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "include/aws/io/message_pool.h",
+        "path_type": "hardlink",
+        "sha256": "72de7d247a71059f0edec0bad5b1d705c96f07d09c38095a89e29e19c9dfa61e",
+        "sha256_in_prefix": "72de7d247a71059f0edec0bad5b1d705c96f07d09c38095a89e29e19c9dfa61e",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "include/aws/io/pipe.h",
+        "path_type": "hardlink",
+        "sha256": "02f67ca70f31ff193a7d098c579f1aaf8f10cfb31c572641cf82303f048d81a5",
+        "sha256_in_prefix": "02f67ca70f31ff193a7d098c579f1aaf8f10cfb31c572641cf82303f048d81a5",
+        "size_in_bytes": 5666
+      },
+      {
+        "_path": "include/aws/io/pkcs11.h",
+        "path_type": "hardlink",
+        "sha256": "86b2dab99b5f0ef1771bf172e1779df212dc517ae3edd5235cf22e324f3a499d",
+        "sha256_in_prefix": "86b2dab99b5f0ef1771bf172e1779df212dc517ae3edd5235cf22e324f3a499d",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "include/aws/io/retry_strategy.h",
+        "path_type": "hardlink",
+        "sha256": "3151864190abecca225126a7305e662c047d5cc16ac7c4986a78a7d9dc8ae0fd",
+        "sha256_in_prefix": "3151864190abecca225126a7305e662c047d5cc16ac7c4986a78a7d9dc8ae0fd",
+        "size_in_bytes": 9707
+      },
+      {
+        "_path": "include/aws/io/shared_library.h",
+        "path_type": "hardlink",
+        "sha256": "63156ddaf632b55148f8fec7c25bc412d6a25605910f4c748b1cc0054ba32c4a",
+        "sha256_in_prefix": "63156ddaf632b55148f8fec7c25bc412d6a25605910f4c748b1cc0054ba32c4a",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "include/aws/io/socket.h",
+        "path_type": "hardlink",
+        "sha256": "fe2fa3e88e4d5cc9a226ae473822c2490e1eaaa3c7f918b9235820589560f4bd",
+        "sha256_in_prefix": "fe2fa3e88e4d5cc9a226ae473822c2490e1eaaa3c7f918b9235820589560f4bd",
+        "size_in_bytes": 12796
+      },
+      {
+        "_path": "include/aws/io/socket_channel_handler.h",
+        "path_type": "hardlink",
+        "sha256": "c712dca83ebdefaa3177eab665ad866578036af7bcd25873bfdea1af44e91e95",
+        "sha256_in_prefix": "c712dca83ebdefaa3177eab665ad866578036af7bcd25873bfdea1af44e91e95",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "include/aws/io/statistics.h",
+        "path_type": "hardlink",
+        "sha256": "668ff06bfa00955a05137b81f62050de7ae1cdc1f015ea6d361962e17884242c",
+        "sha256_in_prefix": "668ff06bfa00955a05137b81f62050de7ae1cdc1f015ea6d361962e17884242c",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "include/aws/io/stream.h",
+        "path_type": "hardlink",
+        "sha256": "9ee4ea223a8e7e11d19b941aa70b1293a02429e45d61410e062719adab5dc090",
+        "sha256_in_prefix": "9ee4ea223a8e7e11d19b941aa70b1293a02429e45d61410e062719adab5dc090",
+        "size_in_bytes": 3460
+      },
+      {
+        "_path": "include/aws/io/tls_channel_handler.h",
+        "path_type": "hardlink",
+        "sha256": "81c691bfafa3c0869290c4d9f35802357db73a6c1723c9ec5ee867ffd9370335",
+        "sha256_in_prefix": "81c691bfafa3c0869290c4d9f35802357db73a6c1723c9ec5ee867ffd9370335",
+        "size_in_bytes": 25896
+      },
+      {
+        "_path": "include/aws/io/uri.h",
+        "path_type": "hardlink",
+        "sha256": "81152c816233bff49509f09d85129a07a4e8d4673b023dcb9ccbf7d85b749888",
+        "sha256_in_prefix": "81152c816233bff49509f09d85129a07a4e8d4673b023dcb9ccbf7d85b749888",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "include/aws/testing/io_testing_channel.h",
+        "path_type": "hardlink",
+        "sha256": "97b87cd2e92cc9e5366b55c9249507435ecc16c1645d64ed0a42ca82965fa80b",
+        "sha256_in_prefix": "97b87cd2e92cc9e5366b55c9249507435ecc16c1645d64ed0a42ca82965fa80b",
+        "size_in_bytes": 26337
+      },
+      {
+        "_path": "lib/aws-c-io/cmake/aws-c-io-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "d2823e573e8c383a7d672b642818dc5839d7be982068df07d424709efd2ca99d",
+        "sha256_in_prefix": "d2823e573e8c383a7d672b642818dc5839d7be982068df07d424709efd2ca99d",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/aws-c-io/cmake/shared/aws-c-io-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "e73efb93d42fe6b3fdbd36084a263cef0cd5c225ccf64954d805a8c480c99e7a",
+        "sha256_in_prefix": "e73efb93d42fe6b3fdbd36084a263cef0cd5c225ccf64954d805a8c480c99e7a",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "lib/aws-c-io/cmake/shared/aws-c-io-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "7a165333f9c4d3b759049896b51bf8848e44fc05372001be217bff387c6a47a7",
+        "sha256_in_prefix": "7a165333f9c4d3b759049896b51bf8848e44fc05372001be217bff387c6a47a7",
+        "size_in_bytes": 3598
+      },
+      {
+        "_path": "lib/libaws-c-io.so",
+        "path_type": "softlink",
+        "sha256": "50b67beff9349e006f859688aa285c7bac7240116e3bce6338a576b222b82e14",
+        "size_in_bytes": 319952
+      },
+      {
+        "_path": "lib/libaws-c-io.so.1.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/aws-c-io_1638397973267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "50b67beff9349e006f859688aa285c7bac7240116e3bce6338a576b222b82e14",
+        "sha256_in_prefix": "4994a6d607990fd8ed4e4ab998586660937e4d4f07e48bc2692d4aeda2e0c3ea",
+        "size_in_bytes": 319952
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9d157356befc47f7a5f177f02654a729332dcb42afd4c8585bf1a6a9ded6c8f9",
+  "size": 140328,
+  "subdir": "linux-64",
+  "timestamp": 1638398075326,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aws-c-io-0.10.14-he836878_0.tar.bz2",
+  "version": "0.10.14"
+}

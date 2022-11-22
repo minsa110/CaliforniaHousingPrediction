@@ -1,0 +1,508 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/pympler-0.9-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/LICENSE",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/METADATA",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/NOTICE",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/RECORD",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/WHEEL",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/Pympler-0.9.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pympler/__init__.py",
+    "lib/python3.10/site-packages/pympler/asizeof.py",
+    "lib/python3.10/site-packages/pympler/charts.py",
+    "lib/python3.10/site-packages/pympler/classtracker.py",
+    "lib/python3.10/site-packages/pympler/classtracker_stats.py",
+    "lib/python3.10/site-packages/pympler/garbagegraph.py",
+    "lib/python3.10/site-packages/pympler/metadata.py",
+    "lib/python3.10/site-packages/pympler/mprofile.py",
+    "lib/python3.10/site-packages/pympler/muppy.py",
+    "lib/python3.10/site-packages/pympler/panels.py",
+    "lib/python3.10/site-packages/pympler/process.py",
+    "lib/python3.10/site-packages/pympler/refbrowser.py",
+    "lib/python3.10/site-packages/pympler/refgraph.py",
+    "lib/python3.10/site-packages/pympler/static/jquery.sparkline.min.js",
+    "lib/python3.10/site-packages/pympler/summary.py",
+    "lib/python3.10/site-packages/pympler/templates/asized_referents.tpl",
+    "lib/python3.10/site-packages/pympler/templates/footer.tpl",
+    "lib/python3.10/site-packages/pympler/templates/garbage.tpl",
+    "lib/python3.10/site-packages/pympler/templates/garbage_index.tpl",
+    "lib/python3.10/site-packages/pympler/templates/header.tpl",
+    "lib/python3.10/site-packages/pympler/templates/index.tpl",
+    "lib/python3.10/site-packages/pympler/templates/jquery.flot.min.js",
+    "lib/python3.10/site-packages/pympler/templates/jquery.flot.stack.min.js",
+    "lib/python3.10/site-packages/pympler/templates/jquery.flot.tooltip.min.js",
+    "lib/python3.10/site-packages/pympler/templates/memory_panel.html",
+    "lib/python3.10/site-packages/pympler/templates/process.tpl",
+    "lib/python3.10/site-packages/pympler/templates/referents.tpl",
+    "lib/python3.10/site-packages/pympler/templates/stacktrace.tpl",
+    "lib/python3.10/site-packages/pympler/templates/style.css",
+    "lib/python3.10/site-packages/pympler/templates/tracker.tpl",
+    "lib/python3.10/site-packages/pympler/templates/tracker_class.tpl",
+    "lib/python3.10/site-packages/pympler/tracker.py",
+    "lib/python3.10/site-packages/pympler/util/__init__.py",
+    "lib/python3.10/site-packages/pympler/util/bottle.py",
+    "lib/python3.10/site-packages/pympler/util/compat.py",
+    "lib/python3.10/site-packages/pympler/util/stringutils.py",
+    "lib/python3.10/site-packages/pympler/web.py",
+    "lib/python3.10/site-packages/pympler/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/asizeof.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/charts.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/classtracker.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/classtracker_stats.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/garbagegraph.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/metadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/mprofile.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/muppy.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/panels.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/process.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/refbrowser.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/refgraph.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/summary.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/tracker.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/util/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/util/__pycache__/bottle.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/util/__pycache__/compat.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/util/__pycache__/stringutils.cpython-310.pyc",
+    "lib/python3.10/site-packages/pympler/__pycache__/web.cpython-310.pyc"
+  ],
+  "fn": "pympler-0.9-py_0.conda",
+  "legacy_bz2_md5": "a9b4204240bb6899912268fe27896a15",
+  "legacy_bz2_size": 161887,
+  "license": "Apache-2",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/conda/pkgs/pympler-0.9-py_0",
+    "type": 1
+  },
+  "md5": "f178dec30499d59eb74c449695f540ed",
+  "name": "pympler",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/pympler-0.9-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+        "sha256_in_prefix": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "96e189822c114fdffa2420ac21e1eeafbfaaa36387f072c9b672353acbc2557f",
+        "sha256_in_prefix": "96e189822c114fdffa2420ac21e1eeafbfaaa36387f072c9b672353acbc2557f",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "105d0c0cc376500c2b3aab207f340c0034d8e351bbe087f62c41b338efefd995",
+        "sha256_in_prefix": "105d0c0cc376500c2b3aab207f340c0034d8e351bbe087f62c41b338efefd995",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1fc20e249a82464401cbe00161698725657792c03d131816952b2006b71fbaf8",
+        "sha256_in_prefix": "1fc20e249a82464401cbe00161698725657792c03d131816952b2006b71fbaf8",
+        "size_in_bytes": 4806
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2ae9654dc7d8393dd9bc6dbc1d374f742c219f06ded30a5ea38741873f3a4c81",
+        "sha256_in_prefix": "2ae9654dc7d8393dd9bc6dbc1d374f742c219f06ded30a5ea38741873f3a4c81",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/Pympler-0.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fba20c2a8591dbc88897c75576d9ddfbda3dbbeb035eef02133157a85cd61250",
+        "sha256_in_prefix": "fba20c2a8591dbc88897c75576d9ddfbda3dbbeb035eef02133157a85cd61250",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pympler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pympler/asizeof.py",
+        "path_type": "hardlink",
+        "sha256": "8e026e7efbae6f58342ef9b954cd175d0ca645137fd2d59945e0a23f48344cb3",
+        "sha256_in_prefix": "8e026e7efbae6f58342ef9b954cd175d0ca645137fd2d59945e0a23f48344cb3",
+        "size_in_bytes": 95138
+      },
+      {
+        "_path": "site-packages/pympler/charts.py",
+        "path_type": "hardlink",
+        "sha256": "fd68f8f4c24271938fd17fbd039bd94f34bbdc9a95abbfa2e9b85d64da2abeaf",
+        "sha256_in_prefix": "fd68f8f4c24271938fd17fbd039bd94f34bbdc9a95abbfa2e9b85d64da2abeaf",
+        "size_in_bytes": 1984
+      },
+      {
+        "_path": "site-packages/pympler/classtracker.py",
+        "path_type": "hardlink",
+        "sha256": "90bf7c2d6d69dec85eb78d00fd70315b4856cd9ae327355aa3074c9783716a07",
+        "sha256_in_prefix": "90bf7c2d6d69dec85eb78d00fd70315b4856cd9ae327355aa3074c9783716a07",
+        "size_in_bytes": 21027
+      },
+      {
+        "_path": "site-packages/pympler/classtracker_stats.py",
+        "path_type": "hardlink",
+        "sha256": "8121ff6306088b43804079276482c346cc9f8b1d65375db5d00477739cd8e015",
+        "sha256_in_prefix": "8121ff6306088b43804079276482c346cc9f8b1d65375db5d00477739cd8e015",
+        "size_in_bytes": 27380
+      },
+      {
+        "_path": "site-packages/pympler/garbagegraph.py",
+        "path_type": "hardlink",
+        "sha256": "f6e5c725ece4102b9fdc9a93c67a21485d328ab0a2f7b465c6c50594a4a9ed1d",
+        "sha256_in_prefix": "f6e5c725ece4102b9fdc9a93c67a21485d328ab0a2f7b465c6c50594a4a9ed1d",
+        "size_in_bytes": 2618
+      },
+      {
+        "_path": "site-packages/pympler/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "f38623be1c214d9dfbca0e7871be122264daa18c1363d85ca70322bb5633155d",
+        "sha256_in_prefix": "f38623be1c214d9dfbca0e7871be122264daa18c1363d85ca70322bb5633155d",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "site-packages/pympler/mprofile.py",
+        "path_type": "hardlink",
+        "sha256": "f4cb8646990ca461af2af4078b4ca9ddd52668b432324069bb37e6d19ba3a0bd",
+        "sha256_in_prefix": "f4cb8646990ca461af2af4078b4ca9ddd52668b432324069bb37e6d19ba3a0bd",
+        "size_in_bytes": 3422
+      },
+      {
+        "_path": "site-packages/pympler/muppy.py",
+        "path_type": "hardlink",
+        "sha256": "5093f828823f077cd75b3442dfd38802edcedef89d10553c8d8a55bf46be68e6",
+        "sha256_in_prefix": "5093f828823f077cd75b3442dfd38802edcedef89d10553c8d8a55bf46be68e6",
+        "size_in_bytes": 8370
+      },
+      {
+        "_path": "site-packages/pympler/panels.py",
+        "path_type": "hardlink",
+        "sha256": "1a36b77066c2ec890067637532429171e9f48a8384d7e6099de98f52c0387e67",
+        "sha256_in_prefix": "1a36b77066c2ec890067637532429171e9f48a8384d7e6099de98f52c0387e67",
+        "size_in_bytes": 3358
+      },
+      {
+        "_path": "site-packages/pympler/process.py",
+        "path_type": "hardlink",
+        "sha256": "7cd4e9512de5b12eafb37883a0af14eb578efb0bdd9005dba3c8d35449298418",
+        "sha256_in_prefix": "7cd4e9512de5b12eafb37883a0af14eb578efb0bdd9005dba3c8d35449298418",
+        "size_in_bytes": 8199
+      },
+      {
+        "_path": "site-packages/pympler/refbrowser.py",
+        "path_type": "hardlink",
+        "sha256": "3e2f7e149784479037bfe695c23bed807b11bc34ba47afbc078a38ef78477c13",
+        "sha256_in_prefix": "3e2f7e149784479037bfe695c23bed807b11bc34ba47afbc078a38ef78477c13",
+        "size_in_bytes": 15229
+      },
+      {
+        "_path": "site-packages/pympler/refgraph.py",
+        "path_type": "hardlink",
+        "sha256": "7bb3032c862b6a5e5fe9b2070cd00c5d70357657beb99933c0a38f98967e85d5",
+        "sha256_in_prefix": "7bb3032c862b6a5e5fe9b2070cd00c5d70357657beb99933c0a38f98967e85d5",
+        "size_in_bytes": 12013
+      },
+      {
+        "_path": "site-packages/pympler/static/jquery.sparkline.min.js",
+        "path_type": "hardlink",
+        "sha256": "02cc1b5bb30b5c63cf0043636e0d43088fc569f3e99e0ea2493ba1afb5391cdd",
+        "sha256_in_prefix": "02cc1b5bb30b5c63cf0043636e0d43088fc569f3e99e0ea2493ba1afb5391cdd",
+        "size_in_bytes": 44541
+      },
+      {
+        "_path": "site-packages/pympler/summary.py",
+        "path_type": "hardlink",
+        "sha256": "19eda4168c706410bae62aa0a44b85456f4a7d19fa1357809961fc30557ff401",
+        "sha256_in_prefix": "19eda4168c706410bae62aa0a44b85456f4a7d19fa1357809961fc30557ff401",
+        "size_in_bytes": 10549
+      },
+      {
+        "_path": "site-packages/pympler/templates/asized_referents.tpl",
+        "path_type": "hardlink",
+        "sha256": "731f187e6b6d4728f78965e360e7e124062085d9fbd6c0bfb8bdb2325126a392",
+        "sha256_in_prefix": "731f187e6b6d4728f78965e360e7e124062085d9fbd6c0bfb8bdb2325126a392",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "site-packages/pympler/templates/footer.tpl",
+        "path_type": "hardlink",
+        "sha256": "2b04cbba766700fc28e40fd39fd63bad0a117a3ae59014899fc0941a32cac326",
+        "sha256_in_prefix": "2b04cbba766700fc28e40fd39fd63bad0a117a3ae59014899fc0941a32cac326",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pympler/templates/garbage.tpl",
+        "path_type": "hardlink",
+        "sha256": "64bceecb010094653ffe2a4a9dc36cc8a14fecd77a229608d4d65cad362ba0d0",
+        "sha256_in_prefix": "64bceecb010094653ffe2a4a9dc36cc8a14fecd77a229608d4d65cad362ba0d0",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "site-packages/pympler/templates/garbage_index.tpl",
+        "path_type": "hardlink",
+        "sha256": "44dedfcfd5da4c4241baed7571afbc4e0602cb734ce8355b9c4b9376ce366e05",
+        "sha256_in_prefix": "44dedfcfd5da4c4241baed7571afbc4e0602cb734ce8355b9c4b9376ce366e05",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "site-packages/pympler/templates/header.tpl",
+        "path_type": "hardlink",
+        "sha256": "f54536bea1ecf3eac71124f58fe6c71ac1741acdd8e600c59787082b9b5d5f0f",
+        "sha256_in_prefix": "f54536bea1ecf3eac71124f58fe6c71ac1741acdd8e600c59787082b9b5d5f0f",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "site-packages/pympler/templates/index.tpl",
+        "path_type": "hardlink",
+        "sha256": "16add1b1f8be90dd5815e36f531d49aa55237889a039be26db7eca1b33da77b4",
+        "sha256_in_prefix": "16add1b1f8be90dd5815e36f531d49aa55237889a039be26db7eca1b33da77b4",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "site-packages/pympler/templates/jquery.flot.min.js",
+        "path_type": "hardlink",
+        "sha256": "ba4498a5218c71658ae6433b625664cd0fcc9980d06549983ea079828159c169",
+        "sha256_in_prefix": "ba4498a5218c71658ae6433b625664cd0fcc9980d06549983ea079828159c169",
+        "size_in_bytes": 52966
+      },
+      {
+        "_path": "site-packages/pympler/templates/jquery.flot.stack.min.js",
+        "path_type": "hardlink",
+        "sha256": "264a51fc57cf8ad5593726d0e63b0cfd95a1880c3fd46b0316506cf5167b6d76",
+        "sha256_in_prefix": "264a51fc57cf8ad5593726d0e63b0cfd95a1880c3fd46b0316506cf5167b6d76",
+        "size_in_bytes": 2465
+      },
+      {
+        "_path": "site-packages/pympler/templates/jquery.flot.tooltip.min.js",
+        "path_type": "hardlink",
+        "sha256": "4ffed6f246088d2ae9c81a188dfb7dba5c7f3034fe30e7e3970607ef47d4bc6b",
+        "sha256_in_prefix": "4ffed6f246088d2ae9c81a188dfb7dba5c7f3034fe30e7e3970607ef47d4bc6b",
+        "size_in_bytes": 7412
+      },
+      {
+        "_path": "site-packages/pympler/templates/memory_panel.html",
+        "path_type": "hardlink",
+        "sha256": "021fd463983bc99a05e2eb70cdf835f5e0598da3e42a7476d67b8c85963b6872",
+        "sha256_in_prefix": "021fd463983bc99a05e2eb70cdf835f5e0598da3e42a7476d67b8c85963b6872",
+        "size_in_bytes": 1549
+      },
+      {
+        "_path": "site-packages/pympler/templates/process.tpl",
+        "path_type": "hardlink",
+        "sha256": "bcf8b094ba47855a4c277750d1af3f6a4db1c6d4a272689496e2b2b6398f4f4a",
+        "sha256_in_prefix": "bcf8b094ba47855a4c277750d1af3f6a4db1c6d4a272689496e2b2b6398f4f4a",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "site-packages/pympler/templates/referents.tpl",
+        "path_type": "hardlink",
+        "sha256": "c013bba458574a876a588a47134e49eea3cfe755d02df754644a563e69d4174f",
+        "sha256_in_prefix": "c013bba458574a876a588a47134e49eea3cfe755d02df754644a563e69d4174f",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/pympler/templates/stacktrace.tpl",
+        "path_type": "hardlink",
+        "sha256": "bd4e485da1911ac1d6f7a5ff8ef4d9ed8c03dc8768e01de18a539c4728a09455",
+        "sha256_in_prefix": "bd4e485da1911ac1d6f7a5ff8ef4d9ed8c03dc8768e01de18a539c4728a09455",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "site-packages/pympler/templates/style.css",
+        "path_type": "hardlink",
+        "sha256": "16f41a61bcedc7277348082a721dab3da37d745dc2a9edfb8cf92f5e737700b3",
+        "sha256_in_prefix": "16f41a61bcedc7277348082a721dab3da37d745dc2a9edfb8cf92f5e737700b3",
+        "size_in_bytes": 15427
+      },
+      {
+        "_path": "site-packages/pympler/templates/tracker.tpl",
+        "path_type": "hardlink",
+        "sha256": "f81c719ec8ed30732c735752f5d5470377c8a1c943568d19b3864c82d148c925",
+        "sha256_in_prefix": "f81c719ec8ed30732c735752f5d5470377c8a1c943568d19b3864c82d148c925",
+        "size_in_bytes": 4416
+      },
+      {
+        "_path": "site-packages/pympler/templates/tracker_class.tpl",
+        "path_type": "hardlink",
+        "sha256": "2decbba6a1e8ba51e624f24d995c51c27c9e151785569c0653feeb5902d56910",
+        "sha256_in_prefix": "2decbba6a1e8ba51e624f24d995c51c27c9e151785569c0653feeb5902d56910",
+        "size_in_bytes": 2568
+      },
+      {
+        "_path": "site-packages/pympler/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "79f97ca2c5cfe96ebc4958c0f72dbe779ba99c175d36e6d73a95974168a823ac",
+        "sha256_in_prefix": "79f97ca2c5cfe96ebc4958c0f72dbe779ba99c175d36e6d73a95974168a823ac",
+        "size_in_bytes": 10419
+      },
+      {
+        "_path": "site-packages/pympler/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pympler/util/bottle.py",
+        "path_type": "hardlink",
+        "sha256": "cf2ba3c316e1dfb7d919388698ffbc84267147ecb83739590fefe702825c8318",
+        "sha256_in_prefix": "cf2ba3c316e1dfb7d919388698ffbc84267147ecb83739590fefe702825c8318",
+        "size_in_bytes": 150118
+      },
+      {
+        "_path": "site-packages/pympler/util/compat.py",
+        "path_type": "hardlink",
+        "sha256": "a2f8cb9a1914c38780b6ec74a57040a363fb36c9a864c1d237c28af6841e8d79",
+        "sha256_in_prefix": "a2f8cb9a1914c38780b6ec74a57040a363fb36c9a864c1d237c28af6841e8d79",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "site-packages/pympler/util/stringutils.py",
+        "path_type": "hardlink",
+        "sha256": "f5f8d268c3a64c0dc3a79906d9214bdbb087c083fd170ada5c0f75ada983b96a",
+        "sha256_in_prefix": "f5f8d268c3a64c0dc3a79906d9214bdbb087c083fd170ada5c0f75ada983b96a",
+        "size_in_bytes": 1891
+      },
+      {
+        "_path": "site-packages/pympler/web.py",
+        "path_type": "hardlink",
+        "sha256": "a720dc36522e6cae1bfa023c076ed6475319bafad05f08c387d83846ce9f33ed",
+        "sha256_in_prefix": "a720dc36522e6cae1bfa023c076ed6475319bafad05f08c387d83846ce9f33ed",
+        "size_in_bytes": 10995
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/asizeof.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/charts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/classtracker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/classtracker_stats.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/garbagegraph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/metadata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/mprofile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/muppy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/panels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/process.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/refbrowser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/refgraph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/summary.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/tracker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/util/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/util/__pycache__/bottle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/util/__pycache__/compat.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/util/__pycache__/stringutils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pympler/__pycache__/web.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "11b77225a203e5a61d8591483c446733cae628c6a7986a0981f0ab012c95ddb6",
+  "size": 163856,
+  "subdir": "noarch",
+  "timestamp": 1602785502730,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pympler-0.9-py_0.conda",
+  "version": "0.9"
+}

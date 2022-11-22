@@ -1,0 +1,64 @@
+{
+  "build": "he4da1e4_16",
+  "build_number": 16,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/opt/conda/pkgs/libstdcxx-ng-11.2.0-he4da1e4_16",
+  "features": "",
+  "files": [
+    "lib/libstdc++.so",
+    "lib/libstdc++.so.6",
+    "lib/libstdc++.so.6.0.29",
+    "share/licenses/libstdc++/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "fn": "libstdcxx-ng-11.2.0-he4da1e4_16.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/opt/conda/pkgs/libstdcxx-ng-11.2.0-he4da1e4_16",
+    "type": 1
+  },
+  "md5": "8cfd1cd3273ff187be91b868ddf9a636",
+  "name": "libstdcxx-ng",
+  "package_tarball_full_path": "/opt/conda/pkgs/libstdcxx-ng-11.2.0-he4da1e4_16.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libstdc++.so",
+        "path_type": "softlink",
+        "sha256": "9fe8be9b2d9a64918149bdfb9d46713eece7dfdbabd1b8c66ab3aa264018f66a",
+        "size_in_bytes": 12043200
+      },
+      {
+        "_path": "lib/libstdc++.so.6",
+        "path_type": "softlink",
+        "sha256": "9fe8be9b2d9a64918149bdfb9d46713eece7dfdbabd1b8c66ab3aa264018f66a",
+        "size_in_bytes": 12043200
+      },
+      {
+        "_path": "lib/libstdc++.so.6.0.29",
+        "path_type": "hardlink",
+        "sha256": "9fe8be9b2d9a64918149bdfb9d46713eece7dfdbabd1b8c66ab3aa264018f66a",
+        "sha256_in_prefix": "9fe8be9b2d9a64918149bdfb9d46713eece7dfdbabd1b8c66ab3aa264018f66a",
+        "size_in_bytes": 12043200
+      },
+      {
+        "_path": "share/licenses/libstdc++/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "49b9d46e0463810069a6b11d032907093565087f70f65dd23591d000bc666eb2",
+  "size": 4423360,
+  "subdir": "linux-64",
+  "timestamp": 1650670817505,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-11.2.0-he4da1e4_16.tar.bz2",
+  "version": "11.2.0"
+}

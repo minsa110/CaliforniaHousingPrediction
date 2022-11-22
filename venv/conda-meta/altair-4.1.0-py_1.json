@@ -1,0 +1,3149 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "entrypoints",
+    "jinja2",
+    "jsonschema",
+    "numpy >=0.18",
+    "pandas",
+    "python >=3.6",
+    "toolz"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/altair-4.1.0-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/altair-4.1.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/altair/__init__.py",
+    "lib/python3.10/site-packages/altair/_magics.py",
+    "lib/python3.10/site-packages/altair/datasets.py",
+    "lib/python3.10/site-packages/altair/examples/__init__.py",
+    "lib/python3.10/site-packages/altair/examples/airport_connections.py",
+    "lib/python3.10/site-packages/altair/examples/airports.py",
+    "lib/python3.10/site-packages/altair/examples/airports_count.py",
+    "lib/python3.10/site-packages/altair/examples/anscombe_plot.py",
+    "lib/python3.10/site-packages/altair/examples/area_chart_gradient.py",
+    "lib/python3.10/site-packages/altair/examples/bar_and_line_with_dual_axis.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_horizontal.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_sorted.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_with_highlighted_bar.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_with_highlighted_segment.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_with_labels.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_with_mean_line.py",
+    "lib/python3.10/site-packages/altair/examples/bar_chart_with_negatives.py",
+    "lib/python3.10/site-packages/altair/examples/bar_rounded.py",
+    "lib/python3.10/site-packages/altair/examples/beckers_barley_trellis_plot.py",
+    "lib/python3.10/site-packages/altair/examples/beckers_barley_wrapped_facet.py",
+    "lib/python3.10/site-packages/altair/examples/binned_heatmap.py",
+    "lib/python3.10/site-packages/altair/examples/binned_scatterplot.py",
+    "lib/python3.10/site-packages/altair/examples/boxplot.py",
+    "lib/python3.10/site-packages/altair/examples/bubble_plot.py",
+    "lib/python3.10/site-packages/altair/examples/candlestick_chart.py",
+    "lib/python3.10/site-packages/altair/examples/choropleth.py",
+    "lib/python3.10/site-packages/altair/examples/choropleth_repeat.py",
+    "lib/python3.10/site-packages/altair/examples/co2_concentration.py",
+    "lib/python3.10/site-packages/altair/examples/connected_scatterplot.py",
+    "lib/python3.10/site-packages/altair/examples/cumulative_count_chart.py",
+    "lib/python3.10/site-packages/altair/examples/cumulative_wiki_donations.py",
+    "lib/python3.10/site-packages/altair/examples/density_facet.py",
+    "lib/python3.10/site-packages/altair/examples/density_stack.py",
+    "lib/python3.10/site-packages/altair/examples/diverging_stacked_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/dot_dash_plot.py",
+    "lib/python3.10/site-packages/altair/examples/errorbars_with_ci.py",
+    "lib/python3.10/site-packages/altair/examples/errorbars_with_std.py",
+    "lib/python3.10/site-packages/altair/examples/falkensee.py",
+    "lib/python3.10/site-packages/altair/examples/filled_step_chart.py",
+    "lib/python3.10/site-packages/altair/examples/gantt_chart.py",
+    "lib/python3.10/site-packages/altair/examples/gapminder_bubble_plot.py",
+    "lib/python3.10/site-packages/altair/examples/grouped_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/grouped_bar_chart_horizontal.py",
+    "lib/python3.10/site-packages/altair/examples/grouped_bar_chart_with_error_bars.py",
+    "lib/python3.10/site-packages/altair/examples/histogram_responsive.py",
+    "lib/python3.10/site-packages/altair/examples/histogram_with_a_global_mean_overlay.py",
+    "lib/python3.10/site-packages/altair/examples/horizon_graph.py",
+    "lib/python3.10/site-packages/altair/examples/horizontal_stacked_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/interactive_brush.py",
+    "lib/python3.10/site-packages/altair/examples/interactive_cross_highlight.py",
+    "lib/python3.10/site-packages/altair/examples/interactive_layered_crossfilter.py",
+    "lib/python3.10/site-packages/altair/examples/interactive_legend.py",
+    "lib/python3.10/site-packages/altair/examples/interactive_scatter_plot.py",
+    "lib/python3.10/site-packages/altair/examples/interval_selection.py",
+    "lib/python3.10/site-packages/altair/examples/iowa_electricity.py",
+    "lib/python3.10/site-packages/altair/examples/isotype.py",
+    "lib/python3.10/site-packages/altair/examples/isotype_emoji.py",
+    "lib/python3.10/site-packages/altair/examples/isotype_grid.py",
+    "lib/python3.10/site-packages/altair/examples/layer_line_color_rule.py",
+    "lib/python3.10/site-packages/altair/examples/layered_area_chart.py",
+    "lib/python3.10/site-packages/altair/examples/layered_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/layered_chart_bar_mark.py",
+    "lib/python3.10/site-packages/altair/examples/layered_chart_with_dual_axis.py",
+    "lib/python3.10/site-packages/altair/examples/layered_heatmap_text.py",
+    "lib/python3.10/site-packages/altair/examples/layered_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/line_chart_with_generator.py",
+    "lib/python3.10/site-packages/altair/examples/line_chart_with_points.py",
+    "lib/python3.10/site-packages/altair/examples/line_percent.py",
+    "lib/python3.10/site-packages/altair/examples/line_with_ci.py",
+    "lib/python3.10/site-packages/altair/examples/london_tube.py",
+    "lib/python3.10/site-packages/altair/examples/multi_series_line.py",
+    "lib/python3.10/site-packages/altair/examples/multifeature_scatter_plot.py",
+    "lib/python3.10/site-packages/altair/examples/multiline_highlight.py",
+    "lib/python3.10/site-packages/altair/examples/multiline_tooltip.py",
+    "lib/python3.10/site-packages/altair/examples/multiple_interactions.py",
+    "lib/python3.10/site-packages/altair/examples/multiple_marks.py",
+    "lib/python3.10/site-packages/altair/examples/natural_disasters.py",
+    "lib/python3.10/site-packages/altair/examples/normalized_stacked_area_chart.py",
+    "lib/python3.10/site-packages/altair/examples/normalized_stacked_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/normed_parallel_coordinates.py",
+    "lib/python3.10/site-packages/altair/examples/one_dot_per_zipcode.py",
+    "lib/python3.10/site-packages/altair/examples/parallel_coordinates.py",
+    "lib/python3.10/site-packages/altair/examples/percentage_of_total.py",
+    "lib/python3.10/site-packages/altair/examples/poly_fit_regression.py",
+    "lib/python3.10/site-packages/altair/examples/ranged_dot_plot.py",
+    "lib/python3.10/site-packages/altair/examples/ridgeline_plot.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_href.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_linked_brush.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_linked_table.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_marginal_hist.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_matrix.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_qq.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_tooltips.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_labels.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_layered_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_loess.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_minimap.py",
+    "lib/python3.10/site-packages/altair/examples/scatter_with_rolling_mean.py",
+    "lib/python3.10/site-packages/altair/examples/seattle_weather_interactive.py",
+    "lib/python3.10/site-packages/altair/examples/select_detail.py",
+    "lib/python3.10/site-packages/altair/examples/select_mark_area.py",
+    "lib/python3.10/site-packages/altair/examples/selection_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/selection_layer_bar_month.py",
+    "lib/python3.10/site-packages/altair/examples/simple_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/simple_heatmap.py",
+    "lib/python3.10/site-packages/altair/examples/simple_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/simple_line_chart.py",
+    "lib/python3.10/site-packages/altair/examples/simple_scatter_with_errorbars.py",
+    "lib/python3.10/site-packages/altair/examples/simple_stacked_area_chart.py",
+    "lib/python3.10/site-packages/altair/examples/slope_graph.py",
+    "lib/python3.10/site-packages/altair/examples/sorted_error_bars_with_ci.py",
+    "lib/python3.10/site-packages/altair/examples/stacked_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/stacked_bar_chart_sorted_segments.py",
+    "lib/python3.10/site-packages/altair/examples/stacked_bar_chart_with_text.py",
+    "lib/python3.10/site-packages/altair/examples/stem_and_leaf.py",
+    "lib/python3.10/site-packages/altair/examples/step_chart.py",
+    "lib/python3.10/site-packages/altair/examples/streamgraph.py",
+    "lib/python3.10/site-packages/altair/examples/strip_plot.py",
+    "lib/python3.10/site-packages/altair/examples/stripplot.py",
+    "lib/python3.10/site-packages/altair/examples/table_bubble_plot_github.py",
+    "lib/python3.10/site-packages/altair/examples/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/examples/tests/test_examples.py",
+    "lib/python3.10/site-packages/altair/examples/top_k_items.py",
+    "lib/python3.10/site-packages/altair/examples/top_k_letters.py",
+    "lib/python3.10/site-packages/altair/examples/top_k_with_others.py",
+    "lib/python3.10/site-packages/altair/examples/trail_marker.py",
+    "lib/python3.10/site-packages/altair/examples/trellis_area.py",
+    "lib/python3.10/site-packages/altair/examples/trellis_area_sort_array.py",
+    "lib/python3.10/site-packages/altair/examples/trellis_histogram.py",
+    "lib/python3.10/site-packages/altair/examples/trellis_scatter_plot.py",
+    "lib/python3.10/site-packages/altair/examples/trellis_stacked_bar_chart.py",
+    "lib/python3.10/site-packages/altair/examples/us_employment.py",
+    "lib/python3.10/site-packages/altair/examples/us_incomebrackets_by_state_facet.py",
+    "lib/python3.10/site-packages/altair/examples/us_population_over_time.py",
+    "lib/python3.10/site-packages/altair/examples/us_population_over_time_facet.py",
+    "lib/python3.10/site-packages/altair/examples/us_population_pyramid_over_time.py",
+    "lib/python3.10/site-packages/altair/examples/us_state_capitals.py",
+    "lib/python3.10/site-packages/altair/examples/violin_plot.py",
+    "lib/python3.10/site-packages/altair/examples/weather_heatmap.py",
+    "lib/python3.10/site-packages/altair/examples/wheat_wages.py",
+    "lib/python3.10/site-packages/altair/examples/wilkinson-dot-plot.py",
+    "lib/python3.10/site-packages/altair/examples/window_rank.py",
+    "lib/python3.10/site-packages/altair/examples/world_map.py",
+    "lib/python3.10/site-packages/altair/examples/world_projections.py",
+    "lib/python3.10/site-packages/altair/expr/__init__.py",
+    "lib/python3.10/site-packages/altair/expr/consts.py",
+    "lib/python3.10/site-packages/altair/expr/core.py",
+    "lib/python3.10/site-packages/altair/expr/funcs.py",
+    "lib/python3.10/site-packages/altair/expr/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/expr/tests/test_expr.py",
+    "lib/python3.10/site-packages/altair/sphinxext/__init__.py",
+    "lib/python3.10/site-packages/altair/sphinxext/altairgallery.py",
+    "lib/python3.10/site-packages/altair/sphinxext/altairplot.py",
+    "lib/python3.10/site-packages/altair/sphinxext/schematable.py",
+    "lib/python3.10/site-packages/altair/sphinxext/utils.py",
+    "lib/python3.10/site-packages/altair/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/tests/test_magics.py",
+    "lib/python3.10/site-packages/altair/utils/__init__.py",
+    "lib/python3.10/site-packages/altair/utils/core.py",
+    "lib/python3.10/site-packages/altair/utils/data.py",
+    "lib/python3.10/site-packages/altair/utils/deprecation.py",
+    "lib/python3.10/site-packages/altair/utils/display.py",
+    "lib/python3.10/site-packages/altair/utils/execeval.py",
+    "lib/python3.10/site-packages/altair/utils/html.py",
+    "lib/python3.10/site-packages/altair/utils/mimebundle.py",
+    "lib/python3.10/site-packages/altair/utils/plugin_registry.py",
+    "lib/python3.10/site-packages/altair/utils/save.py",
+    "lib/python3.10/site-packages/altair/utils/schemapi.py",
+    "lib/python3.10/site-packages/altair/utils/server.py",
+    "lib/python3.10/site-packages/altair/utils/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_core.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_data.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_deprecation.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_execeval.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_html.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_mimebundle.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_plugin_registry.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_schemapi.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_server.py",
+    "lib/python3.10/site-packages/altair/utils/tests/test_utils.py",
+    "lib/python3.10/site-packages/altair/utils/theme.py",
+    "lib/python3.10/site-packages/altair/vega/__init__.py",
+    "lib/python3.10/site-packages/altair/vega/data.py",
+    "lib/python3.10/site-packages/altair/vega/display.py",
+    "lib/python3.10/site-packages/altair/vega/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/vega/tests/test_import.py",
+    "lib/python3.10/site-packages/altair/vega/v5/__init__.py",
+    "lib/python3.10/site-packages/altair/vega/v5/data.py",
+    "lib/python3.10/site-packages/altair/vega/v5/display.py",
+    "lib/python3.10/site-packages/altair/vega/v5/schema/__init__.py",
+    "lib/python3.10/site-packages/altair/vega/v5/schema/core.py",
+    "lib/python3.10/site-packages/altair/vega/v5/schema/vega-schema.json",
+    "lib/python3.10/site-packages/altair/vegalite/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/api.py",
+    "lib/python3.10/site-packages/altair/vegalite/data.py",
+    "lib/python3.10/site-packages/altair/vegalite/display.py",
+    "lib/python3.10/site-packages/altair/vegalite/schema.py",
+    "lib/python3.10/site-packages/altair/vegalite/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/tests/test_common.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/_deprecated.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/api.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/data.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/display.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/channels.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/core.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/mixins.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/vega-lite-schema.json",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_api.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_data.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_display.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_geo_interface.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_renderers.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/test_theme.py",
+    "lib/python3.10/site-packages/altair/vegalite/v3/theme.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/api.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/data.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/display.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/channels.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/core.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/mixins.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/vega-lite-schema.json",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_api.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_data.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_display.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_geo_interface.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_renderers.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/test_theme.py",
+    "lib/python3.10/site-packages/altair/vegalite/v4/theme.py",
+    "lib/python3.10/site-packages/altair/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/__pycache__/_magics.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/__pycache__/datasets.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/airport_connections.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/airports.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/airports_count.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/anscombe_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/area_chart_gradient.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_and_line_with_dual_axis.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_horizontal.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_sorted.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_highlighted_bar.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_highlighted_segment.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_labels.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_mean_line.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_negatives.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bar_rounded.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/beckers_barley_trellis_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/beckers_barley_wrapped_facet.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/binned_heatmap.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/binned_scatterplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/boxplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/bubble_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/candlestick_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/choropleth.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/choropleth_repeat.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/co2_concentration.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/connected_scatterplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/cumulative_count_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/cumulative_wiki_donations.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/density_facet.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/density_stack.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/diverging_stacked_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/dot_dash_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/errorbars_with_ci.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/errorbars_with_std.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/falkensee.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/filled_step_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/gantt_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/gapminder_bubble_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart_horizontal.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart_with_error_bars.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/histogram_responsive.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/histogram_with_a_global_mean_overlay.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/horizon_graph.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/horizontal_stacked_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_brush.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_cross_highlight.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_layered_crossfilter.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_legend.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_scatter_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/interval_selection.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/iowa_electricity.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/isotype.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/isotype_emoji.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/isotype_grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layer_line_color_rule.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_area_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_chart_bar_mark.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_chart_with_dual_axis.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_heatmap_text.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/layered_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/line_chart_with_generator.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/line_chart_with_points.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/line_percent.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/line_with_ci.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/london_tube.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multi_series_line.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multifeature_scatter_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multiline_highlight.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multiline_tooltip.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multiple_interactions.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/multiple_marks.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/natural_disasters.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/normalized_stacked_area_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/normalized_stacked_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/normed_parallel_coordinates.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/one_dot_per_zipcode.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/parallel_coordinates.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/percentage_of_total.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/poly_fit_regression.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/ranged_dot_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/ridgeline_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_href.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_linked_brush.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_linked_table.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_marginal_hist.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_matrix.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_qq.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_tooltips.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_labels.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_layered_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_loess.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_minimap.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_rolling_mean.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/seattle_weather_interactive.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/select_detail.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/select_mark_area.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/selection_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/selection_layer_bar_month.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_heatmap.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_line_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_scatter_with_errorbars.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/simple_stacked_area_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/slope_graph.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/sorted_error_bars_with_ci.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart_sorted_segments.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart_with_text.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/stem_and_leaf.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/step_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/streamgraph.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/strip_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/stripplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/table_bubble_plot_github.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/tests/__pycache__/test_examples.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_items.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_letters.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_with_others.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trail_marker.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_area.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_area_sort_array.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_histogram.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_scatter_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_stacked_bar_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_employment.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_incomebrackets_by_state_facet.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_over_time.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_over_time_facet.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_pyramid_over_time.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/us_state_capitals.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/violin_plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/weather_heatmap.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/wheat_wages.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/wilkinson-dot-plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/window_rank.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/world_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/examples/__pycache__/world_projections.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/consts.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/funcs.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/tests/__pycache__/test_expr.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/sphinxext/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/sphinxext/__pycache__/altairgallery.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/sphinxext/__pycache__/altairplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/sphinxext/__pycache__/schematable.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/sphinxext/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/tests/__pycache__/test_magics.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/deprecation.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/execeval.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/html.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/mimebundle.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/plugin_registry.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/save.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/schemapi.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/server.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_deprecation.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_execeval.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_html.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_mimebundle.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_plugin_registry.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_schemapi.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_server.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/tests/__pycache__/test_import.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/v5/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/v5/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/v5/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/v5/schema/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vega/v5/schema/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/schema.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/tests/__pycache__/test_common.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/_deprecated.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/channels.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/mixins.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_geo_interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_renderers.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/channels.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/mixins.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_geo_interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_renderers.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/theme.cpython-310.pyc"
+  ],
+  "fn": "altair-4.1.0-py_1.conda",
+  "legacy_bz2_md5": "2d11d21a0b99068649c3d2a9eab50795",
+  "legacy_bz2_size": 639142,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/altair-4.1.0-py_1",
+    "type": 1
+  },
+  "md5": "030803b7148f93400f0909690d9eeee7",
+  "name": "altair",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/altair-4.1.0-py_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "32f17ce4b461b5e668584c5d6c7f62e000f4dde8b446728583a9e73040eca8f8",
+        "sha256_in_prefix": "32f17ce4b461b5e668584c5d6c7f62e000f4dde8b446728583a9e73040eca8f8",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "48d9695b6b68c3c3cbafcec387d673db7edb738f3f67a0c67e5c40ad77a1813c",
+        "sha256_in_prefix": "48d9695b6b68c3c3cbafcec387d673db7edb738f3f67a0c67e5c40ad77a1813c",
+        "size_in_bytes": 13533
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9a0cc055ba61bbefab9c8c26dda8f085b69c4ef60a755c1de1d810fb51c49568",
+        "sha256_in_prefix": "9a0cc055ba61bbefab9c8c26dda8f085b69c4ef60a755c1de1d810fb51c49568",
+        "size_in_bytes": 36809
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "729381852fac09545e3aaeda785030cfff9d1a94d264ceb9cbfd4c14931ab1c5",
+        "sha256_in_prefix": "729381852fac09545e3aaeda785030cfff9d1a94d264ceb9cbfd4c14931ab1c5",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/altair-4.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "24c05cba76d41b4bd80798e83ff44f79e39502fc781781c6990ec1f9d96feaa2",
+        "sha256_in_prefix": "24c05cba76d41b4bd80798e83ff44f79e39502fc781781c6990ec1f9d96feaa2",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/altair/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c64ecc83f52c1718b03606a184e8abca15521cc3bdc522232f7f84f227ff0396",
+        "sha256_in_prefix": "c64ecc83f52c1718b03606a184e8abca15521cc3bdc522232f7f84f227ff0396",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "site-packages/altair/_magics.py",
+        "path_type": "hardlink",
+        "sha256": "cdee0f4ff52ed2f76c4bdbdee4e7d9f990d0c35f4768e36a146c304c6a951d93",
+        "sha256_in_prefix": "cdee0f4ff52ed2f76c4bdbdee4e7d9f990d0c35f4768e36a146c304c6a951d93",
+        "size_in_bytes": 5203
+      },
+      {
+        "_path": "site-packages/altair/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "210322b277c30344113509a994c458da514988701fdda8d8e4c5b7fe4c361315",
+        "sha256_in_prefix": "210322b277c30344113509a994c458da514988701fdda8d8e4c5b7fe4c361315",
+        "size_in_bytes": 645
+      },
+      {
+        "_path": "site-packages/altair/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3375fb189bb92bb86ed8a642516266732f7465e460adc43bf23002b07d16c776",
+        "sha256_in_prefix": "3375fb189bb92bb86ed8a642516266732f7465e460adc43bf23002b07d16c776",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "site-packages/altair/examples/airport_connections.py",
+        "path_type": "hardlink",
+        "sha256": "b6884938de950962dbb7fe735e08c244befd53b0c986bb6f02496bfe0021230f",
+        "sha256_in_prefix": "b6884938de950962dbb7fe735e08c244befd53b0c986bb6f02496bfe0021230f",
+        "size_in_bytes": 2038
+      },
+      {
+        "_path": "site-packages/altair/examples/airports.py",
+        "path_type": "hardlink",
+        "sha256": "7ba79a8f86e741e77ed50cc7500fb0987d330c3918a08480e0494b3e492cbf03",
+        "sha256_in_prefix": "7ba79a8f86e741e77ed50cc7500fb0987d330c3918a08480e0494b3e492cbf03",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "site-packages/altair/examples/airports_count.py",
+        "path_type": "hardlink",
+        "sha256": "93776433a30e87584e0569710fa98e830326e0b1920bff7fa6746183fc5736df",
+        "sha256_in_prefix": "93776433a30e87584e0569710fa98e830326e0b1920bff7fa6746183fc5736df",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "site-packages/altair/examples/anscombe_plot.py",
+        "path_type": "hardlink",
+        "sha256": "f98aee1501b919a5852452d1d0c4e85f669a3decf1e36729430c2f18afe6e466",
+        "sha256_in_prefix": "f98aee1501b919a5852452d1d0c4e85f669a3decf1e36729430c2f18afe6e466",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "site-packages/altair/examples/area_chart_gradient.py",
+        "path_type": "hardlink",
+        "sha256": "f304f1735d876c3db835161188c3dd080982713753eb97812132207e5be2e51b",
+        "sha256_in_prefix": "f304f1735d876c3db835161188c3dd080982713753eb97812132207e5be2e51b",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_and_line_with_dual_axis.py",
+        "path_type": "hardlink",
+        "sha256": "20794e5ea86e78e68b517b22f60059d50dc85e82434df3556a14294263029674",
+        "sha256_in_prefix": "20794e5ea86e78e68b517b22f60059d50dc85e82434df3556a14294263029674",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_horizontal.py",
+        "path_type": "hardlink",
+        "sha256": "a4facb93147e57cd80e432931bd3100fca2518c0253544bc65e3920d82233199",
+        "sha256_in_prefix": "a4facb93147e57cd80e432931bd3100fca2518c0253544bc65e3920d82233199",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_sorted.py",
+        "path_type": "hardlink",
+        "sha256": "6052a1fa6cd9dae61b99175d03fbd0b3611207a4d002b4dbf268f366d7b0ccfe",
+        "sha256_in_prefix": "6052a1fa6cd9dae61b99175d03fbd0b3611207a4d002b4dbf268f366d7b0ccfe",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_with_highlighted_bar.py",
+        "path_type": "hardlink",
+        "sha256": "29979a1b0a1c256e007e2549e952f9ff7a7e949681ce89381195b8290eb6306d",
+        "sha256_in_prefix": "29979a1b0a1c256e007e2549e952f9ff7a7e949681ce89381195b8290eb6306d",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_with_highlighted_segment.py",
+        "path_type": "hardlink",
+        "sha256": "6e202a53df14809ffc160f1bc5ef474339e6b73472a21f2730733257d9f7602e",
+        "sha256_in_prefix": "6e202a53df14809ffc160f1bc5ef474339e6b73472a21f2730733257d9f7602e",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_with_labels.py",
+        "path_type": "hardlink",
+        "sha256": "4ccc38ef7715321757a70d9a1ec5de80c4e7aa79de461a8e5a7a3525e02c35ee",
+        "sha256_in_prefix": "4ccc38ef7715321757a70d9a1ec5de80c4e7aa79de461a8e5a7a3525e02c35ee",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_with_mean_line.py",
+        "path_type": "hardlink",
+        "sha256": "db11a912dd8bf821effdd8f43f748ea7211fb6b3e99db0e85daa3af9997a9fe4",
+        "sha256_in_prefix": "db11a912dd8bf821effdd8f43f748ea7211fb6b3e99db0e85daa3af9997a9fe4",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_chart_with_negatives.py",
+        "path_type": "hardlink",
+        "sha256": "8042c322a4f3aa073d7330a17e2ba216fcd1fe70b506f549fc8fc76a5fa321de",
+        "sha256_in_prefix": "8042c322a4f3aa073d7330a17e2ba216fcd1fe70b506f549fc8fc76a5fa321de",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/altair/examples/bar_rounded.py",
+        "path_type": "hardlink",
+        "sha256": "8dfbb66cc17c870d175d13e7bad8ba01bc83ed558afa73a73ea910bbd0095b99",
+        "sha256_in_prefix": "8dfbb66cc17c870d175d13e7bad8ba01bc83ed558afa73a73ea910bbd0095b99",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "site-packages/altair/examples/beckers_barley_trellis_plot.py",
+        "path_type": "hardlink",
+        "sha256": "c8148cc2c372d1a04876e1c444a88a6cb2b44d0c45e0467f1b89c9e1b5865ad6",
+        "sha256_in_prefix": "c8148cc2c372d1a04876e1c444a88a6cb2b44d0c45e0467f1b89c9e1b5865ad6",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "site-packages/altair/examples/beckers_barley_wrapped_facet.py",
+        "path_type": "hardlink",
+        "sha256": "24a175a89e824ea562632846d0f5d3b6e04c7449d33ff885904798eadb3a6b50",
+        "sha256_in_prefix": "24a175a89e824ea562632846d0f5d3b6e04c7449d33ff885904798eadb3a6b50",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "site-packages/altair/examples/binned_heatmap.py",
+        "path_type": "hardlink",
+        "sha256": "06c2a0e2701318daaf4fc97314042cfd5923c2e34d9ff1973c0b942fb25ea801",
+        "sha256_in_prefix": "06c2a0e2701318daaf4fc97314042cfd5923c2e34d9ff1973c0b942fb25ea801",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "site-packages/altair/examples/binned_scatterplot.py",
+        "path_type": "hardlink",
+        "sha256": "9d79a5d742bf5bbfe899bf2b46d5c260f9f034213bb96c84ff03e8841d0ddb80",
+        "sha256_in_prefix": "9d79a5d742bf5bbfe899bf2b46d5c260f9f034213bb96c84ff03e8841d0ddb80",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "site-packages/altair/examples/boxplot.py",
+        "path_type": "hardlink",
+        "sha256": "e7d1ea0835fca63baae2d46d8db4a40d1d3c7c54c23a678efbad5d1ef0c0c03f",
+        "sha256_in_prefix": "e7d1ea0835fca63baae2d46d8db4a40d1d3c7c54c23a678efbad5d1ef0c0c03f",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "site-packages/altair/examples/bubble_plot.py",
+        "path_type": "hardlink",
+        "sha256": "d757b9aeaddf3861d7c2dbf7c91b3685cf158d905c0a22db68e41a441d4913aa",
+        "sha256_in_prefix": "d757b9aeaddf3861d7c2dbf7c91b3685cf158d905c0a22db68e41a441d4913aa",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "site-packages/altair/examples/candlestick_chart.py",
+        "path_type": "hardlink",
+        "sha256": "b5051c115b5523926fe506cb435c1cd7c170dbb349e69109c5872ce9059cf6c0",
+        "sha256_in_prefix": "b5051c115b5523926fe506cb435c1cd7c170dbb349e69109c5872ce9059cf6c0",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "site-packages/altair/examples/choropleth.py",
+        "path_type": "hardlink",
+        "sha256": "430238e6439169136fe0e52edcf792fa4fbf278b4e01334c9ee86cdcc898bd12",
+        "sha256_in_prefix": "430238e6439169136fe0e52edcf792fa4fbf278b4e01334c9ee86cdcc898bd12",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/altair/examples/choropleth_repeat.py",
+        "path_type": "hardlink",
+        "sha256": "5d17db45887d2fb5a67338b262eb19cfdd5e2bdeaf0ef7a3c7c6c89dcc2ff423",
+        "sha256_in_prefix": "5d17db45887d2fb5a67338b262eb19cfdd5e2bdeaf0ef7a3c7c6c89dcc2ff423",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "site-packages/altair/examples/co2_concentration.py",
+        "path_type": "hardlink",
+        "sha256": "08f392474332361bf794b02424f22db823bb99e802607982e31bfece4c92218a",
+        "sha256_in_prefix": "08f392474332361bf794b02424f22db823bb99e802607982e31bfece4c92218a",
+        "size_in_bytes": 1690
+      },
+      {
+        "_path": "site-packages/altair/examples/connected_scatterplot.py",
+        "path_type": "hardlink",
+        "sha256": "da23560006f6b1db0f6b9a4cf044ba653b89114402515bd9ede7e5d32e630d19",
+        "sha256_in_prefix": "da23560006f6b1db0f6b9a4cf044ba653b89114402515bd9ede7e5d32e630d19",
+        "size_in_bytes": 726
+      },
+      {
+        "_path": "site-packages/altair/examples/cumulative_count_chart.py",
+        "path_type": "hardlink",
+        "sha256": "d3ed2aec053b16335ff4dd486b470ed6139b1632a54df1435660e7724a2dd7cf",
+        "sha256_in_prefix": "d3ed2aec053b16335ff4dd486b470ed6139b1632a54df1435660e7724a2dd7cf",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "site-packages/altair/examples/cumulative_wiki_donations.py",
+        "path_type": "hardlink",
+        "sha256": "b8c57bc30cf5208c133afbc4d2f28e487f28f2fe6e4f1e2cffffa03385390938",
+        "sha256_in_prefix": "b8c57bc30cf5208c133afbc4d2f28e487f28f2fe6e4f1e2cffffa03385390938",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "site-packages/altair/examples/density_facet.py",
+        "path_type": "hardlink",
+        "sha256": "d3aa99830fa6c4de30599d71ac908d108ddcf102a53a0db19cccb61a55006586",
+        "sha256_in_prefix": "d3aa99830fa6c4de30599d71ac908d108ddcf102a53a0db19cccb61a55006586",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "site-packages/altair/examples/density_stack.py",
+        "path_type": "hardlink",
+        "sha256": "85794318c20a08eea8a402ed3c3fa65f886694ff2a58a9c204e960cf9e285c61",
+        "sha256_in_prefix": "85794318c20a08eea8a402ed3c3fa65f886694ff2a58a9c204e960cf9e285c61",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "site-packages/altair/examples/diverging_stacked_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "10a73811661feccb19fed5cee5902159fafd9dc2b60f050c142e191488d9f7e7",
+        "sha256_in_prefix": "10a73811661feccb19fed5cee5902159fafd9dc2b60f050c142e191488d9f7e7",
+        "size_in_bytes": 8736
+      },
+      {
+        "_path": "site-packages/altair/examples/dot_dash_plot.py",
+        "path_type": "hardlink",
+        "sha256": "9a542c3ae5890ad2513e1cf9ede0e4245a8dda11bb6ea7b558308a6492892008",
+        "sha256_in_prefix": "9a542c3ae5890ad2513e1cf9ede0e4245a8dda11bb6ea7b558308a6492892008",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "site-packages/altair/examples/errorbars_with_ci.py",
+        "path_type": "hardlink",
+        "sha256": "036308dfe991264cbd9b3fdd40ee5faafc3b2451a7f338a24a5cfd21186042d4",
+        "sha256_in_prefix": "036308dfe991264cbd9b3fdd40ee5faafc3b2451a7f338a24a5cfd21186042d4",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "site-packages/altair/examples/errorbars_with_std.py",
+        "path_type": "hardlink",
+        "sha256": "8adc9f75311497b9af4236fdbd8f3b0d31f0670168a660e8b21684ca849d3e98",
+        "sha256_in_prefix": "8adc9f75311497b9af4236fdbd8f3b0d31f0670168a660e8b21684ca849d3e98",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "site-packages/altair/examples/falkensee.py",
+        "path_type": "hardlink",
+        "sha256": "533b9968fe97666ce9d6e58e0212e690e0f746dc2b03b9240cbad6f6bb2bde23",
+        "sha256_in_prefix": "533b9968fe97666ce9d6e58e0212e690e0f746dc2b03b9240cbad6f6bb2bde23",
+        "size_in_bytes": 2543
+      },
+      {
+        "_path": "site-packages/altair/examples/filled_step_chart.py",
+        "path_type": "hardlink",
+        "sha256": "6619d9c5478263dbbca9b64080ab823f5b5e1d1d91e2babdd1f5f4f46021ab7a",
+        "sha256_in_prefix": "6619d9c5478263dbbca9b64080ab823f5b5e1d1d91e2babdd1f5f4f46021ab7a",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "site-packages/altair/examples/gantt_chart.py",
+        "path_type": "hardlink",
+        "sha256": "85022319e97ced392bcd59e5d8af7c201c320b4f46aae1eefec22eed089f1501",
+        "sha256_in_prefix": "85022319e97ced392bcd59e5d8af7c201c320b4f46aae1eefec22eed089f1501",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "site-packages/altair/examples/gapminder_bubble_plot.py",
+        "path_type": "hardlink",
+        "sha256": "30f92bb7093e062e2ee7e9dc2ec0dc98b419f9e534821ee3b498f8c775fd6772",
+        "sha256_in_prefix": "30f92bb7093e062e2ee7e9dc2ec0dc98b419f9e534821ee3b498f8c775fd6772",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "site-packages/altair/examples/grouped_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "03f760d11ef3c2803764e5408a43fe65827543da0cb008da4793e5cc71c95106",
+        "sha256_in_prefix": "03f760d11ef3c2803764e5408a43fe65827543da0cb008da4793e5cc71c95106",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "site-packages/altair/examples/grouped_bar_chart_horizontal.py",
+        "path_type": "hardlink",
+        "sha256": "9ba55926d3160766e99f548d7b2f3342cdbbf0b7aadfdd67f8034d67c66dcc5b",
+        "sha256_in_prefix": "9ba55926d3160766e99f548d7b2f3342cdbbf0b7aadfdd67f8034d67c66dcc5b",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "site-packages/altair/examples/grouped_bar_chart_with_error_bars.py",
+        "path_type": "hardlink",
+        "sha256": "01ee5d8706e8df64d436439ef47be5c330865dbe6af8f67f79153cecfd1da678",
+        "sha256_in_prefix": "01ee5d8706e8df64d436439ef47be5c330865dbe6af8f67f79153cecfd1da678",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "site-packages/altair/examples/histogram_responsive.py",
+        "path_type": "hardlink",
+        "sha256": "e8eefaa71017d1d610418ce0a6c1cf4ff260e243bfb68a26a54a3fd4318e5fb4",
+        "sha256_in_prefix": "e8eefaa71017d1d610418ce0a6c1cf4ff260e243bfb68a26a54a3fd4318e5fb4",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "site-packages/altair/examples/histogram_with_a_global_mean_overlay.py",
+        "path_type": "hardlink",
+        "sha256": "09e247630ace12c1aecda805b2ef6da4cf3fc814d7ce023dd853dbe46c495ef3",
+        "sha256_in_prefix": "09e247630ace12c1aecda805b2ef6da4cf3fc814d7ce023dd853dbe46c495ef3",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "site-packages/altair/examples/horizon_graph.py",
+        "path_type": "hardlink",
+        "sha256": "4b164e65574198d94946fe8a5b608ec919e1a35b15bb5d2635c50cefb2645b3f",
+        "sha256_in_prefix": "4b164e65574198d94946fe8a5b608ec919e1a35b15bb5d2635c50cefb2645b3f",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "site-packages/altair/examples/horizontal_stacked_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "4a904f950a5e717889c1eeeff28a969fb573717b14c48c0731fad4f7ca143574",
+        "sha256_in_prefix": "4a904f950a5e717889c1eeeff28a969fb573717b14c48c0731fad4f7ca143574",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "site-packages/altair/examples/interactive_brush.py",
+        "path_type": "hardlink",
+        "sha256": "79cc765b2749c92b9f391cf86092bc1e5a3e7b4f9cb78aa285a10e23bcced7ab",
+        "sha256_in_prefix": "79cc765b2749c92b9f391cf86092bc1e5a3e7b4f9cb78aa285a10e23bcced7ab",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/altair/examples/interactive_cross_highlight.py",
+        "path_type": "hardlink",
+        "sha256": "e2b768b90e4cd2cb1e0ca2b13c3f104b11ec0a75e9074dafdff93742b6f0844d",
+        "sha256_in_prefix": "e2b768b90e4cd2cb1e0ca2b13c3f104b11ec0a75e9074dafdff93742b6f0844d",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "site-packages/altair/examples/interactive_layered_crossfilter.py",
+        "path_type": "hardlink",
+        "sha256": "8d6e0f144630a5b83a375200c41e3e1d5d8e24d0ad084d0a20f61570b42be9e0",
+        "sha256_in_prefix": "8d6e0f144630a5b83a375200c41e3e1d5d8e24d0ad084d0a20f61570b42be9e0",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "site-packages/altair/examples/interactive_legend.py",
+        "path_type": "hardlink",
+        "sha256": "7113e7d4da2204d99dcc06fd9af36adf1b3c7c16baae2c256bcd82cedd4f4d04",
+        "sha256_in_prefix": "7113e7d4da2204d99dcc06fd9af36adf1b3c7c16baae2c256bcd82cedd4f4d04",
+        "size_in_bytes": 825
+      },
+      {
+        "_path": "site-packages/altair/examples/interactive_scatter_plot.py",
+        "path_type": "hardlink",
+        "sha256": "455d8d8bcf99b86e3ae17c5d412f959a90d57084c77dc7e2bcd0803ec6c25217",
+        "sha256_in_prefix": "455d8d8bcf99b86e3ae17c5d412f959a90d57084c77dc7e2bcd0803ec6c25217",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "site-packages/altair/examples/interval_selection.py",
+        "path_type": "hardlink",
+        "sha256": "2a5ac926880523674e48ed275b8abc65d2858a363ab37bf12af6e06e6fb17bde",
+        "sha256_in_prefix": "2a5ac926880523674e48ed275b8abc65d2858a363ab37bf12af6e06e6fb17bde",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "site-packages/altair/examples/iowa_electricity.py",
+        "path_type": "hardlink",
+        "sha256": "2ca159a2bfbbaa934095d84b01d6f4e01e03710a887efc6949014c333c60b8b3",
+        "sha256_in_prefix": "2ca159a2bfbbaa934095d84b01d6f4e01e03710a887efc6949014c333c60b8b3",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "site-packages/altair/examples/isotype.py",
+        "path_type": "hardlink",
+        "sha256": "39d3a1ba948a4315831ff808720f47204f1c65b130b800f500f6f57087ecb649",
+        "sha256_in_prefix": "39d3a1ba948a4315831ff808720f47204f1c65b130b800f500f6f57087ecb649",
+        "size_in_bytes": 6276
+      },
+      {
+        "_path": "site-packages/altair/examples/isotype_emoji.py",
+        "path_type": "hardlink",
+        "sha256": "b610d4452a9d747dcb5eb84cb418bb4446a33f3c0c91e51369226533352dccff",
+        "sha256_in_prefix": "b610d4452a9d747dcb5eb84cb418bb4446a33f3c0c91e51369226533352dccff",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "site-packages/altair/examples/isotype_grid.py",
+        "path_type": "hardlink",
+        "sha256": "b24115306ddd016f2f2bbec332ae0e2fb1c6502cfaada1dd1361aced16fb60db",
+        "sha256_in_prefix": "b24115306ddd016f2f2bbec332ae0e2fb1c6502cfaada1dd1361aced16fb60db",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "site-packages/altair/examples/layer_line_color_rule.py",
+        "path_type": "hardlink",
+        "sha256": "d44a74a5c0122c1d033ab9b13aad445ecc17f55edf07fff9b212a88ea40dcceb",
+        "sha256_in_prefix": "d44a74a5c0122c1d033ab9b13aad445ecc17f55edf07fff9b212a88ea40dcceb",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_area_chart.py",
+        "path_type": "hardlink",
+        "sha256": "df25a3581304400a09d3e7847eb6b0097241898f0ad6f87c69daa6e11a863f62",
+        "sha256_in_prefix": "df25a3581304400a09d3e7847eb6b0097241898f0ad6f87c69daa6e11a863f62",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "226c130275f8a91d549410165dbbb0c6708d74cb301bb57e8460de61e92f82e1",
+        "sha256_in_prefix": "226c130275f8a91d549410165dbbb0c6708d74cb301bb57e8460de61e92f82e1",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_chart_bar_mark.py",
+        "path_type": "hardlink",
+        "sha256": "1ac7abbc14188cf690940928c5b1a5488eb7d26b2e17a42529c798e991145033",
+        "sha256_in_prefix": "1ac7abbc14188cf690940928c5b1a5488eb7d26b2e17a42529c798e991145033",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_chart_with_dual_axis.py",
+        "path_type": "hardlink",
+        "sha256": "3f6fd6dfd7c06d8eb9779d9886cbd439443a45d9885aa2363f8de120fc403eb3",
+        "sha256_in_prefix": "3f6fd6dfd7c06d8eb9779d9886cbd439443a45d9885aa2363f8de120fc403eb3",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_heatmap_text.py",
+        "path_type": "hardlink",
+        "sha256": "1d0908c5c12e828270dc79f5dd8d1f0e7a06f12beff32c91fed78612e27ba639",
+        "sha256_in_prefix": "1d0908c5c12e828270dc79f5dd8d1f0e7a06f12beff32c91fed78612e27ba639",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/altair/examples/layered_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "146246e4655b85b11e3cf6514522e7a1ca748044a1c4b961c3992a8b6d29bfdd",
+        "sha256_in_prefix": "146246e4655b85b11e3cf6514522e7a1ca748044a1c4b961c3992a8b6d29bfdd",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "site-packages/altair/examples/line_chart_with_generator.py",
+        "path_type": "hardlink",
+        "sha256": "3dfc93eb7a2149f6a543ecdbb99c817ddfaa28f86d481ea4baf4083b552f419a",
+        "sha256_in_prefix": "3dfc93eb7a2149f6a543ecdbb99c817ddfaa28f86d481ea4baf4083b552f419a",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "site-packages/altair/examples/line_chart_with_points.py",
+        "path_type": "hardlink",
+        "sha256": "e4a382282608c6a10ff7b5cc1e86c5d3dffb6f1dc4995a5b8281f043f29c592b",
+        "sha256_in_prefix": "e4a382282608c6a10ff7b5cc1e86c5d3dffb6f1dc4995a5b8281f043f29c592b",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/altair/examples/line_percent.py",
+        "path_type": "hardlink",
+        "sha256": "c28d7d0e552d067059b487b8cf65a63da3a675bda758038a3ade5916e0a9a45e",
+        "sha256_in_prefix": "c28d7d0e552d067059b487b8cf65a63da3a675bda758038a3ade5916e0a9a45e",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "site-packages/altair/examples/line_with_ci.py",
+        "path_type": "hardlink",
+        "sha256": "2cdfd49af017984d015428372895fbbf197441c46d82662d14e6835f2a31f848",
+        "sha256_in_prefix": "2cdfd49af017984d015428372895fbbf197441c46d82662d14e6835f2a31f848",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "site-packages/altair/examples/london_tube.py",
+        "path_type": "hardlink",
+        "sha256": "795c0c3c125cacfc6dbec52e494892febbb6d2230d6ed908d0ab7eee36132856",
+        "sha256_in_prefix": "795c0c3c125cacfc6dbec52e494892febbb6d2230d6ed908d0ab7eee36132856",
+        "size_in_bytes": 1827
+      },
+      {
+        "_path": "site-packages/altair/examples/multi_series_line.py",
+        "path_type": "hardlink",
+        "sha256": "5fa4dccfd430153f0472442338e1f8cebcc135571d4fb1573c949cba1f27df0d",
+        "sha256_in_prefix": "5fa4dccfd430153f0472442338e1f8cebcc135571d4fb1573c949cba1f27df0d",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/altair/examples/multifeature_scatter_plot.py",
+        "path_type": "hardlink",
+        "sha256": "7dc7a0de20fdb673c71c094b0502ea008f518e2944d2913729ec62254359c99e",
+        "sha256_in_prefix": "7dc7a0de20fdb673c71c094b0502ea008f518e2944d2913729ec62254359c99e",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "site-packages/altair/examples/multiline_highlight.py",
+        "path_type": "hardlink",
+        "sha256": "1d5c93b6f1fb30f9bca996030ed82b76b59d4fcead81f5b8962b42d2983ef6a6",
+        "sha256_in_prefix": "1d5c93b6f1fb30f9bca996030ed82b76b59d4fcead81f5b8962b42d2983ef6a6",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "site-packages/altair/examples/multiline_tooltip.py",
+        "path_type": "hardlink",
+        "sha256": "d9f8387b21dc80990f881005df51248056012f7b73b3d14d7e96e323587619ab",
+        "sha256_in_prefix": "d9f8387b21dc80990f881005df51248056012f7b73b3d14d7e96e323587619ab",
+        "size_in_bytes": 2146
+      },
+      {
+        "_path": "site-packages/altair/examples/multiple_interactions.py",
+        "path_type": "hardlink",
+        "sha256": "4992f30be37688c9092c58600c52ae1a15a67535ab1b3b7ed5b951400a506d05",
+        "sha256_in_prefix": "4992f30be37688c9092c58600c52ae1a15a67535ab1b3b7ed5b951400a506d05",
+        "size_in_bytes": 3060
+      },
+      {
+        "_path": "site-packages/altair/examples/multiple_marks.py",
+        "path_type": "hardlink",
+        "sha256": "5f745c17e2a09d2d6bc26bc93dbd3f8d0aca22e19aa43684465cc73382c41f46",
+        "sha256_in_prefix": "5f745c17e2a09d2d6bc26bc93dbd3f8d0aca22e19aa43684465cc73382c41f46",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "site-packages/altair/examples/natural_disasters.py",
+        "path_type": "hardlink",
+        "sha256": "b8eec909aaf860079d7bd07236d8bd2843c5f203f6b1c8a5f484dd5220508866",
+        "sha256_in_prefix": "b8eec909aaf860079d7bd07236d8bd2843c5f203f6b1c8a5f484dd5220508866",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "site-packages/altair/examples/normalized_stacked_area_chart.py",
+        "path_type": "hardlink",
+        "sha256": "b7ebc5f5a2b64bac72f5f203a8e076f3489c20737de402c2bded21835213910f",
+        "sha256_in_prefix": "b7ebc5f5a2b64bac72f5f203a8e076f3489c20737de402c2bded21835213910f",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "site-packages/altair/examples/normalized_stacked_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "949d13ba7ad514fd2f7f844bfea4cfc952c434f3d9790a1a17e854940015a4f6",
+        "sha256_in_prefix": "949d13ba7ad514fd2f7f844bfea4cfc952c434f3d9790a1a17e854940015a4f6",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "site-packages/altair/examples/normed_parallel_coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "c866c9a7a6afd1b5ba2ecef8c6851537df52e24593b7686065bf2c778b29a4c1",
+        "sha256_in_prefix": "c866c9a7a6afd1b5ba2ecef8c6851537df52e24593b7686065bf2c778b29a4c1",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "site-packages/altair/examples/one_dot_per_zipcode.py",
+        "path_type": "hardlink",
+        "sha256": "4704b1d3350fd929541dde93a74e538ac298b87d4e2567e8b833fb5b9de8c535",
+        "sha256_in_prefix": "4704b1d3350fd929541dde93a74e538ac298b87d4e2567e8b833fb5b9de8c535",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "site-packages/altair/examples/parallel_coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "d8306c04c8d8fb13d608d5612c7bdda5e6f9d9e41d05b6f561a7663642a262ec",
+        "sha256_in_prefix": "d8306c04c8d8fb13d608d5612c7bdda5e6f9d9e41d05b6f561a7663642a262ec",
+        "size_in_bytes": 818
+      },
+      {
+        "_path": "site-packages/altair/examples/percentage_of_total.py",
+        "path_type": "hardlink",
+        "sha256": "aac23d783abce7d16fb2087684ca751d0b74e352f14f05e4c06d0027070868ed",
+        "sha256_in_prefix": "aac23d783abce7d16fb2087684ca751d0b74e352f14f05e4c06d0027070868ed",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "site-packages/altair/examples/poly_fit_regression.py",
+        "path_type": "hardlink",
+        "sha256": "8231a204984290b72c7782fb9b05674d8f5495f54ad017150c869c7583138bd7",
+        "sha256_in_prefix": "8231a204984290b72c7782fb9b05674d8f5495f54ad017150c869c7583138bd7",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "site-packages/altair/examples/ranged_dot_plot.py",
+        "path_type": "hardlink",
+        "sha256": "b6036156d1f900d03e3254e837b2759b18ef774c20508d289e2a02b327b4cae6",
+        "sha256_in_prefix": "b6036156d1f900d03e3254e837b2759b18ef774c20508d289e2a02b327b4cae6",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "site-packages/altair/examples/ridgeline_plot.py",
+        "path_type": "hardlink",
+        "sha256": "c2e65f9188a52a5118912873d7926f890884dc31722bdc8120790702145bffea",
+        "sha256_in_prefix": "c2e65f9188a52a5118912873d7926f890884dc31722bdc8120790702145bffea",
+        "size_in_bytes": 1609
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_href.py",
+        "path_type": "hardlink",
+        "sha256": "dbbb89f29dcb46636957b703124fef4437215fce38331b4db4657c1b4ef4c82a",
+        "sha256_in_prefix": "dbbb89f29dcb46636957b703124fef4437215fce38331b4db4657c1b4ef4c82a",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_linked_brush.py",
+        "path_type": "hardlink",
+        "sha256": "8322e391360a47de58ae26af5bed8b225603d8881491c4c9b2ccbbc87717c9e3",
+        "sha256_in_prefix": "8322e391360a47de58ae26af5bed8b225603d8881491c4c9b2ccbbc87717c9e3",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_linked_table.py",
+        "path_type": "hardlink",
+        "sha256": "603bfca89813253b31fc8ffb045f4c7f7638b8fc15710ecb67188ad5795e151d",
+        "sha256_in_prefix": "603bfca89813253b31fc8ffb045f4c7f7638b8fc15710ecb67188ad5795e151d",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_marginal_hist.py",
+        "path_type": "hardlink",
+        "sha256": "7b5dbf25b8a5db532ffea525ae9822bc164b6aedddca709cad33ab37630b5d4e",
+        "sha256_in_prefix": "7b5dbf25b8a5db532ffea525ae9822bc164b6aedddca709cad33ab37630b5d4e",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "762b88a051a8cffe8d9f387c00e60312a4ad88a5643de7d96117aa7600ebc9d1",
+        "sha256_in_prefix": "762b88a051a8cffe8d9f387c00e60312a4ad88a5643de7d96117aa7600ebc9d1",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_qq.py",
+        "path_type": "hardlink",
+        "sha256": "d55c6f56385b2f07b0e07450cf819f0ec8dbe5fcd2a019497a36f95b4502b526",
+        "sha256_in_prefix": "d55c6f56385b2f07b0e07450cf819f0ec8dbe5fcd2a019497a36f95b4502b526",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_tooltips.py",
+        "path_type": "hardlink",
+        "sha256": "73ad45a2c9202024be0ad0711e726f8ebf5bf2b0514d606b227e70f7f5dabc1b",
+        "sha256_in_prefix": "73ad45a2c9202024be0ad0711e726f8ebf5bf2b0514d606b227e70f7f5dabc1b",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "2b021925dccf4f69fea58838c64e5683ac591984fc5baea61afb7a1716f914c4",
+        "sha256_in_prefix": "2b021925dccf4f69fea58838c64e5683ac591984fc5baea61afb7a1716f914c4",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_labels.py",
+        "path_type": "hardlink",
+        "sha256": "5de6f9a80751d91eeaf231a5c2425c0309af71469386a76d948167247af8a276",
+        "sha256_in_prefix": "5de6f9a80751d91eeaf231a5c2425c0309af71469386a76d948167247af8a276",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_layered_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "b356f534c67c46223f228f98a3779a87f6f334bf35a6cd2d4b4bbe523bd40e8c",
+        "sha256_in_prefix": "b356f534c67c46223f228f98a3779a87f6f334bf35a6cd2d4b4bbe523bd40e8c",
+        "size_in_bytes": 1966
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_loess.py",
+        "path_type": "hardlink",
+        "sha256": "6081edd1a996ef2a9281ccf7bd0731d4b3fba786492b314160582b2b3a22bb4d",
+        "sha256_in_prefix": "6081edd1a996ef2a9281ccf7bd0731d4b3fba786492b314160582b2b3a22bb4d",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_minimap.py",
+        "path_type": "hardlink",
+        "sha256": "f151ecf3dc28f044b5b9d3c7a2d2f265d4b858ecfcaaf843bb102675b32f7555",
+        "sha256_in_prefix": "f151ecf3dc28f044b5b9d3c7a2d2f265d4b858ecfcaaf843bb102675b32f7555",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/altair/examples/scatter_with_rolling_mean.py",
+        "path_type": "hardlink",
+        "sha256": "3f78de861adea30a08e016fb7ecde3c251984e164a4c0d9da8610ebae036bcd3",
+        "sha256_in_prefix": "3f78de861adea30a08e016fb7ecde3c251984e164a4c0d9da8610ebae036bcd3",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/altair/examples/seattle_weather_interactive.py",
+        "path_type": "hardlink",
+        "sha256": "6275871ae262cecfd8c9a97783d5e3993abd358d9c705dabb467d097f050d7de",
+        "sha256_in_prefix": "6275871ae262cecfd8c9a97783d5e3993abd358d9c705dabb467d097f050d7de",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "site-packages/altair/examples/select_detail.py",
+        "path_type": "hardlink",
+        "sha256": "d6b7ca7d0638601cfa9492afc9e5b9a68119654b00001263ab056ec154383b2b",
+        "sha256_in_prefix": "d6b7ca7d0638601cfa9492afc9e5b9a68119654b00001263ab056ec154383b2b",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "site-packages/altair/examples/select_mark_area.py",
+        "path_type": "hardlink",
+        "sha256": "87d07a45c445780899931ea2880c51f96f12ed75de77827f7a0f69b0ba28a3f6",
+        "sha256_in_prefix": "87d07a45c445780899931ea2880c51f96f12ed75de77827f7a0f69b0ba28a3f6",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "site-packages/altair/examples/selection_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "6192f02d19a5f8b0e5a5603a2e9d547d974a36c576ec4ae0369522a26fcfddb9",
+        "sha256_in_prefix": "6192f02d19a5f8b0e5a5603a2e9d547d974a36c576ec4ae0369522a26fcfddb9",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/altair/examples/selection_layer_bar_month.py",
+        "path_type": "hardlink",
+        "sha256": "023989a8c1a7ae64f95ea95f62316b4b5484044dd488b91b77a24a2a9e8f9e97",
+        "sha256_in_prefix": "023989a8c1a7ae64f95ea95f62316b4b5484044dd488b91b77a24a2a9e8f9e97",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "7900e987396faf86c0424cd9305766b265ff4245d3aa93eb8402d5aa1132a674",
+        "sha256_in_prefix": "7900e987396faf86c0424cd9305766b265ff4245d3aa93eb8402d5aa1132a674",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_heatmap.py",
+        "path_type": "hardlink",
+        "sha256": "2a22d54a494679e29219456dc02f96be423e1257bfc4a227b3898f7ce55614e5",
+        "sha256_in_prefix": "2a22d54a494679e29219456dc02f96be423e1257bfc4a227b3898f7ce55614e5",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "b55f85357916ea25a1194dfe4a173d9a7cb51fe7d393e5b7f6846034598ad181",
+        "sha256_in_prefix": "b55f85357916ea25a1194dfe4a173d9a7cb51fe7d393e5b7f6846034598ad181",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_line_chart.py",
+        "path_type": "hardlink",
+        "sha256": "3bcb460e6a6e379e43bfe38e291d82e65267e4afbd1f709de11e479a4c9955de",
+        "sha256_in_prefix": "3bcb460e6a6e379e43bfe38e291d82e65267e4afbd1f709de11e479a4c9955de",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_scatter_with_errorbars.py",
+        "path_type": "hardlink",
+        "sha256": "b7bb27966311a3883d4d3702b6859c4cfa93fbeeba5fe06606431ba93b8883fe",
+        "sha256_in_prefix": "b7bb27966311a3883d4d3702b6859c4cfa93fbeeba5fe06606431ba93b8883fe",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "site-packages/altair/examples/simple_stacked_area_chart.py",
+        "path_type": "hardlink",
+        "sha256": "25fe115ab8968c5dc4f047b68149653933723bffbbdce7c5b9db82318a536816",
+        "sha256_in_prefix": "25fe115ab8968c5dc4f047b68149653933723bffbbdce7c5b9db82318a536816",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "site-packages/altair/examples/slope_graph.py",
+        "path_type": "hardlink",
+        "sha256": "0669a3d3ea92571462c3254dfd5a2c56d67fc6b63e2816a8fc1fbe0feb2de792",
+        "sha256_in_prefix": "0669a3d3ea92571462c3254dfd5a2c56d67fc6b63e2816a8fc1fbe0feb2de792",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/altair/examples/sorted_error_bars_with_ci.py",
+        "path_type": "hardlink",
+        "sha256": "fe8d0c90bcb1b37699caa7b141db0d22ecfd8b0b565c976d372dbdaffa107c5d",
+        "sha256_in_prefix": "fe8d0c90bcb1b37699caa7b141db0d22ecfd8b0b565c976d372dbdaffa107c5d",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/altair/examples/stacked_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "8b87ef220f01d4a54c14ccbe7992062f2ad3d6e3a9438a3825ceeeca2b5737f4",
+        "sha256_in_prefix": "8b87ef220f01d4a54c14ccbe7992062f2ad3d6e3a9438a3825ceeeca2b5737f4",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "site-packages/altair/examples/stacked_bar_chart_sorted_segments.py",
+        "path_type": "hardlink",
+        "sha256": "b5958deeb6119b33c2956f5827d3ea7af970b2e55295fe6b190534f4f6584fdd",
+        "sha256_in_prefix": "b5958deeb6119b33c2956f5827d3ea7af970b2e55295fe6b190534f4f6584fdd",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "site-packages/altair/examples/stacked_bar_chart_with_text.py",
+        "path_type": "hardlink",
+        "sha256": "aad80a2b9e9fe5dd906ed37779d6a06e62b5825a5414a8b3bfeef2897c9c4f3d",
+        "sha256_in_prefix": "aad80a2b9e9fe5dd906ed37779d6a06e62b5825a5414a8b3bfeef2897c9c4f3d",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/altair/examples/stem_and_leaf.py",
+        "path_type": "hardlink",
+        "sha256": "aed5085fdd30fedf98e26a8b5ec55f625c111c2d3e574cb5b71e4e4ac0c89d23",
+        "sha256_in_prefix": "aed5085fdd30fedf98e26a8b5ec55f625c111c2d3e574cb5b71e4e4ac0c89d23",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "site-packages/altair/examples/step_chart.py",
+        "path_type": "hardlink",
+        "sha256": "70fa5862528f44394eadbbfa038e9d78081fa583e4241d905b1740d62c19a550",
+        "sha256_in_prefix": "70fa5862528f44394eadbbfa038e9d78081fa583e4241d905b1740d62c19a550",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "site-packages/altair/examples/streamgraph.py",
+        "path_type": "hardlink",
+        "sha256": "59df2d528dac560d0138c6d3a8bee5946fed70f937df72b40e15418635ce038f",
+        "sha256_in_prefix": "59df2d528dac560d0138c6d3a8bee5946fed70f937df72b40e15418635ce038f",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "site-packages/altair/examples/strip_plot.py",
+        "path_type": "hardlink",
+        "sha256": "ada1da0a688b9ab9a9fd013e1333194af7e74daf66811217374877def6819cbe",
+        "sha256_in_prefix": "ada1da0a688b9ab9a9fd013e1333194af7e74daf66811217374877def6819cbe",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "site-packages/altair/examples/stripplot.py",
+        "path_type": "hardlink",
+        "sha256": "b272df97bc9fd1f5649a82ec94c78523fb9672a84491c618db19028099c8c09c",
+        "sha256_in_prefix": "b272df97bc9fd1f5649a82ec94c78523fb9672a84491c618db19028099c8c09c",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "site-packages/altair/examples/table_bubble_plot_github.py",
+        "path_type": "hardlink",
+        "sha256": "abdda3218dcb40be9548da9e2a7e430924820f0e64c0bd09b489c90535b98315",
+        "sha256_in_prefix": "abdda3218dcb40be9548da9e2a7e430924820f0e64c0bd09b489c90535b98315",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "site-packages/altair/examples/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/examples/tests/test_examples.py",
+        "path_type": "hardlink",
+        "sha256": "92a23964c708609c5941a71bb915e92ebd30d74fbffb91e99f1d0bafb0011605",
+        "sha256_in_prefix": "92a23964c708609c5941a71bb915e92ebd30d74fbffb91e99f1d0bafb0011605",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "site-packages/altair/examples/top_k_items.py",
+        "path_type": "hardlink",
+        "sha256": "e9b4d8f8f683baeedd997289ea524af52f94091a3596f39bd246825b43557ea0",
+        "sha256_in_prefix": "e9b4d8f8f683baeedd997289ea524af52f94091a3596f39bd246825b43557ea0",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "site-packages/altair/examples/top_k_letters.py",
+        "path_type": "hardlink",
+        "sha256": "80f3033d540e51c59726d2971f509cb7109a2a1d46c881c82d5b74d881e381ef",
+        "sha256_in_prefix": "80f3033d540e51c59726d2971f509cb7109a2a1d46c881c82d5b74d881e381ef",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "site-packages/altair/examples/top_k_with_others.py",
+        "path_type": "hardlink",
+        "sha256": "859895f6f2c8258d3e214cc884eaa82008d3aa0cf269ad880315cb358986ae23",
+        "sha256_in_prefix": "859895f6f2c8258d3e214cc884eaa82008d3aa0cf269ad880315cb358986ae23",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "site-packages/altair/examples/trail_marker.py",
+        "path_type": "hardlink",
+        "sha256": "cdb76e05dd195e88a88d21dffdda58c89b47b2a286c84390a8c95796ced3aafa",
+        "sha256_in_prefix": "cdb76e05dd195e88a88d21dffdda58c89b47b2a286c84390a8c95796ced3aafa",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/altair/examples/trellis_area.py",
+        "path_type": "hardlink",
+        "sha256": "908cad716e76d42e5022b702a3143008ecd6a4158a274498a56f4eccfcd42141",
+        "sha256_in_prefix": "908cad716e76d42e5022b702a3143008ecd6a4158a274498a56f4eccfcd42141",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "site-packages/altair/examples/trellis_area_sort_array.py",
+        "path_type": "hardlink",
+        "sha256": "ffa99d3d8604ca660239b8023fa93f8a04965734ddba78b4b115db4b12b75c64",
+        "sha256_in_prefix": "ffa99d3d8604ca660239b8023fa93f8a04965734ddba78b4b115db4b12b75c64",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "site-packages/altair/examples/trellis_histogram.py",
+        "path_type": "hardlink",
+        "sha256": "3937130f52f1c08b551da6701d8944741027916e2be1d7154fcda1e571b06a2d",
+        "sha256_in_prefix": "3937130f52f1c08b551da6701d8944741027916e2be1d7154fcda1e571b06a2d",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "site-packages/altair/examples/trellis_scatter_plot.py",
+        "path_type": "hardlink",
+        "sha256": "b0441cc2d87d3c319dbc6911ddff0e7d2878e1c1ad5f41116992b2c4b96da5f1",
+        "sha256_in_prefix": "b0441cc2d87d3c319dbc6911ddff0e7d2878e1c1ad5f41116992b2c4b96da5f1",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "site-packages/altair/examples/trellis_stacked_bar_chart.py",
+        "path_type": "hardlink",
+        "sha256": "8e18113092e6db28a599a7b396fa9997b94c8c2d6fee7d9b0ef08512a14348fb",
+        "sha256_in_prefix": "8e18113092e6db28a599a7b396fa9997b94c8c2d6fee7d9b0ef08512a14348fb",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "site-packages/altair/examples/us_employment.py",
+        "path_type": "hardlink",
+        "sha256": "55f98dea000fb605effee4c1b141ce2d17cbd8929b1a5157c817849b4bb7a9d1",
+        "sha256_in_prefix": "55f98dea000fb605effee4c1b141ce2d17cbd8929b1a5157c817849b4bb7a9d1",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "site-packages/altair/examples/us_incomebrackets_by_state_facet.py",
+        "path_type": "hardlink",
+        "sha256": "53ced33e3ca6cdd5950942cdd639e4d39f1f3ff80f4d2a5108aa5bb75e33ef28",
+        "sha256_in_prefix": "53ced33e3ca6cdd5950942cdd639e4d39f1f3ff80f4d2a5108aa5bb75e33ef28",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "site-packages/altair/examples/us_population_over_time.py",
+        "path_type": "hardlink",
+        "sha256": "27d37d33967bca3855542f16aa64ae203267fec6ebdec771cb53db8ce4a03bdd",
+        "sha256_in_prefix": "27d37d33967bca3855542f16aa64ae203267fec6ebdec771cb53db8ce4a03bdd",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "site-packages/altair/examples/us_population_over_time_facet.py",
+        "path_type": "hardlink",
+        "sha256": "747828b7f037e035be7e7cc5fbe3a7a7030eddc62dcd7c0446a0353bce82ab9a",
+        "sha256_in_prefix": "747828b7f037e035be7e7cc5fbe3a7a7030eddc62dcd7c0446a0353bce82ab9a",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "site-packages/altair/examples/us_population_pyramid_over_time.py",
+        "path_type": "hardlink",
+        "sha256": "afd147205ad496981b972520b6092d47e14f0e30e97f7ef766b1cbb9aeb29af0",
+        "sha256_in_prefix": "afd147205ad496981b972520b6092d47e14f0e30e97f7ef766b1cbb9aeb29af0",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "site-packages/altair/examples/us_state_capitals.py",
+        "path_type": "hardlink",
+        "sha256": "f1085f9711210a78a0d8247ba7781c6a67b29b3d7e2c1b66e860cdef525e2f66",
+        "sha256_in_prefix": "f1085f9711210a78a0d8247ba7781c6a67b29b3d7e2c1b66e860cdef525e2f66",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "site-packages/altair/examples/violin_plot.py",
+        "path_type": "hardlink",
+        "sha256": "8f373532d7ee84028d9b3c2f900b20646cd5a7ce0cb4643b16de1c6911a35d6e",
+        "sha256_in_prefix": "8f373532d7ee84028d9b3c2f900b20646cd5a7ce0cb4643b16de1c6911a35d6e",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "site-packages/altair/examples/weather_heatmap.py",
+        "path_type": "hardlink",
+        "sha256": "6a71802a1e1c18a8d86117422bfdd9d03c48f02bf9d56f3ee7fbc7fa56cf8103",
+        "sha256_in_prefix": "6a71802a1e1c18a8d86117422bfdd9d03c48f02bf9d56f3ee7fbc7fa56cf8103",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "site-packages/altair/examples/wheat_wages.py",
+        "path_type": "hardlink",
+        "sha256": "a85753f13927bbcb0f634bdd3e1fb84d5e00aea5fc1246e58af4d94efc215874",
+        "sha256_in_prefix": "a85753f13927bbcb0f634bdd3e1fb84d5e00aea5fc1246e58af4d94efc215874",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "site-packages/altair/examples/wilkinson-dot-plot.py",
+        "path_type": "hardlink",
+        "sha256": "eab1734072f8abc3e2a263216a297fd638787ecdd546a654c6aafd2d77b26c42",
+        "sha256_in_prefix": "eab1734072f8abc3e2a263216a297fd638787ecdd546a654c6aafd2d77b26c42",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "site-packages/altair/examples/window_rank.py",
+        "path_type": "hardlink",
+        "sha256": "81f443f14747b4f7d4b88585b7afe90ea91f0c60e3ffd3fb13406ed3d4863a71",
+        "sha256_in_prefix": "81f443f14747b4f7d4b88585b7afe90ea91f0c60e3ffd3fb13406ed3d4863a71",
+        "size_in_bytes": 1658
+      },
+      {
+        "_path": "site-packages/altair/examples/world_map.py",
+        "path_type": "hardlink",
+        "sha256": "34f5a56cb32b2af50ab3a44a2385b382ed803ff8be54c77d954dabfa93c3a15d",
+        "sha256_in_prefix": "34f5a56cb32b2af50ab3a44a2385b382ed803ff8be54c77d954dabfa93c3a15d",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "site-packages/altair/examples/world_projections.py",
+        "path_type": "hardlink",
+        "sha256": "c3880afb6cb6a8c40ae486aec1873c70de09ccbfb53a4c5e57bd9b9d4c888864",
+        "sha256_in_prefix": "c3880afb6cb6a8c40ae486aec1873c70de09ccbfb53a4c5e57bd9b9d4c888864",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "site-packages/altair/expr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "92de3cf89bb1dfdcd952dfaba4e94680e7d676c13722b79cac709cf15b21e5d2",
+        "sha256_in_prefix": "92de3cf89bb1dfdcd952dfaba4e94680e7d676c13722b79cac709cf15b21e5d2",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/altair/expr/consts.py",
+        "path_type": "hardlink",
+        "sha256": "55521fa5deed6f0984932f308cc66aa2387ab5cd1e8bc50c75928ae3a9e3642d",
+        "sha256_in_prefix": "55521fa5deed6f0984932f308cc66aa2387ab5cd1e8bc50c75928ae3a9e3642d",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "site-packages/altair/expr/core.py",
+        "path_type": "hardlink",
+        "sha256": "edc68b58d1cf496906299e568e8eb685bf07781e52652ed082f41485ff58cb06",
+        "sha256_in_prefix": "edc68b58d1cf496906299e568e8eb685bf07781e52652ed082f41485ff58cb06",
+        "size_in_bytes": 4983
+      },
+      {
+        "_path": "site-packages/altair/expr/funcs.py",
+        "path_type": "hardlink",
+        "sha256": "c91ca2ac953b687b4e31d98550d2209d83c3ae53d7d36ff9f82c36e4350c43ab",
+        "sha256_in_prefix": "c91ca2ac953b687b4e31d98550d2209d83c3ae53d7d36ff9f82c36e4350c43ab",
+        "size_in_bytes": 27440
+      },
+      {
+        "_path": "site-packages/altair/expr/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/expr/tests/test_expr.py",
+        "path_type": "hardlink",
+        "sha256": "26e8e9506106ce98c0bf33ef7f3a13b5bd6e348d08976069248f2196a2d9ca93",
+        "sha256_in_prefix": "26e8e9506106ce98c0bf33ef7f3a13b5bd6e348d08976069248f2196a2d9ca93",
+        "size_in_bytes": 2709
+      },
+      {
+        "_path": "site-packages/altair/sphinxext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/sphinxext/altairgallery.py",
+        "path_type": "hardlink",
+        "sha256": "fbd341a9ca53faf5dc59868537984e6a8594112e9d5d281d9c378dfbdc0245f3",
+        "sha256_in_prefix": "fbd341a9ca53faf5dc59868537984e6a8594112e9d5d281d9c378dfbdc0245f3",
+        "size_in_bytes": 9259
+      },
+      {
+        "_path": "site-packages/altair/sphinxext/altairplot.py",
+        "path_type": "hardlink",
+        "sha256": "f0fa0a61ffea65ae7354f65c3718386371fe3995e455efd59aad427c18273625",
+        "sha256_in_prefix": "f0fa0a61ffea65ae7354f65c3718386371fe3995e455efd59aad427c18273625",
+        "size_in_bytes": 11088
+      },
+      {
+        "_path": "site-packages/altair/sphinxext/schematable.py",
+        "path_type": "hardlink",
+        "sha256": "bcb1017680a183eae1eec54bf244d622fe41d45f7d8984c5f557544993fb9262",
+        "sha256_in_prefix": "bcb1017680a183eae1eec54bf244d622fe41d45f7d8984c5f557544993fb9262",
+        "size_in_bytes": 5436
+      },
+      {
+        "_path": "site-packages/altair/sphinxext/utils.py",
+        "path_type": "hardlink",
+        "sha256": "beb57903cf295cc76459fb2668f0467f3a9014ed64f28dccf860bb3b46338c41",
+        "sha256_in_prefix": "beb57903cf295cc76459fb2668f0467f3a9014ed64f28dccf860bb3b46338c41",
+        "size_in_bytes": 5859
+      },
+      {
+        "_path": "site-packages/altair/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/tests/test_magics.py",
+        "path_type": "hardlink",
+        "sha256": "f2573630c601327eb5122cce7a47b2ed2866664564af557ccac5041df3af48e3",
+        "sha256_in_prefix": "f2573630c601327eb5122cce7a47b2ed2866664564af557ccac5041df3af48e3",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "site-packages/altair/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "973c714b9b52338ab66a861206388df2502c6c757cba988dbe8cfc0ae51ee00b",
+        "sha256_in_prefix": "973c714b9b52338ab66a861206388df2502c6c757cba988dbe8cfc0ae51ee00b",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "site-packages/altair/utils/core.py",
+        "path_type": "hardlink",
+        "sha256": "065335d2fce2380a12802cd6bc2871c890bda167ecd0d149637082a9ab9d411c",
+        "sha256_in_prefix": "065335d2fce2380a12802cd6bc2871c890bda167ecd0d149637082a9ab9d411c",
+        "size_in_bytes": 20886
+      },
+      {
+        "_path": "site-packages/altair/utils/data.py",
+        "path_type": "hardlink",
+        "sha256": "c9ab1ac13f86781cb1f0084af57933c80f0a8574ade6e3c180412a95e43066e8",
+        "sha256_in_prefix": "c9ab1ac13f86781cb1f0084af57933c80f0a8574ade6e3c180412a95e43066e8",
+        "size_in_bytes": 8027
+      },
+      {
+        "_path": "site-packages/altair/utils/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "f17f094c8b9b440798094ec574287feb686266c8c8b4a7b68288b6283954dcf3",
+        "sha256_in_prefix": "f17f094c8b9b440798094ec574287feb686266c8c8b4a7b68288b6283954dcf3",
+        "size_in_bytes": 1744
+      },
+      {
+        "_path": "site-packages/altair/utils/display.py",
+        "path_type": "hardlink",
+        "sha256": "d30e01e45427e3286b221792be412313d8032cd235a9fb2e945bcc2f2f5f77d0",
+        "sha256_in_prefix": "d30e01e45427e3286b221792be412313d8032cd235a9fb2e945bcc2f2f5f77d0",
+        "size_in_bytes": 6269
+      },
+      {
+        "_path": "site-packages/altair/utils/execeval.py",
+        "path_type": "hardlink",
+        "sha256": "f1d72b1b29bc040d8e117780f9bcc5f9e7840d868c81825951f1396b672a8b15",
+        "sha256_in_prefix": "f1d72b1b29bc040d8e117780f9bcc5f9e7840d868c81825951f1396b672a8b15",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "site-packages/altair/utils/html.py",
+        "path_type": "hardlink",
+        "sha256": "1648587d12960d3b7e8f54647cc006aedb33a5b2c33291b6a8c00ae47c49278b",
+        "sha256_in_prefix": "1648587d12960d3b7e8f54647cc006aedb33a5b2c33291b6a8c00ae47c49278b",
+        "size_in_bytes": 7603
+      },
+      {
+        "_path": "site-packages/altair/utils/mimebundle.py",
+        "path_type": "hardlink",
+        "sha256": "6028da374985dd9e0cc4acea7e26e397c8b77f10067ba9de7ec195dcb75b55b0",
+        "sha256_in_prefix": "6028da374985dd9e0cc4acea7e26e397c8b77f10067ba9de7ec195dcb75b55b0",
+        "size_in_bytes": 2857
+      },
+      {
+        "_path": "site-packages/altair/utils/plugin_registry.py",
+        "path_type": "hardlink",
+        "sha256": "b3a97df6887c80412636bf962fc2faa7ef4a26148ad510aaedcce662b289a30c",
+        "sha256_in_prefix": "b3a97df6887c80412636bf962fc2faa7ef4a26148ad510aaedcce662b289a30c",
+        "size_in_bytes": 7000
+      },
+      {
+        "_path": "site-packages/altair/utils/save.py",
+        "path_type": "hardlink",
+        "sha256": "ac9bbde73a0000e35a6ed39a1c8571b8c67cd4c10b0006e5d9d4e4139e491378",
+        "sha256_in_prefix": "ac9bbde73a0000e35a6ed39a1c8571b8c67cd4c10b0006e5d9d4e4139e491378",
+        "size_in_bytes": 4155
+      },
+      {
+        "_path": "site-packages/altair/utils/schemapi.py",
+        "path_type": "hardlink",
+        "sha256": "7623d7d50072ee92b8a8158eb1914b620e0a2ef701387eb587ce9009839b84ea",
+        "sha256_in_prefix": "7623d7d50072ee92b8a8158eb1914b620e0a2ef701387eb587ce9009839b84ea",
+        "size_in_bytes": 19884
+      },
+      {
+        "_path": "site-packages/altair/utils/server.py",
+        "path_type": "hardlink",
+        "sha256": "d07d197c6392a07c309ba4e0f1261293a96be183c0079bef301b789243c4b3bf",
+        "sha256_in_prefix": "d07d197c6392a07c309ba4e0f1261293a96be183c0079bef301b789243c4b3bf",
+        "size_in_bytes": 4091
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_core.py",
+        "path_type": "hardlink",
+        "sha256": "9912b70c3d80fd81c15370df88f11b6258805b2bdcf3c21eeea720f2c6151282",
+        "sha256_in_prefix": "9912b70c3d80fd81c15370df88f11b6258805b2bdcf3c21eeea720f2c6151282",
+        "size_in_bytes": 8233
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "09cfd2ccd3fea3e76aefd272fd16519f804c4ceefbc1121aff52974f6e4abb1e",
+        "sha256_in_prefix": "09cfd2ccd3fea3e76aefd272fd16519f804c4ceefbc1121aff52974f6e4abb1e",
+        "size_in_bytes": 3861
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "0c9b5a4aeea24945be74abec8051242972bafd87c0d4f2b6ffd7e0af42499f52",
+        "sha256_in_prefix": "0c9b5a4aeea24945be74abec8051242972bafd87c0d4f2b6ffd7e0af42499f52",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_execeval.py",
+        "path_type": "hardlink",
+        "sha256": "1782dcab8f7fd031d64416a91e1d9c561f4c7cc85bbc44d30e78336799831dfc",
+        "sha256_in_prefix": "1782dcab8f7fd031d64416a91e1d9c561f4c7cc85bbc44d30e78336799831dfc",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_html.py",
+        "path_type": "hardlink",
+        "sha256": "71dfbb4d0528620b664fb69c572c0018a3e5ff7402e2d9b262a43bfd09dd45df",
+        "sha256_in_prefix": "71dfbb4d0528620b664fb69c572c0018a3e5ff7402e2d9b262a43bfd09dd45df",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_mimebundle.py",
+        "path_type": "hardlink",
+        "sha256": "b69b8e51e4c2a363bedd9966bd43afecd54611793673da12927284b2db52d47a",
+        "sha256_in_prefix": "b69b8e51e4c2a363bedd9966bd43afecd54611793673da12927284b2db52d47a",
+        "size_in_bytes": 5722
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_plugin_registry.py",
+        "path_type": "hardlink",
+        "sha256": "5afc163bd037d1b7f9b6ef0f53f99194528bc0563ce9fe031b0c65ba41e5ff7c",
+        "sha256_in_prefix": "5afc163bd037d1b7f9b6ef0f53f99194528bc0563ce9fe031b0c65ba41e5ff7c",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_schemapi.py",
+        "path_type": "hardlink",
+        "sha256": "fee95b235cedc74758275806cd03f2a743f742488bf1e476a04e2bf2fa3f122b",
+        "sha256_in_prefix": "fee95b235cedc74758275806cd03f2a743f742488bf1e476a04e2bf2fa3f122b",
+        "size_in_bytes": 9385
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_server.py",
+        "path_type": "hardlink",
+        "sha256": "6ed01d47eb3e346a365c728c20dadf12f648b361b3d14dc184471e77731e384e",
+        "sha256_in_prefix": "6ed01d47eb3e346a365c728c20dadf12f648b361b3d14dc184471e77731e384e",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/altair/utils/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "455a878bd59d353079343536a57f64d804649974116ddcfda15ca68330531b44",
+        "sha256_in_prefix": "455a878bd59d353079343536a57f64d804649974116ddcfda15ca68330531b44",
+        "size_in_bytes": 6552
+      },
+      {
+        "_path": "site-packages/altair/utils/theme.py",
+        "path_type": "hardlink",
+        "sha256": "6f5552fbe54e8a5804f21af0d39f838c8cff779343f2a56a4eb4fe3964ea0ff6",
+        "sha256_in_prefix": "6f5552fbe54e8a5804f21af0d39f838c8cff779343f2a56a4eb4fe3964ea0ff6",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/altair/vega/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10662329b61b9766516b0d6f508c3b2e1a9ba26c5a615f242dbef5affd945983",
+        "sha256_in_prefix": "10662329b61b9766516b0d6f508c3b2e1a9ba26c5a615f242dbef5affd945983",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/altair/vega/data.py",
+        "path_type": "hardlink",
+        "sha256": "05781485b7da9d92e15202e31b3dae7303c78e137b2d55068c32aa7bd80d244d",
+        "sha256_in_prefix": "05781485b7da9d92e15202e31b3dae7303c78e137b2d55068c32aa7bd80d244d",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "site-packages/altair/vega/display.py",
+        "path_type": "hardlink",
+        "sha256": "cf62c55980cdb64f4e3eaf7f96e64ca92ea8a95c52c55f51c1d75040ae1912d1",
+        "sha256_in_prefix": "cf62c55980cdb64f4e3eaf7f96e64ca92ea8a95c52c55f51c1d75040ae1912d1",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/altair/vega/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/vega/tests/test_import.py",
+        "path_type": "hardlink",
+        "sha256": "d440bde933f7f3c21932e1f2449d0d04f19dd4752a0418a3b07c3824fb5b3ce3",
+        "sha256_in_prefix": "d440bde933f7f3c21932e1f2449d0d04f19dd4752a0418a3b07c3824fb5b3ce3",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "864b56cb68faf63bed066fe7e5c65623af090aa85bd06ee02504736d3215f763",
+        "sha256_in_prefix": "864b56cb68faf63bed066fe7e5c65623af090aa85bd06ee02504736d3215f763",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/data.py",
+        "path_type": "hardlink",
+        "sha256": "52d0a962efcc74b1d80a32c9823f5f52aaab1db762e8ebaf50e5b02c0ec38c6c",
+        "sha256_in_prefix": "52d0a962efcc74b1d80a32c9823f5f52aaab1db762e8ebaf50e5b02c0ec38c6c",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/display.py",
+        "path_type": "hardlink",
+        "sha256": "f333c96aea376a85df5411b817cc6b2bc242189062ac249eaf32433cc556ae5e",
+        "sha256_in_prefix": "f333c96aea376a85df5411b817cc6b2bc242189062ac249eaf32433cc556ae5e",
+        "size_in_bytes": 2962
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/schema/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c8e5823543273ee585dcb5cfe63a28a13c621a4e220673cdf019be0633bf8669",
+        "sha256_in_prefix": "c8e5823543273ee585dcb5cfe63a28a13c621a4e220673cdf019be0633bf8669",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/schema/core.py",
+        "path_type": "hardlink",
+        "sha256": "6c4ebf6fa3b9d0455acabb58738431d03119b716526f7a5ef638912546a8debb",
+        "sha256_in_prefix": "6c4ebf6fa3b9d0455acabb58738431d03119b716526f7a5ef638912546a8debb",
+        "size_in_bytes": 111093
+      },
+      {
+        "_path": "site-packages/altair/vega/v5/schema/vega-schema.json",
+        "path_type": "hardlink",
+        "sha256": "4eae86999b347d4b9eb453109226e87688daf4a7ceba11f14c17610bb0f3d96e",
+        "sha256_in_prefix": "4eae86999b347d4b9eb453109226e87688daf4a7ceba11f14c17610bb0f3d96e",
+        "size_in_bytes": 399098
+      },
+      {
+        "_path": "site-packages/altair/vegalite/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "67829a7bf826aac7632e1badc2b2932c7c3eda3dff38f100c74495b95732bc5c",
+        "sha256_in_prefix": "67829a7bf826aac7632e1badc2b2932c7c3eda3dff38f100c74495b95732bc5c",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/altair/vegalite/api.py",
+        "path_type": "hardlink",
+        "sha256": "d63697a51ee5c8fae60448a1478d01b6ecad136a3374b3b10aacf79c4c504e3a",
+        "sha256_in_prefix": "d63697a51ee5c8fae60448a1478d01b6ecad136a3374b3b10aacf79c4c504e3a",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/altair/vegalite/data.py",
+        "path_type": "hardlink",
+        "sha256": "e83d0f4911430cd84b12433d017c7bc90125a11e37bbc1ba1668ef6d2752ef3d",
+        "sha256_in_prefix": "e83d0f4911430cd84b12433d017c7bc90125a11e37bbc1ba1668ef6d2752ef3d",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/altair/vegalite/display.py",
+        "path_type": "hardlink",
+        "sha256": "8b958f42c503e31eef7c8eb268e7b50d7eaf46bedfb5c1c181881747d4742d64",
+        "sha256_in_prefix": "8b958f42c503e31eef7c8eb268e7b50d7eaf46bedfb5c1c181881747d4742d64",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/altair/vegalite/schema.py",
+        "path_type": "hardlink",
+        "sha256": "690a64c1578a0a964686b1403d4235497677b79c68b688da4ce34453d63ff717",
+        "sha256_in_prefix": "690a64c1578a0a964686b1403d4235497677b79c68b688da4ce34453d63ff717",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/altair/vegalite/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/vegalite/tests/test_common.py",
+        "path_type": "hardlink",
+        "sha256": "1b6fcd545929c25b754bfbd1002088618f0401ca9c03af8e3fb075a34e462a64",
+        "sha256_in_prefix": "1b6fcd545929c25b754bfbd1002088618f0401ca9c03af8e3fb075a34e462a64",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1fd50ed3c6e78108398d10b70c71919dd7a6184b5db5856ed649636a0da9473c",
+        "sha256_in_prefix": "1fd50ed3c6e78108398d10b70c71919dd7a6184b5db5856ed649636a0da9473c",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/_deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "24999c199000cb8f7d6432307d07b6ce84c2bb316ed2be9a5b19f454c121c31e",
+        "sha256_in_prefix": "24999c199000cb8f7d6432307d07b6ce84c2bb316ed2be9a5b19f454c121c31e",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/api.py",
+        "path_type": "hardlink",
+        "sha256": "137e7c8c682a6132f2bf5d2ea3717a23566f02a2670e1b38401ba8d420dde318",
+        "sha256_in_prefix": "137e7c8c682a6132f2bf5d2ea3717a23566f02a2670e1b38401ba8d420dde318",
+        "size_in_bytes": 76136
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/data.py",
+        "path_type": "hardlink",
+        "sha256": "5e1d620304329d0114d1a1a121258a1b82698ecbd686f823031dc9c6273dcd28",
+        "sha256_in_prefix": "5e1d620304329d0114d1a1a121258a1b82698ecbd686f823031dc9c6273dcd28",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/display.py",
+        "path_type": "hardlink",
+        "sha256": "4aad4093f2d68fa085539c451f4e5d2374e66cdc897989a07b6f9fad1799c64c",
+        "sha256_in_prefix": "4aad4093f2d68fa085539c451f4e5d2374e66cdc897989a07b6f9fad1799c64c",
+        "size_in_bytes": 4133
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/schema/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5b0167bdbc127d25e343835283956c092fe28bc441b60fa46556c4bb3e2b0c94",
+        "sha256_in_prefix": "5b0167bdbc127d25e343835283956c092fe28bc441b60fa46556c4bb3e2b0c94",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/schema/channels.py",
+        "path_type": "hardlink",
+        "sha256": "879149aa0c18074e2cd9475e95b92faa509c8b344f05e228b7eee5c41c23c943",
+        "sha256_in_prefix": "879149aa0c18074e2cd9475e95b92faa509c8b344f05e228b7eee5c41c23c943",
+        "size_in_bytes": 262851
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/schema/core.py",
+        "path_type": "hardlink",
+        "sha256": "d40769ade5fd447d1c3c1f79d8f23c7f398ac03b16a0f1ba956331c73edfc61c",
+        "sha256_in_prefix": "d40769ade5fd447d1c3c1f79d8f23c7f398ac03b16a0f1ba956331c73edfc61c",
+        "size_in_bytes": 751732
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/schema/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "fab990b84e4ec378dd3c8b8b9cb8cf9a4a91ef5b5e5278540523aaa5a88c9f14",
+        "sha256_in_prefix": "fab990b84e4ec378dd3c8b8b9cb8cf9a4a91ef5b5e5278540523aaa5a88c9f14",
+        "size_in_bytes": 47162
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/schema/vega-lite-schema.json",
+        "path_type": "hardlink",
+        "sha256": "6b4aff91d150fbc2f60498f66c468dbc520343d903426e3cf36a1e2b7ff27c44",
+        "sha256_in_prefix": "6b4aff91d150fbc2f60498f66c468dbc520343d903426e3cf36a1e2b7ff27c44",
+        "size_in_bytes": 678330
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "9b502342037055c7c9781b66f4a5256f896688086d25d203137d2104c434ecc9",
+        "sha256_in_prefix": "9b502342037055c7c9781b66f4a5256f896688086d25d203137d2104c434ecc9",
+        "size_in_bytes": 29294
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "70a7e450fd35e66ea962c62af647f97d3923c32ee86354e65b39511ac73b3c0a",
+        "sha256_in_prefix": "70a7e450fd35e66ea962c62af647f97d3923c32ee86354e65b39511ac73b3c0a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_display.py",
+        "path_type": "hardlink",
+        "sha256": "4a20d99aa88d8ef6be67e5513f19dc0bf4fd58e4db351030c3d4386cde4c5893",
+        "sha256_in_prefix": "4a20d99aa88d8ef6be67e5513f19dc0bf4fd58e4db351030c3d4386cde4c5893",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_geo_interface.py",
+        "path_type": "hardlink",
+        "sha256": "55e86330ce28e0cbe63fec4c4d7feecd7acb5616bab19db74ba69a0d6d064cf1",
+        "sha256_in_prefix": "55e86330ce28e0cbe63fec4c4d7feecd7acb5616bab19db74ba69a0d6d064cf1",
+        "size_in_bytes": 6496
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_renderers.py",
+        "path_type": "hardlink",
+        "sha256": "4531063ff69eacb0b8476464a30f5226a80596daa1cc8b5d79c4700d28142dc3",
+        "sha256_in_prefix": "4531063ff69eacb0b8476464a30f5226a80596daa1cc8b5d79c4700d28142dc3",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/tests/test_theme.py",
+        "path_type": "hardlink",
+        "sha256": "6c97ef6d902aad286fb5273a832a91c6f9a7a1cc79ef6316afa31d7daeead6b3",
+        "sha256_in_prefix": "6c97ef6d902aad286fb5273a832a91c6f9a7a1cc79ef6316afa31d7daeead6b3",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v3/theme.py",
+        "path_type": "hardlink",
+        "sha256": "99e1fa432e443973fb90b4bf4d40538db835f21e1d7957baa4f30589f92ba617",
+        "sha256_in_prefix": "99e1fa432e443973fb90b4bf4d40538db835f21e1d7957baa4f30589f92ba617",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9dc9adb23010ffd53b65724d10ca96c49f290a5fc6e4c6b295e13fef83b7a20d",
+        "sha256_in_prefix": "9dc9adb23010ffd53b65724d10ca96c49f290a5fc6e4c6b295e13fef83b7a20d",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/api.py",
+        "path_type": "hardlink",
+        "sha256": "4017a7372debd6015ae13b6a6ac88e9b1d20094beecd032f920d9e2d9f5a1d4c",
+        "sha256_in_prefix": "4017a7372debd6015ae13b6a6ac88e9b1d20094beecd032f920d9e2d9f5a1d4c",
+        "size_in_bytes": 86727
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/data.py",
+        "path_type": "hardlink",
+        "sha256": "a6e009d20b12452e1dec5048f07dde97db29bbf50817290b3eb53c1e5753ebe7",
+        "sha256_in_prefix": "a6e009d20b12452e1dec5048f07dde97db29bbf50817290b3eb53c1e5753ebe7",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/display.py",
+        "path_type": "hardlink",
+        "sha256": "19cb06134a9e84a01dbdd3cc1eb90f26ec38d2e8dcb210e31207e3a251f14985",
+        "sha256_in_prefix": "19cb06134a9e84a01dbdd3cc1eb90f26ec38d2e8dcb210e31207e3a251f14985",
+        "size_in_bytes": 3522
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/schema/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ac7445aab4b4faccfad1d2cefc06a2ae1b556cb94b1484d895203965b3f7d16",
+        "sha256_in_prefix": "0ac7445aab4b4faccfad1d2cefc06a2ae1b556cb94b1484d895203965b3f7d16",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/schema/channels.py",
+        "path_type": "hardlink",
+        "sha256": "b33a491de4cab9e7578b748b8cb24c25a4b1b74d416da3ef1874622961e59ec2",
+        "sha256_in_prefix": "b33a491de4cab9e7578b748b8cb24c25a4b1b74d416da3ef1874622961e59ec2",
+        "size_in_bytes": 300285
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/schema/core.py",
+        "path_type": "hardlink",
+        "sha256": "60e507b3e604a295db3814a8e5a83aa18dc58156fa46aa51d40479aa2463b527",
+        "sha256_in_prefix": "60e507b3e604a295db3814a8e5a83aa18dc58156fa46aa51d40479aa2463b527",
+        "size_in_bytes": 937756
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/schema/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "76f326f50e344c1e254d139b7c8dd7aed68031a0a6fe781500b138b128142827",
+        "sha256_in_prefix": "76f326f50e344c1e254d139b7c8dd7aed68031a0a6fe781500b138b128142827",
+        "size_in_bytes": 66614
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/schema/vega-lite-schema.json",
+        "path_type": "hardlink",
+        "sha256": "fe8d47d67801e6ec18beeea50f06ad71443f524ac40e121239288bc480a121f3",
+        "sha256_in_prefix": "fe8d47d67801e6ec18beeea50f06ad71443f524ac40e121239288bc480a121f3",
+        "size_in_bytes": 874994
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "81d1dac96d23f863d47a1964aa961e1f991bae14c1f015cb6e349c762ece787c",
+        "sha256_in_prefix": "81d1dac96d23f863d47a1964aa961e1f991bae14c1f015cb6e349c762ece787c",
+        "size_in_bytes": 30017
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_data.py",
+        "path_type": "hardlink",
+        "sha256": "70a7e450fd35e66ea962c62af647f97d3923c32ee86354e65b39511ac73b3c0a",
+        "sha256_in_prefix": "70a7e450fd35e66ea962c62af647f97d3923c32ee86354e65b39511ac73b3c0a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_display.py",
+        "path_type": "hardlink",
+        "sha256": "977f3616aab069e2759a0231d9a0582fbc52ac972ffe076d087fcad4427b1af6",
+        "sha256_in_prefix": "977f3616aab069e2759a0231d9a0582fbc52ac972ffe076d087fcad4427b1af6",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_geo_interface.py",
+        "path_type": "hardlink",
+        "sha256": "f4ae18aad96374ca3d66a1bf5c4cb21cc98dede2d062243fc2f593241d6696e8",
+        "sha256_in_prefix": "f4ae18aad96374ca3d66a1bf5c4cb21cc98dede2d062243fc2f593241d6696e8",
+        "size_in_bytes": 6496
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_renderers.py",
+        "path_type": "hardlink",
+        "sha256": "39092845d0a930bc621db32c0b873f7154b971a32be9924f6d9f7fe21081ef30",
+        "sha256_in_prefix": "39092845d0a930bc621db32c0b873f7154b971a32be9924f6d9f7fe21081ef30",
+        "size_in_bytes": 2477
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/tests/test_theme.py",
+        "path_type": "hardlink",
+        "sha256": "921a7023e28d42f3e270eaeee26194f0a97d9713ea6a8121d9e3c2f3f0221110",
+        "sha256_in_prefix": "921a7023e28d42f3e270eaeee26194f0a97d9713ea6a8121d9e3c2f3f0221110",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "site-packages/altair/vegalite/v4/theme.py",
+        "path_type": "hardlink",
+        "sha256": "8ddd4e98b73489cda33e481d824e03a85fa10420ceab2c3b2b265bb80083451b",
+        "sha256_in_prefix": "8ddd4e98b73489cda33e481d824e03a85fa10420ceab2c3b2b265bb80083451b",
+        "size_in_bytes": 1390
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/_magics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/datasets.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/airport_connections.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/airports.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/airports_count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/anscombe_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/area_chart_gradient.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_and_line_with_dual_axis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_horizontal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_sorted.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_highlighted_bar.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_highlighted_segment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_labels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_mean_line.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_chart_with_negatives.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bar_rounded.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/beckers_barley_trellis_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/beckers_barley_wrapped_facet.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/binned_heatmap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/binned_scatterplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/boxplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/bubble_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/candlestick_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/choropleth.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/choropleth_repeat.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/co2_concentration.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/connected_scatterplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/cumulative_count_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/cumulative_wiki_donations.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/density_facet.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/density_stack.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/diverging_stacked_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/dot_dash_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/errorbars_with_ci.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/errorbars_with_std.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/falkensee.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/filled_step_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/gantt_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/gapminder_bubble_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart_horizontal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/grouped_bar_chart_with_error_bars.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/histogram_responsive.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/histogram_with_a_global_mean_overlay.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/horizon_graph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/horizontal_stacked_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_brush.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_cross_highlight.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_layered_crossfilter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_legend.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interactive_scatter_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/interval_selection.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/iowa_electricity.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/isotype.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/isotype_emoji.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/isotype_grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layer_line_color_rule.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_area_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_chart_bar_mark.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_chart_with_dual_axis.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_heatmap_text.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/layered_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/line_chart_with_generator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/line_chart_with_points.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/line_percent.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/line_with_ci.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/london_tube.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multi_series_line.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multifeature_scatter_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multiline_highlight.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multiline_tooltip.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multiple_interactions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/multiple_marks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/natural_disasters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/normalized_stacked_area_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/normalized_stacked_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/normed_parallel_coordinates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/one_dot_per_zipcode.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/parallel_coordinates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/percentage_of_total.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/poly_fit_regression.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/ranged_dot_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/ridgeline_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_href.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_linked_brush.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_linked_table.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_marginal_hist.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_matrix.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_qq.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_tooltips.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_labels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_layered_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_loess.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_minimap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/scatter_with_rolling_mean.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/seattle_weather_interactive.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/select_detail.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/select_mark_area.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/selection_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/selection_layer_bar_month.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_heatmap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_line_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_scatter_with_errorbars.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/simple_stacked_area_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/slope_graph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/sorted_error_bars_with_ci.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart_sorted_segments.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/stacked_bar_chart_with_text.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/stem_and_leaf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/step_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/streamgraph.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/strip_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/stripplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/table_bubble_plot_github.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/tests/__pycache__/test_examples.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_items.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_letters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/top_k_with_others.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trail_marker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_area.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_area_sort_array.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_histogram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_scatter_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/trellis_stacked_bar_chart.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_employment.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_incomebrackets_by_state_facet.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_over_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_over_time_facet.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_population_pyramid_over_time.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/us_state_capitals.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/violin_plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/weather_heatmap.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/wheat_wages.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/wilkinson-dot-plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/window_rank.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/world_map.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/examples/__pycache__/world_projections.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/consts.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/funcs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/tests/__pycache__/test_expr.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/sphinxext/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/sphinxext/__pycache__/altairgallery.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/sphinxext/__pycache__/altairplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/sphinxext/__pycache__/schematable.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/sphinxext/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/tests/__pycache__/test_magics.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/deprecation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/execeval.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/html.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/mimebundle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/plugin_registry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/save.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/schemapi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/server.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_deprecation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_execeval.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_html.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_mimebundle.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_plugin_registry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_schemapi.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_server.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/tests/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/tests/__pycache__/test_import.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/v5/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/v5/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/v5/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/v5/schema/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vega/v5/schema/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/schema.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/tests/__pycache__/test_common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/_deprecated.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/channels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/schema/__pycache__/mixins.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_geo_interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_renderers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/tests/__pycache__/test_theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v3/__pycache__/theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/channels.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/schema/__pycache__/mixins.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_data.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_display.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_geo_interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_renderers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/tests/__pycache__/test_theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v4/__pycache__/theme.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e0a55ca55afd8577bf519704a502e8a92a7c896b257a2f9eac0be48a9de34ce7",
+  "size": 495169,
+  "subdir": "noarch",
+  "timestamp": 1599835247381,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/altair-4.1.0-py_1.conda",
+  "version": "4.1.0"
+}
